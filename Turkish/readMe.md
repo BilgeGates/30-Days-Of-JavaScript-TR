@@ -77,7 +77,7 @@
     - [Satır İçi Oluşturma](#Satır-İçi-Oluşturma)
     - [Dahili Oluşturma](#Dahili-Oluşturma)
     - [Harici Oluşturma](#Harici-Oluşturma)
-    - [Çoxlu Harici Oluşturma](#Çoxlu-Harici-Oluşturma)
+    - [Fazla Harici Oluşturma](#Fazla-Harici-Oluşturma)
   - [Veri Türlerine Giriş](#Veri-Türlerine-Giriş)
     - [Sayılar](#Sayılar)
     - [String](#String)
@@ -405,7 +405,7 @@ Harici script dosyasının _body_ etiketi arasında tanımlama:
 
 _`console.log()`_ çıktısını görmek için tarayıcı konsolunu açın.
 
-### Çoklu Harici Oluşturma
+### Fazla Harici Oluşturma
 
 Ayrıca birden çok harici JavaScript dosyasını da bir web sayfası içerisine bağlayabiliriz.
 Oluşturduğumuz proje klasörü içerisine yeniden `helloworld.js` isimli bir JavaScript dosyası oluşturalım.
