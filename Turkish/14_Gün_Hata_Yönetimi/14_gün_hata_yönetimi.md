@@ -16,7 +16,7 @@
 
 </div>
 
-[<< Gün 13](../13_Gün_Konsol_Nesne_Yöntemleri/13_gün_konsol_nesne_yöntemleri.md) | [Gün 15>>](../15_Gün_Sınıflar/15_gün_sınıflar.md)
+[<< Gün 13](../13_Gün_Konsol_Nesne_Metodları/13_gün_konsol_nesne_metodları.md) | [Gün 15>>](../15_Gün_Sınıflar/15_gün_sınıflar.md)
 
 ![Gün 14](../../images/banners/day_1_14.png)
 
@@ -174,4 +174,4 @@ Bunlar, kod yazarken karşılaşabileceğiniz yaygın hatalardan bazılarıdır.
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 13](../13_Gün_Konsol_Nesne_Yöntemleri/13_gün_konsol_nesne_yöntemleri.md) | [Gün 15>>](../15_Gün_Sınıflar/15_gün_sınıflar.md)
+[<< Gün 13](../13_Gün_Konsol_Nesne_Metodları/13_gün_konsol_nesne_metodları.md) | [Gün 15>>](../15_Gün_Sınıflar/15_gün_sınıflar.md)
