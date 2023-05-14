@@ -19,8 +19,6 @@
 
 [<< Gün 2](../02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md) | [Gün 4 >>](../04_Gün_Koşullar/04_gün_koşullar.md)
 
-![Gün 3](../../images/banners/day_1_3.png)
-
 - [📔 Gün 3](#📔Gün-3)
   - [Boolean Değerleri](#Boolean-Değerleri)
     - [Doğru Değerleri](#Doğru-Değerleri)

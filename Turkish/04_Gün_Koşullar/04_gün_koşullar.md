@@ -19,8 +19,6 @@
 
 [<< Gün 3](../03_Gün_Boole-değerleri_Operatörler_Tarih-objesi/03_gün_boole-değerleri_operatörler_tarih-objesi.md) | [Gün 5 >>](../05_Gün_Diziler/05_gün_diziler.md)
 
-![Gün 4](../../images/banners/day_1_4.png)
-
 - [📔 Gün 4](📔#Gün-4)
   - [Koşullar](#Koşullar)
     - [If](#if)

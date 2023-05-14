@@ -20,8 +20,6 @@
 
 [<< Gün 5](../05_Gün_Diziler/05_gün_diziler.md) | [Gün 7 >>](../07_Gün_Fonksiyonlar/07_gün_fonksiyonlar.md)
 
-![Gün 6](/images/banners/day_1_6.png)
-
 - [📔 Gün 6](#📔Gün-6)
   - [Döngüler](#Döngüler)
     - [For Döngüsü](#For-döngüsü)

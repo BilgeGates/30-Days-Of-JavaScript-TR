@@ -35,10 +35,6 @@
 
 🧡🧡🧡 MUTLU KODLAMALAR! 🧡🧡🧡
 
-<div>
-<small><strong> Yazarı</strong> daha fazla eğitim materyalleri oluşturabilmesi için destekleyebilirsiniz.</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src='../images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
-</div>
 <div align="center">
   <h1> 30 Günde JavaScript: Giriş</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
@@ -53,22 +49,11 @@
 </sub>
 <div>
 
-🇬🇧 [English](../readMe.md)
-🇪🇸 [Spanish](../Spanish/readme.md)
-🇷🇺 [Russian](../RU/README.md)
-🇦🇿 [Azerbaijan](../Azerbaijani/readMe.md)
-🇰🇷 [Korean](../Korea/README.md)
-🇻🇳 [Vietnamese](../Vietnamese/README.md)
-🇵🇱 [Polish](../Polish/readMe.md)
-
 </div>
-
 </div>
 </div>
 
 [Gün 2 >>](./02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md)
-
-![Gün 1](../images/day_1_1.png)
 
 - [30 Günde JavaScript](#30-Günde-JavaScript)
 - [📔 Gün 1](#Gün-1)

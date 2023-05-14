@@ -18,8 +18,6 @@
 
 [<< Gün 9](..09_Gün_Üst_Düzey_Fonksiyonlar/09_gün_üst_düzey_fonksiyonlar.md) | [>> Gün 11 ](..11_Gün_Yıkıcılar_ve_Yapıcılar/11_gün_yıkıcılar_ve_yapıcılar.md)
 
-![Gün 10](/images/banners/day_1_10.png)
-
 - [📔 Gün 10](#📔Gün-10)
   - [Set](#Set)
     - [Boş bir set oluşturma](#Boş-Bir-Set-Oluşturma)

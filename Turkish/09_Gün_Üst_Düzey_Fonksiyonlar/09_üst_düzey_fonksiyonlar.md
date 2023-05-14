@@ -20,8 +20,6 @@
 
 [<< Gün 8](../08_Gün_Nesneler/08_gün_nesneler.md) | [Gün 10 >>](../10_Gün_Setler_ve_Haritalar/10_gün_setler_ve_haritalar.md)
 
-![Gün 9](/images/banners/day_1_9.png)
-
 - [📔 Gün 9](#📔Gün-9)
   - [Üst Düzey Fonksiyonlar](#Üst-Düzey-Fonksiyonlar)
     - [Geri Çağırmak](#Geri-Çağırmak)

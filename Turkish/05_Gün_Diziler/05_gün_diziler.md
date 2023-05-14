@@ -18,7 +18,6 @@
 </div>
 
 [<< Gün 4](../04_Gün_Koşullar/04_gün_koşullar.md) | [Gün 6 >>](../06_Gün_Döngüler/06_gün_döngüler.md)
-![Gün 5](../../images/banners/day_1_5.png)
 
 - [📔 Gün 5](#📔Gün-5)
   - [Diziler](#Diziler)

@@ -20,8 +20,6 @@
 
 [<< Gün 6](../06_Gün_Döngüler/06_gün_döngüler.md) | [Gün 8 >>](../08_Gün_Nesneler/08_gün_nesneler.md)
 
-![Gün 7](/images/banners/day_1_7.png)
-
 - [📔 Gün 7](#📔Gün-7)
   - [ Fonksiyonlar](#Fonksiyonlar)
     - [Klasik fonksiyon tanımlama](#Klasik-fonksiyon-tanımlama)
