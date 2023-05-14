@@ -35,6 +35,8 @@
 
 🧡🧡🧡 MUTLU KODLAMALAR! 🧡🧡🧡
 
+<h1 align="center">30 Günde JavaScript</h1>
+
 <div align="center">
   <h1> 30 Günde JavaScript: Giriş</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
@@ -43,10 +45,16 @@
   <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
+
 <sub>Yazar:
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<sub>Çevirmen:
+<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+</a>
 <small> Ocak, 2020</small>
 </sub>
+
 <div>
 
 </div>
@@ -55,7 +63,6 @@
 
 [Gün 2 >>](./02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md)
 
-- [30 Günde JavaScript](#30-Günde-JavaScript)
 - [📔 Gün 1](#Gün-1)
   - [Giriş](#Giriş)
   - [Gereksinimler](#Gereksinimler)
