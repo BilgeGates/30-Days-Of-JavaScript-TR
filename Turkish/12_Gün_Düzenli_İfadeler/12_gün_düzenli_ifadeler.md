@@ -538,4 +538,4 @@ console.log(mostFrequentWords(cleanedText))[
 
 🎉 TEBRİKLER! 🎉
 
-[<< Gün 11](../10_Gün_Setler_ve_Haritalar/10_gün_setler_ve_haritalar.md) | [Gün 13 >>](13_Gün_Konsol_Nesne_Metodları/13_gün_konsol_nesne_metodları.md)
+[<< Gün 11](../10_Gün_Setler_ve_Haritalar/10_gün_setler_ve_haritalar.md) | [Gün 13 >>](../13_Gün_Konsol_Nesne_Metodları/13_gün_konsol_nesne_metodları.md)
