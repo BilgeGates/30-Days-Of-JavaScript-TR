@@ -43,7 +43,7 @@
 
 # 📔 Gün 2
 
-## Veri Türleri
+## Veri Tiperi
 
 Bir Önceki bölümde, veri türlerinden biraz bahsettik. Veri veya değerlerin (veri) türleri vardır.
 Veri türleri, verilerin özelliklerini tanımlar. Veri türleri ikiye ayrılabilir:
