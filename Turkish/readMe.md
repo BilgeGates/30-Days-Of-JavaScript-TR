@@ -37,11 +37,8 @@
 
 <div align="center">
   <h1> 30 Günde JavaScript: Giriş</h1>
-<<<<<<< HEAD
-   <a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
-=======
+
   <a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
->>>>>>> 5982925fa2587146cb287478146dd8d339368eaa
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
 </a><br>
 
