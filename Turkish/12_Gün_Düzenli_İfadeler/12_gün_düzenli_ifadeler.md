@@ -35,9 +35,9 @@
 - [Sepet](#Sepet)
 - [Tam Eşleşme](#Tam-Eşleşme)
 - [💻 Gün 12: Egzersizleri](#-Gün-12-Egzersizleri)
-- [Egzersiz: Seviye 1](#Egzersiz-seviye-1)
-- [Egzersiz: Seviye 2](#Egzersiz-seviye-2)
-- [Egzersiz: Seviye 3](#Egzersiz-seviye-3)
+  - [Egzersiz: Seviye 1](#Egzersiz-seviye-1)
+  - [Egzersiz: Seviye 2](#Egzersiz-seviye-2)
+  - [Egzersiz: Seviye 3](#Egzersiz-seviye-3)
 
 # 📔 Gün 12
 
