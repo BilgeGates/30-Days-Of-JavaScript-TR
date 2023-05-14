@@ -13,7 +13,7 @@
 </div>
 </div>
 
-[<< Gün 12](../12_Gün_Düzenli_İfadeler/12_gün_düzenli_ifadeler) | [Gün 14 >>](../14_Gün_Hata_Yönetimi/14_gün_hata_yönetimi)
+[<< Gün 12](../12_Gün_Düzenli_İfadeler/12_gün_düzenli_ifadeler.md) | [Gün 14 >>](../14_Gün_Hata_Yönetimi/14_gün_hata_yönetimi.md)
 
 - [📔 Gün 13](#-Gün-13)
 - [Konsol Nesne Yöntemleri](#Konsol-Nesne-Yöntemleri)
@@ -389,4 +389,4 @@ console.clear(), tarayıcı konsolunu temizler.
 
 🎉 TEBRİKLER! 🎉
 
-[<< Gün 12](../12_Gün_Düzenli_İfadeler/12_gün_düzenli_ifadeler) | [Gün 14 >>](../14_Gün_Hata_Yönetimi/14_gün_hata_yönetimi)
+[<< Gün 12](../12_Gün_Düzenli_İfadeler/12_gün_düzenli_ifadeler.md) | [Gün 14 >>](../14_Gün_Hata_Yönetimi/14_gün_hata_yönetimi.md)
