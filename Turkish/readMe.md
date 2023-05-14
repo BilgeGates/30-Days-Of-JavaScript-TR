@@ -35,8 +35,6 @@
 
 🧡🧡🧡 MUTLU KODLAMALAR! 🧡🧡🧡
 
-<h1 align="center">30 Günde JavaScript</h1>
-
 <div align="center">
   <h1> 30 Günde JavaScript: Giriş</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
@@ -51,7 +49,8 @@
 <sub>Çevirmen:
 <a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
-</a>
+</a><br>
+<ga href="github.com/bilgegates">Khatai Huseynzade</ga>
 <small> Ocak, 2020</small>
 </sub>
 
