@@ -1,11 +1,12 @@
 <div align="center">
 <h1>30 Günde JavaScript: Düzenli İfadeler</h1>
+
 <a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
-</a>
+</a><br>
 
 <sub>Yazar:
-<a href="https://github.com/bilgegates" target="_blank">Khatai Huseynzade</a><br>
+<a href="github.com/bilgegates">Khatai Huseynzade</a><br>
 <small> Ocak, 2020</small>
 </sub>
 

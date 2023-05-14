@@ -1,19 +1,12 @@
 <div align="center">
   <h1> 30 Günde JavaScript: Yıkım ve Yayılma</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
 
-<sub>Yazar:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<sub>Çevirmen:
 <a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
-</a>
-<a href="https://github.com/bilgegates" target="_blank">Khatai Huseynzade</a><br>
+</a><br>
+
+<sub>Yazar:
+<a href="github.com/bilgegates">Khatai Huseynzade</a><br>
 <small> Aralık, 2022</small>
 </sub>
 </sub>

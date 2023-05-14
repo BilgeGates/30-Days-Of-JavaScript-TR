@@ -1,3 +1,3 @@
-console.log(firstName, lastName, country, city, age, isMarried);
+console.log(firstName, lastName, country, city);
 console.log(gravity, boilingPoint, PI);
-console.log(name, job, live);
+console.log(name, live);

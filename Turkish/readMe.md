@@ -33,24 +33,16 @@
 | 29    |                     [Mini Proje: Animasyon Karakterleri](./29_Gün_Mini_Proje_Animasiyon_Karakterleri/29_gün_mini_proje_animasiyon_karakterleri.md)                      |
 | 30    |                                                    [Son Gün](./30_Gün_Mini_Proje_Finalı/30_gün_mini_proje_finalı.md)                                                    |
 
-🧡🧡🧡 MUTLU KODLAMALAR! 🧡🧡🧡
+<h1 align="center">💻 MUTLU KODLAMALAR!</h1>
 
 <div align="center">
   <h1> 30 Günde JavaScript: Giriş</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Yazar:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<sub>Çevirmen:
-<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
+   <a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
 </a><br>
-<ga href="github.com/bilgegates">Khatai Huseynzade</ga>
+
+<sub>Yazar:
+<a href="github.com/bilgegates">Khatai Huseynzade</a><br>
 <small> Ocak, 2020</small>
 </sub>
 
@@ -102,7 +94,7 @@
 
 30 Günlük JavaScript programlama kursuna katılmaya karar verdiğiniz için **tebrikler**. Bu kursta, bir JavaScript programcısı olmak için ihtiyacınız olan her şeyi ve genel olarak tüm programlama kavramınlarını öğreneceksiniz. Eğitimin sonunda 30 Günlük JavaScript programlama kursu tamamlama sertifikası alacaksınız. Yardıma ihtiyacınız olması veya başkalarına yardım etmek istemeniz durumunda [telegram grubuna](https://t.me/ThirtyDaysOfJavaScript) katılabilirsiniz.
 
-**30GündeJavaScript** eğitimi, hem yeni başlayanlar için hem de uzman JavaScript geliştiricileri için rehber niteliği taşımaktadır. JavaScript'e Hoş Geldiniz. JavaScript web'in dilidir. JavaScript'i kullanmaktan ve öğretmekten zevk alıyorum, umuyorum siz de öğrenirken ve kullanırken zevk alacaksınız.
+**30 Günde Java Script** eğitimi, hem yeni başlayanlar için hem de uzman JavaScript geliştiricileri için rehber niteliği taşımaktadır. JavaScript'e Hoş Geldiniz. JavaScript web'in dilidir. JavaScript'i kullanmaktan ve öğretmekten zevk alıyorum, umuyorum siz de öğrenirken ve kullanırken zevk alacaksınız.
 
 Bu adım adım JavaScript kursunda, insanlık tarihindeki en popüler programlama dili olan JavaScript'i öğreneceksininiz.
 JavaScript **_web sitelerine interaktiflik katmak, mobil-masaüstü-oyun uygulamaları geliştirmek_** için, hatta günümüzde JavaScript ile **_makina öğrenimi_** ve **_Yapay Zeka_** uygulamaları da geliştirebilirsiniz.
@@ -135,7 +127,7 @@ Görseldeki web sitesinden son sürümü indirin ve çift tıklayarak bilgisayar
 Node.js'i başarılı bir şekilde yüklediğinizi kontrol etmek için komut satırı(cmd) ya da terminal ekranınızda aşağıdaki komutu kullanabilirsiniz.
 
 ```sh
-asabeneh $ node -v
+Khatai $ node -v
 v12.14.0
 ```
 
@@ -187,10 +179,10 @@ Ctl+Shift+I
 
 ##### Console.log
 
-İlk JavaScript kodumuzu yazmak için, yerleşik bir fonksiyon olan **console.log()** fonksiyonunu kullandık. Çıktı ekranına `'Hello, World!'` cümlesini console.log() fonksiyonu kullanarak yazırdık.
+İlk JavaScript kodumuzu yazmak için, yerleşik bir fonksiyon olan **console.log()** fonksiyonunu kullandık. Çıktı ekranına `'Merhaba, Dünya!'` cümlesini console.log() fonksiyonu kullanarak yazırdık.
 
 ```js
-console.log("Hello, World!");
+console.log("Merhaba, Dünya!");
 ```
 
 ##### Çoklu Değişkenler ile Console.log
@@ -237,20 +229,20 @@ Programlama dilleri insan dillerine benzer. Türkçe veya diğer birçok dil, an
 
 ![Error](../images/raising_syntax_error.png)
 
-Görselde görülen şekilde kasıtlı olarak hatalar yaptım. Hatalar sonucunda konsol bize sözdizimi hataları verdi. Aslında, uyarı metinleri bilgilendiricidir. Ne tür bir hata yapıldığını bildiririrler. Bu hata mesajlarını okuyarak yapmış olduğumuz sözdizim hatasını düzeltebilir ve sorunları çözebiliriz. Bir programdaki hataları tanımlama ve kaldırma işlemine hata ayıklama denir(debugging). Hataları düzeltelim:
+Görselde görülen şekilde kasıtlı olarak hatalar yaptım. Hatalar sonucunda konsol bize sözdizimi hataları verdi. Aslında, uyarı metinleri bilgilendiricidir. Ne tür bir hata yapıldığını bildiririrler. Bu hata mesajlarını okuyarak yapmış olduğumuz sözdizim hatasını düzeltebilir ve sorunları çözebiliriz. Bir programdaki hataları tanımlama ve kaldırma işlemine hata ayıklama denir. Hataları düzeltelim:
 
 ```js
-console.log("Hello, World!");
-console.log("Hello, World!");
+console.log("Merhaba, Dünya");
+console.log("Merhaba, Dünya");
 ```
 
 Şimdiye kadar,_`console.log()`_ kullanarak metnin nasıl görüntüleneceğini gördük. Eğer _`console.log()`_ kullanarak metin yazdırmak istiyor isek, metni tek tırnak, çift tırnak veya ters tırnak işaretleri içiresine almamız gerekir.
 **Örnek:**
 
 ```js
-console.log("Hello, World!");
-console.log("Hello, World!");
-console.log(`Hello, World!`);
+console.log("Merhaba, Dünya");
+console.log(_'Merhaba, Dünya'_);
+console.log(`Merhaba, Dünya`);
 ```
 
 #### Aritmetik İşlemler
@@ -319,10 +311,10 @@ Masaüstünüzde veya istediğiniz herhangi bir yerde, bir proje klasörü oluş
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30DaysOfScript: Satır İçi script</title>
+    <title>30 Günde JavaScript: Satır İçi script</title>
   </head>
   <body>
-    <button onclick="alert('30GündeJavaScripte hoş geldiniz')">
+    <button onclick="alert('30 Günde Java Scripte hoş geldiniz')">
       Bana Tıkla
     </button>
   </body>
@@ -339,7 +331,7 @@ Dahili scripti _`head`_ veya _`body`_ etiketleri arasına yazılabilir, ancak bu
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30GündeScript:Dahili Script</title>
+    <title>30 Günde Script: Dahili Script</title>
     <script>
       console.log("30GündeJavaScript'e hoş geldiniz");
     </script>
@@ -354,7 +346,7 @@ Dahili scripti _`head`_ veya _`body`_ etiketleri arasına yazılabilir, ancak bu
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30GündeScript:Dahili Script</title>
+    <title>30 Günde Script: Dahili Script</title>
   </head>
   <body>
     <button onclick="alert('30GündeJavaScripte hoş geldiniz!');">
@@ -377,7 +369,7 @@ Dahili scripte benzer şekilde, harici sicript bağlantısı da head etiketleri 
 Öncelikle '.js' uzantılı harici bir JavaScript dosyası oluşturmalıyız. '.js' uzantılı tüm dosyalar JavaScript dosyalarıdır. Proje klasörü içersine 'introdiction.js' adında bir dosya oluşturun ve içine aşağıdaki kodu yazın. Ardından bu oluşturduğunuz 'introdiction.js' dosyanızı, html sayfanızdaki head veya body etiketinin arasına ekleyerek, 'introdiction.js' adlı JavaScript dosyamızı tanıtalım.
 
 ```js
-console.log("30GündeJavaScript'e hoş geldiniz!");
+console.log("30 Günde Java Scripte hoş geldiniz!");
 ```
 
 Harici script dosyasının _head_ etiketi arasında tanımlama:
@@ -386,7 +378,7 @@ Harici script dosyasının _head_ etiketi arasında tanımlama:
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30GündeJavaScript:Harici script</title>
+    <title>30 Günde Java Script: Harici script</title>
     <script src="introdiction.js"></script>
   </head>
   <body></body>
@@ -399,7 +391,7 @@ Harici script dosyasının _body_ etiketi arasında tanımlama:
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>30GündeJavaScript:Harici script</title>
+    <title>30 Günde JavaScript: Harici script</title>
   </head>
   <body>
     <!-- JavaScript harici script linki, head veya body etiketleri arasında olabilir -->
@@ -458,9 +450,7 @@ Tek tırnak, çift tırnak veya ters tırnak(backtick) arasında yer alan, bir v
 
 ```js
 "a";
-"Asabeneh";
-"YusufAgca";
-"Turkey-ATATÜRK";
+"Khatai";
 "JavaScript güzel bir programlama dilidir";
 "Öğrenmeyi seviyorum";
 `Unutma, ayrıca bir ters tırnak kullanarak bir dize de oluşturabiliriz`;
@@ -500,7 +490,7 @@ let bosDeger = null;
 Bir değişkenin veri türünü kontrol etmek için **typeof** operatörünü kullanırız. Aşağıdaki örneğe bakın.
 
 ```js
-console.log(typeof "Asabeneh"); // string
+console.log(typeof "Khatai"); // string
 console.log(typeof 5); // number
 console.log(typeof true); // boolean
 console.log(typeof null); // object type
@@ -591,19 +581,17 @@ Değişkenin adı, farklı değer verilerini depolayabilir. Ayrıntılı örnekl
 
 ```js
 // Farklı veri türlerinin, farklı değişkenlerini tanımlama
-let ad = "Yusuf"; // bir kişinin adı
-let soyAd = "Agca"; // bir kişinni soyadı
-let ulke = "Türkiye"; // ülke
-let sehir = "Ankara"; // başkent
-let yas = 27; // yaş
-let instagram = "@yusuffagcaa"; // instagram adresi
-let evliMi = false;
+let ad = "Khatai"; // bir kişinin adı
+let soyAd = "Huseynzade"; // bir kişinni soyadı
+let ulke = "Azerbaijan"; // ülke
+let sehir = "Baku"; // başkent
+let github = "@bilgegates"; // githubadresi
 
-console.log(ad, soyAd, ulke, sehir, yas, instagram, evliMi);
+console.log(ad, soyAd, ulke, sehir, github);
 ```
 
 ```sh
-Yusuf Agca Türkiye İstanbul 27 @yusuffagcaa false
+Khatai Huseynzade Azerbaijan Baku @bilgegates
 ```
 
 ```js
@@ -621,14 +609,13 @@ console.log(yerCekim, kaynamaNoktasi, PI);
 
 ```js
 // Birden fazla değişkenleri virgül ile ayırarak tek satırda tanımlayabiliriz. Ancak ayrı satırlarda tanımlamak, kodu daha okunabilir kıldığı için tavsiye ederim.
-let isim = "YunusKaraman",
-  is = "Lokmacı",
-  konum = "Bagcılar";
-console.log(isim, is, konum);
+let isim = "Khatai_Huseynzade",
+  konum = "Azerbaijan";
+console.log(isim, konum);
 ```
 
 ```sh
-YunusKaraman Lokmacı Bagcılar
+Khatai_Huseynzade Azerbaijan
 ```
 
 01-Day klasörü içindeki _index.html_ dosyasını tarayıcınızda açtığınızda, şu sonucu alıyor olacaksınız:
@@ -644,7 +631,6 @@ YunusKaraman Lokmacı Bagcılar
 1. _"Yorumlar kodu okunabilir hale getirmeye yardımcı olur"_ yazan tek satırlı bir yorum yazın
 2. _"30GundeJavaScript eğitimine hoş geldiniz"_ yazan başka bir yorum satırı oluşturun
 3. _"Yorumlar kodu okunabilir, yeniden kullanımı kolay ve bilgilendirici bir hale getirir."_ yazılı, birden çok satıra yayılmış çok satırlı bir yorum yazın
-
 4. Bir degisken.js isimli dosya oluşturun ve bu _.js_ dosyasında string, boolean, undefined ve null veri türlerinde değişkenler oluşturun
 5. Bir veriturleri.js isimli dosya oluşturun farklı veri türlerindeki verileri kontrol etmek için JavaScript **_typeof_** operatörünü kullanın.
 6. Herhangi bir değer ataması yapmadan dört adet değişken yazın
