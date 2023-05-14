@@ -1,19 +1,13 @@
 <div align="center">
-  <h1>30 Günde JavaScript: Döngüler</h1>
+<h1> 30 günde JavaScript: Döngüler</h1>
 
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+</a><br>
 
 <sub>Yazar:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<sub>Çevirmen:
-<a href="https://github.com/bilgegates" target="_blank">Khatai Huseynzade</a><br>
-
-<small> Temmuz, 2022</small>
+<a href="https://github.com/BilgeGatess">Khatai Huseynzade</a><br>
+<small> Mayıs, 2023</small>
 </sub>
 
 </div>

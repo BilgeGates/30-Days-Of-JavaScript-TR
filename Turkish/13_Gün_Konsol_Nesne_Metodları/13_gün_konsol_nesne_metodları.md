@@ -1,12 +1,12 @@
 <div align="center">
-<h1> 30 Günde JavaScript: Konsol Nesne Metodlar;</h1>
+<h1> 30 Günde JavaScript: Konsol Nesne Metodları</h1>
 
 <a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
 </a><br>
 
 <sub>Yazar:
-<a href="github.com/bilgegates">Khatai Huseynzade</a><br>
+<a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
 <small>Mayıs, 2023</small>
 </sub>
 

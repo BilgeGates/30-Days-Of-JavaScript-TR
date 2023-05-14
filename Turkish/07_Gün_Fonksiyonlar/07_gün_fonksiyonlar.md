@@ -1,13 +1,13 @@
 <div align="center">
-<h1> 30 günde JavaScript: - Fonksiyonlar</h1>
+<h1> 30 günde JavaScript: Fonksiyonlar</h1>
 
 <a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
 </a><br>
 
 <sub>Yazar:
-<a href="github.com/bilgegates">Khatai Huseynzade</a><br>
-<small> Temmuz, 2022</small>
+<a href="https://github.com/BilgeGatess">Khatai Huseynzade</a><br>
+<small> Mayıs, 2023</small>
 </sub>
 
 </div>

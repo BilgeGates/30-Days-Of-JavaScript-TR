@@ -6,8 +6,8 @@
 </a><br>
 
 <sub>Yazar:
-<a href="github.com/bilgegates">Khatai Huseynzade</a><br>
-<small> Kasım, 2022</small>
+<a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
+<small> Mayıs, 2023</small>
 </sub>
 
 </div>
