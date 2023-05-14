@@ -34,7 +34,7 @@
 - [Düzenli İfadede nicelik belirleyici](#düzenli-ifadede-nicelik-belirleyici)
 - [Sepet](#sepet)
 - [Tam eşleşme](#tam-eşleşme)
-- [💻 Gün 12: Egzersizleri](#💻Gün-12-Egzersizleri)
+- [💻 Gün 12: Egzersizleri](#-Gün-12-Egzersizleri)
 - [Egzersiz: Seviye 1](#Egzersiz-seviye-1)
 - [Egzersiz: Seviye 2](#Egzersiz-seviye-2)
 - [Egzersiz: Seviye 3](#Egzersiz-seviye-3)
