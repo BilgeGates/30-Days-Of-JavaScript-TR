@@ -75,9 +75,9 @@
       - [Visual Studio Code Kullanımı](#Visual-Studio-Code-Kullanımı)
   - [Bir Web Sayfasında JavaScript Kodları Oluşturma](#Bir-Web-Sayfasında-JavaScript-Kodları-Oluşturma)
     - [Satır İçi Oluşturma](#Satır-İçi-Oluşturma)
-    - [Sayfa İçi Oluşturma](#Sayfa-İçi-Oluşturma)
-    - [Dış Dosyadan Oluşturma](#Dış-Dosyadan-Oluşturma)
-    - [Birden Fazla Dış Dosyadan Oluşturma](#Birden-Fazla-Dış-Dosyadan-Oluşturma)
+    - [Dahili Oluşturma](#Dahili-Oluşturma)
+    - [Harici Oluşturma](#Harici-Oluşturma)
+    - [Çoxlu Harici Oluşturma](#Çoxlu-Harici-Oluşturma)
   - [Veri Türlerine Giriş](#Veri-Türlerine-Giriş)
     - [Sayılar](#Sayılar)
     - [String](#String)
@@ -479,7 +479,7 @@ let ismim;
 console.log(ismim); // undefined, çünkü henüz değişkene bir değer atanmamış.
 ```
 
-### Null(Boş)
+### Null
 
 JavaScript'te 'null' boş bir değer anlamına gelir.
 
