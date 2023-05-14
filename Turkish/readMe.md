@@ -46,11 +46,7 @@
 
 <sub>Yazar:
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<sub>Çevirmen:<br>
-<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
-</a><br>
-<ga href="github.com/bilgegates">Khatai Huseynzade</ga>
+
 <small> Ocak, 2020</small>
 </sub>
 
