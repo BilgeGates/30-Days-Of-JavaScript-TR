@@ -15,7 +15,7 @@
 
 [<< Gün 1](../readMe.md) | [Gün 3 >>](../03_Gün_Boole-değerleri_Operatörler_Tarih-objesi/03_gün_boole-değerleri_operatörler_tarih-objesi.md)
 
-- [📔 Gün 2](#📔Gün-2)
+- [📔 Gün 2](#-Gün-2)
   - [Veri Tipleri](#Veri-Tipleri)
     - [İlkel Veri Türleri](#İlkel-Veri-Türleri)
     - [İlkel Olmayan Veri Türleri](#İLkel-Olmayan-Veri-Türleri)
@@ -26,8 +26,8 @@
   - [Stringler](#Stringler)
     - [String Birleştirme](#String-Birleştirme)
       - [Toplama Operatörünü Kullanarak Birleştirme](#Toplama-Operatörü-Kullanarak-Birleştirme)
-      - [Uzun Değişmez String'ler](#Uzun-Değişmez-String'ler)
-      - [String'lerdeki Kaçış Dizileri](#String'lerdeki-Kaçış-Dizileri)
+      - [Uzun Değişmez Stringler](#Uzun-Değişmez-Stringler)
+      - [Stringlerdeki Kaçış Dizileri](#Stringlerdeki-Kaçış-Dizileri)
       - [Şablon Değişmezleri](#Şablon-Değişmezleri)
     - [String Metotları](#String-Metotları)
   - [Veri Türlerini Kontrol Etme ve Döküm](#Veri-Türlerini-Kontrol-Etme-ve-Döküm)
@@ -36,7 +36,7 @@
       - [String to Int](#String-to-İnt)
       - [String to Float](#String-to-Float)
       - [Float to Int](#Float-to-İnt)
-  - [💻 Gün 2: Egzersizleri](#💻Gün-2-Egzersizleri)
+  - [💻 Gün 2: Egzersizleri](#-Gün-2-Egzersizleri)
     - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
     - [Egzersiz: Seviye 2](#Egzersiz-Seviye-2)
     - [Egzersiz: Seviye 3](#Egzersiz-Seviye-3)
@@ -64,8 +64,8 @@ JavaScript'teki ilkel veri türleri şunları içerir:
 
 JavaScript'teki ilkel olmayan veri türleri şunları içerir:
 
-1. Objects ( Nesneler )
-2. Arrays ( Diziler )
+1.  Nesneler
+2.  Diziler
 
 Şimdi ilkel ve ilkel olmayan veri türlerinin tam olarak ne anlama geldiğini görelim.
 _İlkel_ veri türleri değişmez (değiştirilemez) veri türleridir. İlkel bir veri türü oluşturulduktan sonra onu değiştiremeyiz.
@@ -124,15 +124,13 @@ let numbers = [1, 2, 3];
 console.log(nums == numbers); // false
 
 let userOne = {
-  name: "Asabeneh",
-  role: "teaching",
-  country: "Finland",
+  name: "Khatai",
+  country: "Azerbaijan",
 };
 
 let userTwo = {
-  name: "Asabeneh",
-  role: "teaching",
-  country: "Finland",
+  name: "Khatai",
+  country: "Huseynzade",
 };
 
 console.log(userOne == userTwo); // false
@@ -148,9 +146,8 @@ let numbers = nums;
 console.log(nums == numbers); // true ( değişken oluştururken numbers'ın değerini nums'a eşitlediği için bunun sonucu true dönmektedir.)
 
 let userOne = {
-  name: "Asabeneh",
-  role: "teaching",
-  country: "Finland",
+  name: "Khatai",
+  country: "Azerbaijan",
 };
 
 let userTwo = userOne;
@@ -269,15 +266,10 @@ Bir dize bildirmek için değişken adına, atama operatörüne, tek tırnak, ç
 Bazı dize örnekleri görelim:
 
 ```js
-let space = " "; // boş alan string tek tırnaklı
-let firstName = "Asabeneh"; // tek tırnaklı string
-let lastName = "Yetayeh"; // tek tırnaklı string
-let country = "Finland"; // tek tırnaklı string
-let city = "Helsinki"; // tek tırnaklı string
-let language = "JavaScript"; // tk tırnaklı string
-let job = "teacher"; // tek tırnaklı string
-let quote = "The saying,'Seeing is Believing' is not correct in 2020."; // çift tırnaklı string
-let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.`; // ters tırnaklı string (bu karakteri genellikle klavyenizdeki noktalı virgülü kullanarak yaparsınız. Benim klavyemde alt gr + noktalı virgül ve iki kere tıklanınca çıkıyor)
+let space = " "; // boş alan string çift tırnaklı
+let firstName = _'Khatai'_; // tek tırnaklı string
+let lastName = "Huseynzade"; // çift tırnaklı string
+let country = `Azerbaijan`; // ters tırnaklı string
 ```
 
 ### String Birleştirme
@@ -303,22 +295,20 @@ Ekleme operatörü kullanarak birleştirme eski bir yöntemdir. Bu birleştirme 
 ```js
 // Farklı veri türlerini oluşturma
 let space = " ";
-let firstName = "Asabeneh";
-let lastName = "Yetayeh";
-let country = "Finland";
-let city = "Helsinki";
+let firstName = "Khatai";
+let lastName = "Huseynzade";
+let country = "Azerbaijan";
+let city = "Baku";
 let language = "JavaScript";
-let job = "teacher";
-let age = 250;
 
 let fullName = firstName + space + lastName;
-let personInfoOne = fullName + ". I am " + age + ". I live in " + country; // ES5 toplama operatörü ile değişkenleri birleştiriyor
+let personInfoOne = fullName + ". I live in " + country; //  toplama operatörü ile değişkenleri birleştiriyor
 
 console.log(personInfoOne);
 ```
 
 ```sh
-Asabeneh Yetayeh. I am 250. I live in Finland
+Khatai Huseynzade.  I live in Azerbaijan
 ```
 
 #### Uzun Değişmez Stringler
@@ -327,16 +317,8 @@ Stringler tek bir karakter, paragraf yada sayfa olabilir. String uzunluğu çok 
 **Örnek:**
 
 ```js
-// burada kendinden bahseden bir paragraf yazmış. Bunuda çevirmeyelim :D
-const paragraph =
-  "My name is Asabeneh Yetayeh. I live in Finland, Helsinki.\
-I am a teacher and I love teaching. I teach HTML, CSS, JavaScript, React, Redux, \
-Node.js, Python, Data Analysis and D3.js for anyone who is interested to learn. \
-In the end of 2019, I was thinking to expand my teaching and to reach \
-to global audience and I started a Python challenge from November 20 - December 19.\
-It was one of the most rewarding and inspiring experience.\
-Now, we are in 2020. I am enjoying preparing the 30DaysOfJavaScript challenge and \
-I hope you are enjoying too.";
+//
+const paragraph = "My name is Khatai";
 
 console.log(paragraph);
 ```
@@ -354,13 +336,13 @@ JavaScript ve diğer programlama dillerinde \ (ters eğik çizgi ) ardından baz
 ```js
 // kodları console kısmına yazarak denerseniz daha iyi anlarsınız.
 console.log(
-  "I hope everyone is enjoying the 30 Days Of JavaScript challenge.\nDo you ?"
+  "Umarım herkes JavaScript'in 30 Günü yarışmasından keyif alıyordur."
 ); //  Buradakı \n satır sonu anlamına gelir sonrası aşağı iner
-console.log("Days\tTopics\tExercises"); // Burada her kelimeden sonra bir tab (\t) tuşuna basılmış etkisi verir
-console.log("Day 1\t3\t5"); // \t bir başka örnek
-console.log("Day 2\t3\t5"); // \t bir başka örnek
-console.log("Day 3\t3\t5"); // \t bir başka örnek
-console.log("Day 4\t3\t5"); // \t bir başka örnek
+console.log("Günler\tKonular\tEgzersizler"); // Burada her kelimeden sonra bir tab (\t) tuşuna basılmış etkisi verir
+console.log("Gün 1\t3\t5"); // \t bir başka örnek
+console.log("Gün 2\t3\t5"); // \t bir başka örnek
+console.log("Gün 3\t3\t5"); // \t bir başka örnek
+console.log("Gün 4\t3\t5"); // \t bir başka örnek
 console.log("This is a backslash  symbol (\\)"); // Ters eğik çizgi yazmak için \\ kullanılıyor
 console.log('In every programming language it starts with "Hello, World!"'); // Hello World'ü çift tırnak içine almak için \" Hello World \" kullanılıyor.
 console.log("In every programming language it starts with 'Hello, World!'"); // Hello World'ü tek tırnak içine almak için \' Hello World \' kullanılıyor.
@@ -370,17 +352,16 @@ console.log("The saying 'Seeing is Believing' isn't correct in 2020"); // Bu kı
 Konsol çıktıları :
 
 ```sh
-I hope everyone is enjoying the 30 Days Of JavaScript challenge.
-Do you ?
-Days  Topics  Exercises
-Day 1 3 5
-Day 2 3 5
-Day 3 3 5
-Day 4 3 5
-This is a backslash  symbol (\)
-In every programming language it starts with "Hello, World!"
-In every programming language it starts with 'Hello, World!'
-The saying 'Seeing is Believing' isn't correct in 2020
+"Umarım herkes JavaScript'in 30 Günü yarışmasından keyif alıyordur."
+Günler Konular Egzersizler
+Gün 1 3 5
+Gün 2 3 5
+Gün 3 3 5
+Gün 4 3 5
+Bu bir ters eğik çizgi simgesidir (\)
+Her programlama dilinde "Merhaba Dünya!" ile başlar.
+Her programlama dilinde 'Merhaba Dünya!' ile başlar.
+2020'de 'Görmek inanmaktır' sözü doğru değil
 ```
 
 #### Şablon Değişmezleri
@@ -389,40 +370,37 @@ The saying 'Seeing is Believing' isn't correct in 2020
 
 ```js
 //Syntax
-`String literal text``String literal text ${expression}`;
+`String değişmez metni``String değişmez metni ${expression}`;
 ```
 
 **Örnek : 1**
 
 ```js
-console.log(`The sum of 2 and 3 is 5`); // statik bir veri
+console.log(`2 ve 3-ün toplamı beştir`); // statik bir veri
 let a = 2;
 let b = 3;
-console.log(`The sum of ${a} and ${b} is ${a + b}`); // verileri dinamik olarak ekleme
+console.log(`${a} ve ${b}'nin toplamı ${a + b}`); // verileri dinamik olarak ekleme
 ```
 
 **Örnek :2**
 
 ```js
-// Bu kısımda yazar + kullanarak ekleme yapmanın diğer yöntemi olan ES6 ekleme yöntemini gösteriyor. Bu daha stabil çalışıyor.
-let firstName = "Asabeneh";
-let lastName = "Yetayeh";
-let country = "Finland";
-let city = "Helsinki";
-let language = "JavaScript";
-let job = "teacher";
-let age = 250;
+// Bu kısımda yazar + kullanarak ekleme yapmanın diğer yöntemi olan  ekleme yöntemini gösteriyor. Bu daha stabil çalışıyor.
+let firstName = "Khatai";
+let lastName = "Huseynzade";
+let country = "Azerbaijan";
+let city = "Baku";
 let fullName = firstName + " " + lastName;
 
-let personInfoTwo = `I am ${fullName}. I am ${age}. I live in ${country}.`; //ES6 - dize ekleme yöntemi ( ES5 yukarda gösterilmişti )
-let personInfoThree = `I am ${fullName}. I live in ${city}, ${country}. I am a ${job}. I teach ${language}.`;
+let personInfoTwo = `I am ${fullName}. I am ${age}. I live in ${country}.`; // dize ekleme yöntemi
+let personInfoThree = `I am ${fullName}. I live in ${city}, ${country}`;
 console.log(personInfoTwo);
 console.log(personInfoThree);
 ```
 
 ```sh
-I am Asabeneh Yetayeh. I am 250. I live in Finland.
-I am Asabeneh Yetayeh. I live in Helsinki, Finland. I am a teacher. I teach JavaScript.
+Ben Khatai Huseynzade. Ben Azerbaijanda yaşıyorum.
+Ben Khatai Huseynzade. Ben Baku, Azerbaijanda yaşıyorum.
 ```
 
 Bir string şablonu veya interpolasyon ( matematiksel bir terim ) yöntemi kullanarak, bir değer olabilecek ifadeler veya bazı işlemler ekleyebiliriz.(karşılaştırma, aritmetik işlemler, üçlü işlem)
@@ -448,7 +426,7 @@ JavaScript'teki her şey bir nesnedir. Bir string ilkel veri türüyse bunu değ
 ```js
 let js = "JavaScript";
 console.log(js.length); // 10
-let firstName = "Asabeneh";
+let firstName = "Khatai";
 console.log(firstName.length); // 8
 ```
 
@@ -483,29 +461,29 @@ let string = "JavaScript";
 
 console.log(string.toUpperCase()); // JAVASCRIPT
 
-let firstName = "Asabeneh";
+let firstName = "Khatai";
 
-console.log(firstName.toUpperCase()); // ASABENEH
+console.log(firstName.toUpperCase()); // KHATAI
 
-let country = "Finland";
+let country = "Azerbaijan";
 
-console.log(country.toUpperCase()); // FINLAND
+console.log(country.toUpperCase()); // AZERBAIJAN
 ```
 
 4. _toLowerCase()_: bu metot string verisini küçük harflere dönüştürür.
 
 ```js
-let string = "JavasCript";
+let string = "JavaSript";
 
 console.log(string.toLowerCase()); // javascript
 
-let firstName = "Asabeneh";
+let firstName = "Khatai";
 
-console.log(firstName.toLowerCase()); // asabeneh
+console.log(firstName.toLowerCase()); // khatai
 
-let country = "Finland";
+let country = "Azerbaijan";
 
-console.log(country.toLowerCase()); // finland
+console.log(country.toLowerCase()); // azerbaijan
 ```
 
 5. _substr()_: İki arrgüman alır, başlangıç indeksi ve silenecek karakter sayısı.
@@ -537,41 +515,41 @@ console.log(country.substring(3)); // land
 7. _split()_: Bu metot bir stringi belirtilen yerden bölmeye yarar. ( array oluşturuyor )
 
 ```js
-let string = "30 Days Of JavaScript";
+let string = "30 Günde JavaScript";
 
-console.log(string.split()); // bu kısımda birşey belirtmediğin için 1 elementli array oluştu -> ["30 Days Of JavaScript"]
-console.log(string.split(" ")); // bu kısımda boşluktan böl dediğimiz için 4 elementli array oluştu -> ["30", "Days", "Of", "JavaScript"]
+console.log(string.split()); // bu kısımda birşey belirtmediğin için 1 elementli dizi oluştu -> ["30 Günde JavaScript"]
+console.log(string.split(" ")); // bu kısımda boşluktan böl dediğimiz için 3 elementli dizi oluştu -> ["30", "Günde", "JavaScript"]
 
-let firstName = "Asabeneh";
+let firstName = "Khatai";
 
-console.log(firstName.split()); // - > ["Asabeneh"]
-console.log(firstName.split("")); // burada sadece tek tırnak kullandığımız için string'in içindeki tüm karakterleri array haline getirdi  ->  ["A", "s", "a", "b", "e", "n", "e", "h"]
+console.log(firstName.split()); // - > ["Khatai"]
+console.log(firstName.split("")); // burada sadece tek tırnak kullandığımız için string'in içindeki tüm karakterleri array haline getirdi  ->  ["K", "h", "a", "t", "a", "i"]
 
-let countries = "Finland, Sweden, Norway, Denmark, and Iceland";
+let countries = "Finland, Azerbaijan, Norway, Denmark, and Iceland";
 
-console.log(countries.split(",")); // Dikkat edin sadece virgül ile ayırıyor. İknci elementin solunda boşluk oluşuyor.  ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
-console.log(countries.split(", ")); // Dikkat edin burayada. ', ' virgül ve boşluk bulunmakta bu yüzden elementleri virgülden ayırıp boşluklsuz arrray oluşturuyor.  ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
+console.log(countries.split(",")); // Dikkat edin sadece virgül ile ayırıyor. İknci elementin solunda boşluk oluşuyor.  ["Finland", " Azerbaijan", " Norway", " Denmark", " and Iceland"]
+console.log(countries.split(", ")); // Dikkat edin burayada. ', ' virgül ve boşluk bulunmakta bu yüzden elementleri virgülden ayırıp boşluklsuz arrray oluşturuyor.  ["Finland", "Azerbaijan", "Norway", "Denmark", "and Iceland"]
 ```
 
 8. _trim()_: String'in başında ve sonundaki boşlukları silmeye yarar.
 
 ```js
-let string = "   30 Days Of JavaScript   ";
+let string = "   30 Günde JavaScript  ";
 
 console.log(string);
 console.log(string.trim(" "));
 
-let firstName = " Asabeneh ";
+let firstName = " Khatai ";
 
 console.log(firstName);
 console.log(firstName.trim()); // içinde tırnak kullanmasanız dahi boşlukları siler
 ```
 
 ```sh
-   30 Days Of JavasCript
-30 Days Of JavasCript
-  Asabeneh
-Asabeneh
+   30 Günde JavaScript
+30 Günde JavaScript
+  Khatai
+Khatai
 ```
 
 9. _includes()_: Bu metot string içerisinde varlık kontrolü yapmaya yarar. Eğer bulursa true, bulamazsa false döner. ( birebir arama yapar )
@@ -579,19 +557,19 @@ Asabeneh
 ```js
 let string = "30 Days Of JavaScript";
 
-console.log(string.includes("Days")); // true
-console.log(string.includes("days")); // false - birebir arama yapar!
+console.log(string.includes("Günde")); // true
+console.log(string.includes("günde")); // false - birebir arama yapar!
 console.log(string.includes("Script")); // true
 console.log(string.includes("script")); // false
 console.log(string.includes("java")); // false
 console.log(string.includes("Java")); // true
 
-let country = "Finland";
+let country = "Azerbaijan";
 
-console.log(country.includes("fin")); // false
-console.log(country.includes("Fin")); // true
-console.log(country.includes("land")); // true
-console.log(country.includes("Land")); // false
+console.log(country.includes("aze")); // false
+console.log(country.includes("Aze")); // true
+console.log(country.includes("an")); // true
+console.log(country.includes("An")); // false
 ```
 
 10. _replace()_: Bu metot string içerisinde değiştirme yapmamızı sağlar. Eski ve Yeni olmak üzere iki argüman alır.
@@ -601,11 +579,11 @@ string.replace(oldsubstring, newsubstring);
 ```
 
 ```js
-let string = "30 Days Of JavaScript";
+let string = "30 Günde JavaScript";
 console.log(string.replace("JavaScript", "Python")); // 30 Days Of Python
 
-let country = "Finland";
-console.log(country.replace("Fin", "Noman")); // Nomanland
+let country = "Azerbaijan";
+console.log(country.replace("baijan", "noman")); // Azernoman
 ```
 
 11. _charAt()_: Stringdeki indeksi belirttiğinizde o indeksin değerini yazdırır.
@@ -615,7 +593,7 @@ string.charAt(index);
 ```
 
 ```js
-let string = "30 Days Of JavaScript";
+let string = "30 Günde JavaScript";
 console.log(string.charAt(0)); // 3 (0. indeksin değerini döndürdü)
 
 let lastIndex = string.length - 1; // bu kısımda yukardaki değişkenin karakter sayısını alıyor (21) sonra bu sonucu 1 ile çıkartıyor sonuç 20. aşağı bak
@@ -629,8 +607,8 @@ string.charCodeAt(index);
 ```
 
 ```js
-let string = "30 Days Of JavaScript";
-console.log(string.charCodeAt(3)); // D ASCII 68
+let string = "30 Günde JavaScript";
+console.log(string.charCodeAt(3));
 
 let lastIndex = string.length - 1;
 console.log(string.charCodeAt(lastIndex)); // t ASCII  116
@@ -643,12 +621,12 @@ string.indexOf(substring);
 ```
 
 ```js
-let string = "30 Days Of JavaScript";
+let string = "30 Günde JavaScript";
 
-console.log(string.indexOf("D")); // 3
-console.log(string.indexOf("Days")); // 3
-console.log(string.indexOf("days")); // -1
-console.log(string.indexOf("a")); // 4
+console.log(string.indexOf("G")); // 3
+console.log(string.indexOf("Günde")); // 3
+console.log(string.indexOf("günde")); // -1
+console.log(string.indexOf("ü")); // 4
 console.log(string.indexOf("JavaScript")); // 11
 console.log(string.indexOf("Script")); //15
 console.log(string.indexOf("script")); // -1
@@ -663,11 +641,11 @@ string.lastIndexOf(substring);
 
 ```js
 let string =
-  "I love JavaScript. If you do not love JavaScript what else can you love.";
+  "JavaScript'i seviyorum. JavaScript'i sevmiyorsanız, başka neleri sevebilirsiniz?";
 
-console.log(string.lastIndexOf("love")); // 67
-console.log(string.lastIndexOf("you")); // 63
-console.log(string.lastIndexOf("JavaScript")); // 38
+console.log(string.lastIndexOf("seviyorum"));
+console.log(string.lastIndexOf("JavaScript"));
+console.log(string.lastIndexOf("başka"));
 ```
 
 15. _concat()_: Bu metot birleştirme işlemini sağlar, birden fazla değer alabilir
@@ -678,10 +656,10 @@ string.concat(substring, substring, substring);
 
 ```js
 let string = "30";
-console.log(string.concat("Days", "Of", "JavaScript")); // 30DaysOfJavaScript
+console.log(string.concat("Günde", "JavaScript")); // 30GündeJavaScript
 
-let country = "Fin";
-console.log(country.concat("land")); // Finland
+let country = "Aze";
+console.log(country.concat("baijan")); // Azerbaijan
 ```
 
 16. _startsWith_: String'in belirtilen değer ile başlayıp başlamadığını kontrol eder. true yada false döndürür.
@@ -692,17 +670,17 @@ string.startsWith(substring);
 ```
 
 ```js
-let string = "Love is the best to in this world";
+let string = "Aşk bu dünyada en iyisidir";
 
-console.log(string.startsWith("Love")); // true
-console.log(string.startsWith("love")); // false
-console.log(string.startsWith("world")); // false
+console.log(string.startsWith("Aşk")); // true
+console.log(string.startsWith("bu")); // false
+console.log(string.startsWith("dünyada")); // false
 
-let country = "Finland";
+let country = "Azerbaijan";
 
-console.log(country.startsWith("Fin")); // true
-console.log(country.startsWith("fin")); // false
-console.log(country.startsWith("land")); //  false
+console.log(country.startsWith("Aze")); // true
+console.log(country.startsWith("aze")); // false
+console.log(country.startsWith("baijan")); //  false
 ```
 
 17. _endsWith_: String'in belirtilen değer ile bitip bitmediğini kontrol eder. true yada false döndürür.
@@ -712,17 +690,17 @@ string.endsWith(substring);
 ```
 
 ```js
-let string = "Love is the most powerful feeling in the world";
+let string = "Aşk bu dünyada en iyisidir";
 
-console.log(string.endsWith("world")); // true
-console.log(string.endsWith("love")); // false
-console.log(string.endsWith("in the world")); // true
+console.log(string.endsWith("iyisidir")); // true
+console.log(string.endsWith("aşk")); // false
+console.log(string.endsWith("en iyisidir")); // true
 
-let country = "Finland";
+let country = "Azerbaijan";
 
-console.log(country.endsWith("land")); // true
-console.log(country.endsWith("fin")); // false
-console.log(country.endsWith("Fin")); //  false
+console.log(country.endsWith("baijan")); // true
+console.log(country.endsWith("Aze")); // false
+console.log(country.endsWith("aze")); //  false
 ```
 
 18. _search_: Argüman olarak bir alt dize alır ve ilk eşleşmenin dizinini döndürür. Arama değeri bir dize veya normal ifade kalıbı olabilir.
@@ -733,54 +711,53 @@ string.search(substring);
 
 ```js
 let string =
-  "I love JavaScript. If you do not love JavaScript what else can you love.";
-console.log(string.search("love")); // 2
-console.log(string.search(/javascript/gi)); // 7 buradaki gi açıklaması bir alt örnekte var
+  "JavaScript'i seviyorum. JavaScript'i sevmiyorsanız, başka neleri sevebilirsiniz?";
+console.log(string.search("başka"));
+console.log(string.search(/javascript/gi));
 ```
 
 19. _match_: Argüman olarak bir alt dize veya normal ifade kalıbı alır ve eşleşme varsa bir dizi döndürür, değilse null döndürür. Normal bir ifade kalıbının nasıl göründüğünü görelim. / işareti ile başlar ve / işareti ile biter.
 
 ```js
-let string = "love";
-let patternOne = /love/; // koşulsuz
-let patternTwo = /love/gi; // g-bütün metinde ara, i - büyük küçük harf duyarsız
+let string = "başka";
+let patternOne = /başka/; // koşulsuz
+let patternTwo = /başka/gi; // g-bütün metinde ara, i - büyük küçük harf duyarsız
 ```
 
-Match syntax
+Match sözdizimi
 
 ```js
-// syntax
+// sözdizimi
 string.match(substring);
 ```
 
 ```js
 let string =
-  "I love JavaScript. If you do not love JavaScript what else can you love.";
+  "JavaScript'i seviyorum. JavaScript'i sevmiyorsanız, başka neleri sevebilirsiniz?";
 console.log(string.match("love"));
 ```
 
 ```sh
-["love", index: 2, input: "I love JavaScript. If you do not love JavaScript what else can you love.", groups: undefined]
+["başka", index: 52, input: "JavaScript'i seviyorum. JavaScript'i sevmiyorsanız, başka neleri sevebilirsiniz?.", groups: undefined]
 ```
 
 ```js
-let pattern = /love/gi;
-console.log(string.match(pattern)); // ["love", "love", "love"]
+let pattern = /başka/gi;
+console.log(string.match(pattern)); // ["başka"]
 ```
 
 Normal bir ifade kullanarak metinden sayıları çıkaralım. Burası normal ifade bölümü değil, panik yapmayın! Düzenli ifadeleri daha sonra ele alacağız.
 
 ```js
-let txt =
-  "In 2019, I ran 30 Days of Python. Now, in 2020 I am super exited to start this challenge";
+let txt = "Ben 100 yıldır Azerbaycanda yaşıyorum";
 let regEx = /\d+/;
 
 // kaçış karakterli d, d'nin normal olmadığı anlamına gelir, d bunun yerine bir rakam gibi davranır
 // + bir veya daha fazla basamaklı sayı anlamına gelir,
 // ondan sonra g varsa global demektir, her yerde ara.
 
-console.log(txt.match(regEx)); // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
-console.log(txt.match(/\d+/g)); // ["2019", "30", "2020"]
+console.log(txt.match(regEx)); // ["1", "0", "0"]
+console.log(txt.match(/\d+/g)); // ["100"]
 ```
 
 20. _repeat()_: bağımsız değişken olarak bir sayı alır ve stringi sayı kadar döndürür.
@@ -790,8 +767,8 @@ string.repeat(n);
 ```
 
 ```js
-let string = "love";
-console.log(string.repeat(10)); // lovelovelovelovelovelovelovelovelovelove
+let string = "başka";
+console.log(string.repeat(10)); // başkabaşkabaşkabaşkabaşkabaşkabaşkabaşkabaşkabaşka
 ```
 
 ## Veri Türlerini Kontrol Etme ve Döküm
@@ -806,14 +783,14 @@ Belirli bir değişkenin veri türünü kontrol etmek için _typeof_ yöntemini 
 // Farklı javascript veri türleri
 // Farklı veri tipleri tanımlayalım
 
-let firstName = "Asabeneh"; // string
+let firstName = "Khatai"; // string
 let lastName = "Yetayeh"; // string
-let country = "Finland"; // string
-let city = "Helsinki"; // string
+let country = "Azerbaijan"; // string
+let city = "Baku"; // string
 let age = 250; // number,  benim gerçek yaşım değil merak etme
 let job; // undefined, çünkü bir değer atanmamış
 
-console.log(typeof "Asabeneh"); // string
+console.log(typeof "Khatai"); // string
 console.log(typeof firstName); // string
 console.log(typeof 10); // number
 console.log(typeof 3.14); // number
@@ -909,47 +886,47 @@ console.log(numInt); // 9
 
 ### Egzersiz: Seviye 1
 
-1. Challenge adında bir değişken tanımlayın ve **'30 Days Of JavaScript'** başlangıç ​​değerine atayın.
+1. Challenge adında bir değişken tanımlayın ve **'30 Günde JavaScript'** başlangıç ​​değerine atayın.
 2. **console.log()** kullanarak tarayıcı konsolunda değişkeni yazdırın,
 3. _console.log()_ kullanarak tarayıcı konsolunda dizenin **length** değerini yazdırın,
 4. **toUpperCase()** yöntemini kullanarak tüm dize karakterlerini büyük harflerle değiştirin,
 5. **toLowerCase()** yöntemini kullanarak tüm dize karakterlerini küçük harflerle değiştirin,
 6. **substr()** veya **substring()** yöntemini kullanarak string'in ilk kelimesini kesin-silin (dilimleyin)
-7. _Days Of JavaScript_ ifadesini _30 Days Of JavaScript_'ten ayırın.
+7. _Günde JavaScript_ ifadesini _30 Günde JavaScript_'ten ayırın.
 8. **includes()** yöntemini kullanarak string'in **Script** kelimesini içerip içermediğini kontrol edin
 9. **split()** yöntemini kullanarak **string** öğesini bir **array**'ye bölün
-10. 30 Days Of JavaScript dizesini **split()** yöntemini kullanarak boşlukta bölün
+10. 30 Günde JavaScript dizesini **split()** yöntemini kullanarak boşlukta bölün
 11. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' dizeyi virgülden **split** ve bir dizi olarak değiştirin.
-12. **replace()** yöntemini kullanarak 30 Days of JavaScript'i 30 Days of Python olarak değiştirin.
+12. **replace()** yöntemini kullanarak 30 Günde JavaScript'i 30 Days of Python olarak değiştirin.
 13. 'JavaScript'in 30 Günü' dizesinde dizin 15'teki karakter nedir? **charAt()** yöntemini kullanın.
 14. **charCodeAt()** kullanan 'JavaScript'in 30 Günü' dizesindeki J karakter kodu nedir?
-15. 30 Days of JavaScript'te **a** öğesinin ilk oluşumunun konumunu belirlemek için **indexOf** kullanın
-16. 30 Days of JavaScript'te **a** öğesinin son oluşumunun konumunu belirlemek için **lastIndexOf** kullanın.
+15. 30 Günde JavaScript'te **a** öğesinin ilk oluşumunun konumunu belirlemek için **indexOf** kullanın
+16. 30 Günde JavaScript'te **a** öğesinin son oluşumunun konumunu belirlemek için **lastIndexOf** kullanın.
 17. Aşağıdaki cümlede **çünkü** kelimesinin ilk geçtiği yeri bulmak için **indexOf** kullanın:
     **'Bir cümleyi çünkü ile bitiremezsiniz çünkü çünkü bir bağlaçtır'**
 18. Aşağıdaki cümlede **çünkü** kelimesinin son geçtiği yeri bulmak için **lastIndexOf** kullanın:
     **'Bir cümleyi çünkü ile bitiremezsiniz çünkü çünkü bir bağlaçtır'**
 19. Aşağıdaki cümlede **çünkü** kelimesinin ilk geçtiği yeri bulmak için **search** kullanın:
     **'Bir cümleyi çünkü ile bitiremezsiniz çünkü çünkü bir bağlaçtır'**
-20. Bir dizgenin başındaki ve sonundaki boşlukları kaldırmak için **trim()** kullanın. Örneğin '30 Days Of JavaScript'.
-21. _30 Days Of JavaScript_ dizesiyle **startsWith()** yöntemini kullanın ve sonucu doğru yapın
-22. _30 Days Of JavaScript_ dizesiyle **endsWith()** yöntemini kullanın ve sonucu doğru yapın
+20. Bir dizgenin başındaki ve sonundaki boşlukları kaldırmak için **trim()** kullanın. Örneğin '30 Günde JavaScript'.
+21. _30 Günde JavaScript_ dizesiyle **startsWith()** yöntemini kullanın ve sonucu doğru yapın
+22. _30 Günde JavaScript_ dizesiyle **endsWith()** yöntemini kullanın ve sonucu doğru yapın
 23. JavaScript'in 30 Günü'ndeki tüm **a**'leri bulmak için **match()** yöntemini kullanın
-24. **concat()** kullanın ve '30 Days of' ve 'JavaScript'i tek bir dize olan '30 Days of JavaScript' ile birleştirin
-25. 30 Gün JavaScript'i 2 kez yazdırmak için **repeat()** yöntemini kullanın
+24. **concat()** kullanın ve '30 Days of' ve 'JavaScript'i tek bir dize olan '30 Günde JavaScript' ile birleştirin
+25. 30 Günde JavaScript'i 2 kez yazdırmak için **repeat()** yöntemini kullanın
 
 ### Egzersiz: Seviye 2
 
 1. console.log() kullanarak aşağıdaki ifadeyi yazdırın:
 
    ```sh
-   The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.
+   Alıntı 'Kalp için aşağı uzanıp insanları kaldırmaktan daha iyi bir egzersiz yoktur.' John Holmes bize birbirimize yardım etmeyi öğretiyor.
    ```
 
 2. console.log()'u kullanarak Rahibe Teresa'nın aşağıdaki alıntısını yazdırın:
 
    ```sh
-   "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
+   "Aşk patronluk taslamak değildir ve hayırseverlik merhametle ilgili değildir, aşkla ilgilidir. Hayırseverlik ve sevgi aynıdır - hayırseverlikle sevgi verirsiniz, bu yüzden sadece para vermeyin, onun yerine elinizi uzatın."
    ```
 
 3. '10' tipinin tam olarak 10'a eşit olup olmadığını kontrol edin. Değilse tam olarak eşit yapın.

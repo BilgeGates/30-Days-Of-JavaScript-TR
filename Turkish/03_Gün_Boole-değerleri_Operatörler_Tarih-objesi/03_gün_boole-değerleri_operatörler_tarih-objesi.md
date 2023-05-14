@@ -14,7 +14,7 @@
 
 [<< Gün 2](../02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md) | [Gün 4 >>](../04_Gün_Koşullar/04_gün_koşullar.md)
 
-- [📔 Gün 3](#📔Gün-3)
+- [📔 Gün 3](#-Gün-3)
   - [Boolean Değerleri](#Boolean-Değerleri)
     - [Doğru Değerleri](#Doğru-Değerleri)
     - [Yanlış Değerleri](#Yanlış-Değerleri)
@@ -30,9 +30,9 @@
     - [Koşul Operatörü](#Koşul-Operatörü)
     - [Operatör Önceliği](#Operatör-Önceliği)
   - [Window Metotları](#Window-Metotları)
-    - [Window alert() metot](#Window-alert-metot)
-    - [Window prompt() metot](#Window-prompt-metot)
-    - [Window confirm() metot](#Window-confirm-metot)
+    - [Alert Metotu](#Alert-Metotu)
+    - [Prompt Metotu](#Prompt-Metotu)
+    - [Confirm Metotu](#Confirm-Metotu)
   - [Tarih Objesi](#Tarih-Objesi)
     - [Bir Zaman Objesi Oluşturma](#Bir-Zaman-Objesi-Oluşturma)
     - [Tam Yılı Almak](#Tam-Yılı-Almak)
@@ -43,7 +43,7 @@
     - [Dakikayı Almak](#Dakikayı-Almak)
     - [Saniyeyi Almak](#Saniyeyi-Almak)
     - [Zamanı Almak](#Zamanı-Almak)
-  - [💻 Gün 3: Egzersizleri](#💻Gün-3-Egzersizleri)
+  - [💻 Gün 3: Egzersizleri](#-Gün-3-Egzersizleri)
     - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
     - [Egzersiz: Seviye 2](#egzersiz-seviye-2)
     - [Egzersiz: Seviye 3](#egzersiz-seviye-3)
@@ -108,8 +108,8 @@ console.log(empty); // -> null(boş) , değer yok anlamına gelir
 JavaScript'te eşittir işareti bir atama operatörüdür. Değişken atamak için kullanılır.
 
 ```js
-let firstName = "Asabeneh";
-let country = "Finland";
+let firstName = "Khatai";
+let country = "Azerbaijan";
 ```
 
 Atama Operatörleri
@@ -333,7 +333,7 @@ Bu [bağlantıdan](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 ## Window Metotları
 
-### Window alert() metot
+### Alert Metotu
 
 En başta gördüğünüz gibi alert() metodu, belirtilen bir mesaj ve bir Tamam butonu ile bir uyarı kutusu görüntüler. Yerleşik bir yöntemdir ve argüman alır.
 
@@ -347,7 +347,7 @@ alert("Welcome to 30DaysOfJavaScript");
 
 Yıkıcı ve sinir bozucu olduğu için çok fazla uyarı kullanmayın, sadece test etmek için kullanın.
 
-### Window prompt() metot
+### Promt Metotu
 
 Pencere yöntemleri, tarayıcınızda giriş değerlerini almak için bir giriş içeren bir bilgi istemi kutusu görüntüler ve giriş verileri bir değişkende saklanabilir. prompt() yöntemi iki argüman alır. İkinci argüman isteğe bağlıdır.
 
@@ -360,7 +360,7 @@ let number = prompt("Enter number", "number goes here");
 console.log(number);
 ```
 
-### Window confirm() metot
+### Confirm Metotu
 
 confirm() yöntemi, bir Tamam ve İptal düğmesiyle birlikte belirli bir mesaj içeren bir iletişim kutusu görüntüler.
 Bir onay kutusu genellikle bir kullanıcıdan bir şeyi yürütmek için izin istemek için kullanılır. Pencere confirm() argüman olarak bir dize alır.
@@ -581,12 +581,12 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`); // çıktı farklı
 1. Adınızın uzunluğunu ve soyadınızın uzunluğunu karşılaştırın ve bu çıktıyı almalısınız.
 
    ```js
-   let firstName = "Asabeneh";
-   let lastName = "Yetayeh";
+   let firstName = "Khatai";
+   let lastName = "Huseynzade";
    ```
 
    ```sh
-   Your first name, Asabeneh is longer than your family name, Yetayeh
+   Your first name, Khatai is longer than your family name, Yetayeh
    ```
 
 1. İki değişken _myAge_ ve _yourAge_ bildirin ve bunlara başlangıç değerleri ile myAge ve yourAge atayın.
