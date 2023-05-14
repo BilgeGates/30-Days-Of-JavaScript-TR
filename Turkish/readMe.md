@@ -41,7 +41,7 @@
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
 </a><br>
 
-<sub>Çevirmen:
+<sub>Yazar:
 <a href="github.com/bilgegates">Khatai Huseynzade</a><br>
 <small> Ocak, 2020</small>
 </sub>
