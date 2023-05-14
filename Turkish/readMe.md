@@ -59,7 +59,7 @@
   - [Giriş](#Giriş)
   - [Gereksinimler](#Gereksinimler)
   - [Kurulum](#Kurulum)
-    - [Node.js Kurulumu](#Node.js-Kurulumu)
+    - [Node.js Kurulumu](#Nodejs-Kurulumu)
     - [Tarayıcı](#Tarayıcı)
       - [Google Chrome Kurulumu](#Google-Chrome-Kurulumu)
       - [Google Chrome Konsolu Açmak](#Google-Chrome-Konsolu-Açmak)
