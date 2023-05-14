@@ -55,7 +55,7 @@
 
 [Gün 2 >>](./02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md)
 
-- [📔 Gün 1](#📔Gün-1)
+- [📔 Gün 1](#📔-Gün-1)
   - [Giriş](#Giriş)
   - [Gereksinimler](#Gereksinimler)
   - [Kurulum](#Kurulum)
