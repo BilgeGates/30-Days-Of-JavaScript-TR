@@ -33,6 +33,7 @@
 | 29    |                     [Mini Proje: Animasyon Karakterleri](./29_Gün_Mini_Proje_Animasiyon_Karakterleri/29_gün_mini_proje_animasiyon_karakterleri.md)                      |
 | 30    |                                                    [Son Gün](./30_Gün_Mini_Proje_Finalı/30_gün_mini_proje_finalı.md)                                                    |
 
+<br>
 <h1 align="center">💻 MUTLU KODLAMALAR!</h1>
 
 <div align="center">
