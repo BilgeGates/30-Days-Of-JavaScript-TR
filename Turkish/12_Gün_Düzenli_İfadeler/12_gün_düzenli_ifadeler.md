@@ -16,24 +16,24 @@
 
 - [📔 Gün 12](#-Gün-12)
 - [Düzenli İfadeler](#Düzenli-ifadeler)
-- [RegExp parametreleri](#regexp-parameters)
-- [Desen](#desen)
-- [Bayraklar](#bayraklar)
-- [RegExp yapıcı ile bir model oluşturma](#regexp-yapıcı-ile-bir-model-oluşturma)
-- [Düzenli İfade oluşturucusu olmadan bir model oluşturma](#Düzenli-ifade-oluşturucusu-olmadan-bir-model-oluşturma)
-- [RegExpp Nesne yöntemleri](#regexpp-nesne-yöntemleri)
-- [Bir maç için test](#bir-maç-için-test)
-- [Maçın tamamını içeren dizi](#Maçın-tamamını-içeren-dizi)
-- [Bir alt dizenin değiştirilmesi](#bir-alt-dizenin-değiştirilmesi)
-- [Köşeli Parantez](#köşeli-parantez)
-- [Düzenli İfadede kaçış karakteri](#düzenli-ifadede-kaçış-karakteri)
-- [Bir veya daha fazla kez](#bir-veya-daha-fazla-kez)
-- [Nokta](#nokta)
-- [Sıfır veya daha fazla kez](#sıfır-veya-daha-fazla-kez)
-- [Sıfır veya bir kez](#sıfır-veya-bir-kez)
-- [Düzenli İfadede nicelik belirleyici](#düzenli-ifadede-nicelik-belirleyici)
-- [Sepet](#sepet)
-- [Tam eşleşme](#tam-eşleşme)
+- [RegExp Parametreleri](#RegExp-Parameterleri)
+- [Desen](#Desen)
+- [Bayraklar](#Bayraklar)
+- [RegExp Yapıcı ile Bir Model Oluşturma](#RegExp-Yapıcı-ile-Bir-Model-Oluşturma)
+- [Düzenli İfade Oluşturucusu Olmadan Bir Model Oluşturma](#Düzenli-İfade-Oluşturucusu-Olmadan-Bir-Model-Oluşturma)
+- [RegExpp Nesne Yöntemleri](#RegExpp-Nesne-Yöntemleri)
+- [Eşleşme Testi](#Eşleşme-Testi)
+- [Matchın Tamamını İçeren Dizi](#Matchın-Tamamını-İçeren-Dizi)
+- [Bir Alt Dizenin Değiştirilmesi](#Bir-Alt-Dizenin-Değiştirilmesi)
+- [Köşeli Parantez](#Köşeli-Parantez)
+- [Düzenli İfadede Kaçış Karakteri](#Düzenli-İfadede-Kaçış-Karakteri)
+- [Bir veya Daha Fazla Kez](#Bir-veya-Daha-Fazla-Kez)
+- [Nokta](#Nokta)
+- [Sıfır eya Daha Fazla Kez](#Sıfır-veya-Daha-Fazla-Kez)
+- [Sıfır veya Bir Kez](#Sıfır-veya-Bir-Kez)
+- [Düzenli İfadede Nicelik Belirleyici](#Düzenli-İfadede-Nicelik-Belirleyici)
+- [Sepet](#Sepet)
+- [Tam Eşleşme](#Tam-Eşleşme)
 - [💻 Gün 12: Egzersizleri](#-Gün-12-Egzersizleri)
 - [Egzersiz: Seviye 1](#Egzersiz-seviye-1)
 - [Egzersiz: Seviye 2](#Egzersiz-seviye-2)
@@ -47,7 +47,7 @@ Düzenli ifade veya RegExp, verilerde kalıp bulmaya yardımcı olan küçük bi
 
 Bir dizgiyi bildirmek için tek bir alıntı kullanırız, normal bir ifadeyi bildirmek için çift tırnak işareti ve bir ters tik kullanırız, iki eğik çizgi ve isteğe bağlı bir bayrak kullanırız. Bayrak g, i, m, s, u veya y olabilir.
 
-### RegExp parametreleri
+### RegExp Parametreleri
 
 Normal bir ifade iki parametre alır. Gerekli bir arama deseni ve isteğe bağlı bir işaret.
 
@@ -63,7 +63,7 @@ Bayraklar, normal bir ifadede arama türünü belirleyen isteğe bağlı paramet
 - i: büyük/küçük harf duyarsız bayrağı (hem küçük hem de büyük harfleri arar)
 - m: çok satırlı
 
-### RegExp yapıcı ile kalıp oluşturma
+### RegExp Yapıcı ile Kalıp Oluşturma
 
 Genel işaret ve büyük/küçük harfe duyarsız işaret olmadan düzenli ifade bildirmek.
 
@@ -87,7 +87,7 @@ RegExp nesnesini kullanarak bir normal ifade kalıbı bildirme. Düzeni ve bayra
 let regEx = new RegExp("love", "gi");
 ```
 
-### RegExp yapıcı olmadan kalıp oluşturma
+### RegExp Yapıcı Olmadan Kalıp Oluşturma
 
 Genel işaret ve büyük/küçük harf duyarsız işaret ile düzenli ifade bildiriyor.
 
@@ -105,7 +105,7 @@ let regEx = new RegExp("love", "gi");
 
 Bazı RegExp yöntemlerini görelim
 
-#### Eşleşme testi
+#### Eşleşme Testi
 
 _test()_: Bir dizide eşleşme olup olmadığını test eder. True veya false döndürür.
 
@@ -120,7 +120,7 @@ console.log(result);
 true
 ```
 
-#### Tüm eşleşmeyi içeren dizi
+#### Matchın Tamamını İçeren Dizi
 
 _match()_: Yakalama grupları da dahil olmak üzere tüm eşleşmeleri içeren bir dizi döndürür veya eşleşme bulunamazsa null değerini döndürür.
 Global bir bayrak kullanmıyorsak, match(), kalıbı, indeksi, girişi ve grubu içeren bir dizi döndürür.
@@ -160,7 +160,7 @@ console.log(result);
 2
 ```
 
-#### Bir alt diziyi değiştirme
+#### Bir Alt Diziyi Değiştirme
 
 _replace()_: Bir dizgede eşleşme için bir arama yürütür ve eşleşen alt dizgiyi yeni bir alt dizgiyle değiştirir.
 
@@ -253,7 +253,7 @@ I am teacher and  I love teaching.There is nothing as more rewarding as educatin
 
 Yukarıdaki meta karakterleri açıklığa kavuşturmak için örnek kullanalım
 
-### Köşeli ayraç
+### Köşeli Parantez
 
 Küçük ve büyük harfleri dahil etmek için köşeli parantez kullanalım
 
@@ -301,7 +301,7 @@ console.log(matches);
 
 Köşeli parantez ve veya operatörünü kullanarak Elma, elma, Muz ve muzu çıkarmayı başarıyoruz.
 
-### RegExpte kaçış karakteri
+### Düzenli İfadede Kaçış Karakteri
 
 ```js
 const pattern = /\d/g; // rakam anlamına gelen özel bir karakterdir
@@ -319,7 +319,7 @@ const matches = txt.match(pattern);
 console.log(matches); // ["12", "2020"], istediğimiz bu değil
 ```
 
-### Bir veya daha fazla kez
+### Bir veya Daha Fazla Kez
 
 ```js
 const pattern = /\d+/g; // rakam anlamına gelen özel bir karakterdir
@@ -346,7 +346,7 @@ const matches = txt.match(pattern);
 console.log(matches); // ['ve muz meyvedir']
 ```
 
-### Sıfır veya daha fazla kez
+### Sıfır veya Daha Fazla Kez
 
 Sıfır veya birçok kez. Model oluşmayabilir veya birçok kez ortaya çıkabilir.
 
@@ -358,7 +358,7 @@ const matches = txt.match(pattern);
 console.log(matches); // ['ve muz meyvedir']
 ```
 
-### Sıfır veya bir kez
+### Sıfır veya Bir Kez
 
 Sıfır veya bir kez. Model oluşmayabilir veya bir kez oluşabilir.
 
@@ -372,7 +372,7 @@ matches = txt.match(pattern);
 console.log(matches); // ["e-posta", "e-posta", "E-posta", "E-posta"]
 ```
 
-### Düzenli İfadede nicelik belirleyici
+### Düzenli İfadede Nicelik Belirleyici
 
 Bir metinde aradığımız alt dizginin uzunluğunu süslü parantez kullanarak belirtebiliriz. RegExp nicelik belirteçlerini nasıl kullanacağımızı görelim. Düşünün, uzunluklarının 4 karakter olduğu alt dizeyle ilgileniyoruz
 
@@ -424,7 +424,7 @@ const matches = txt.match(pattern);
 console.log(matches); // ["6", "2019"]
 ```
 
-### Tam eşleşme
+### Tam Eşleşme
 
 Başlangıcı ^ ve sonu olan $ olmalıdır.
 
