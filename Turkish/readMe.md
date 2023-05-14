@@ -86,8 +86,8 @@
   - [Veri Türlerini Konrol Etme](#veri-türlerini-kontrol-etme)
   - [Tekrardan Yorumlar](#Tekrardan-Yorumlar)
   - [Değişkenler](#Değişkenler)
-- [💻 Gün 1: Egzersizler](#Gün-1-egzersizler)
-  - [Egzersiz: Seviye 1](#egzersizseviye-1)
+- [💻 Gün 1: Egzersizler](#-Gün-1-egzersizler)
+  - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
 
 # 📔 Gün 1
 
