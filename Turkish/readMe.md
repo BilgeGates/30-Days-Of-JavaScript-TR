@@ -42,7 +42,7 @@
 </a><br>
 
 <sub>Çevirmen:
-<a href="github.com/bilgegates">Khatai Huseynzade</a>
+<a href="github.com/bilgegates">Khatai Huseynzade</a><br>
 <small> Ocak, 2020</small>
 </sub>
 
