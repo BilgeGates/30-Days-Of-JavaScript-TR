@@ -15,21 +15,21 @@
 
 [<< Gün 10](../10_Gün_Setler_ve_Haritalar/10_gün_setler_ve_haritalar.md) | [Gün 12 >>](../12_Gün_Düzenli_İfadeler/12_gün_düzenli_ifadeler.md)
 
-- [📔 Gün 11](#📔Gün-11)
+- [📔 Gün 11](#-Gün-11)
   - [Yıkıcılar ve Yapıcılar](#Yıkıcılar_ve_Yapıcılar)
-    - [Yıkımın dizilerde kullanımı](#yıkımın-dizilerde-kullanımı)
-    - [Iterasyon sırasında Yıkım](#iterasyon-sırasında-yıkım)
-    - [Objeye Yıkım işlemi yapma](#objeye-yıkım-işlemi-yapma)
-    - [Yapılandırma sırasında yeniden adlandırma](#yapılandırma-sırasında-yeniden-adlandırma)
-    - [Yıkım olmadan obje parametresi](#yıkım-olmadan-obje-parametresi)
-    - [Yıkım içeren nesne parametresi](#Yıkım-içeren-nesne-parametresi)
-    - [Iterasyon sırasında objeye Yıkım işlemi uygulamak](#iterasyon-sırasında-objeye-yıkım-işlemi-uygulamak)
-  - [Yapıcı veya Rest operatörlerin kullanımı](#yapıcı-veya-rest-operatörlerin-kullanımı)
-    - [Dizi ogelerinin geri kalanını almak için yapıcı operatörü](#dizi-ogelerinin-geri-kalanını-almak-için-yapıcı-operatörü)
-    - [Diziyi kopyalamak için yapıcı operatörü](#diziyi-kopyalamak-için-yapıcı-operatörü)
-    - [Nesneyi kopyalamak için yapıcı operatörü](#nesneyi-kopyalamak-için-yapıcı-operatörü)
-      - [Ok fonksiyonu ve yıkım operatörü](#ok-fonksiyonu-ve-yıkım-operatörü)
-  - [💻 Gün 11: Egzersizleri](#💻Gün-11-egzersizleri)
+    - [Yıkımın Dizilerde Kullanımı](#Yıkımın-Dizilerde-Kullanımı)
+    - [İterasyon Sırasında Yıkım](#İterasyon-Sırasında-Yıkım)
+    - [Objeye Yıkım işlemi Yapma](#Objeye-Yıkım-İşlemi-Yapma)
+    - [Yapılandırma Sırasında Yeniden Adlandırma](#Yapılandırma-Sırasında-Yeniden-Adlandırma)
+    - [Yıkım Olmadan Obje Parametresi](#Yıkım-Olmadan-Obje-Parametresi)
+    - [Yıkım İçeren Nesne Parametresi](#Yıkım-İçeren-Nesne-Parametresi)
+    - [İterasyon Sırasında Objeye Yıkım İşlemi Uygulamak](#İterasyon-Sırasında-Objeye-Yıkım-İşlemi-Uygulamak)
+  - [Yapıcı veya Rest Operatörlerin Kullanımı](#Yapıcı-veya-Rest-Operatörlerin-Kullanımı)
+    - [Dizi Ögelerinin Geri Kalanını Almak İçin Yapıcı Operatörü](#Dizi-Ögelerinin-Geri-Kalanını-Almak-İçin-Yapıcı-Operatörü)
+    - [Diziyi Kopyalamak İçin Yapıcı Operatörü](#Diziyi-Kopyalamak-İçin-Yapıcı-Operatörü)
+    - [Nesneyi Kopyalamak İçin Yapıcı Operatörü](#Nesneyi-Kopyalamak-İçin-Yapıcı-Operatörü)
+      - [Ok Fonksiyonu ve Yıkım Operatörü](#Ok-Fonksiyonu-ve-Yıkım-Operatörü)
+  - [💻 Gün 11: Egzersizleri](#-Gün-11-Egzersizleri)
     - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
     - [Egzersiz: Seviye 2](#egzersiz-seviye-2)
     - [Egzersiz: Seviye 3](#egzersiz-seviye-3)
@@ -148,7 +148,7 @@ console.log(rest);
 [4, 5, 6, 7, 8, 9, 10]
 ```
 
-### Iterasyon sırasında Yıkım
+### İterasyon Sırasında Yıkım
 
 ```js
 const countries = [
@@ -184,7 +184,7 @@ HTML CSS JS
 Node Express MongoDB
 ```
 
-### Objeye Yıkım işlemi yapma
+### Objeye Yıkım İşlemi Yapma
 
 Destruct işleminde kullandığımız değişkenin adı, nesnenin anahtarı veya özelliği ile tamamen aynı olmalıdır. Aşağıdaki örneğe bakınız.
 
@@ -203,7 +203,7 @@ console.log(width, height, area, perimeter);
 20 10 200 undefined
 ```
 
-### Yapılandırma sırasında yeniden adlandırma
+### Yapılandırma Sırasında Yeniden Adlandırma
 
 ```js
 const rectangle = {
@@ -247,7 +247,7 @@ console.log(width, height, area, perimeter); //30 10 200 80
 
 Anahtarları bir fonksiyon parametresi olarak yıkım işlemi uygulama. Bir dikdörtgen nesnesi alan ve bir dikdörtgenin çevresini döndüren bir fonksiyon oluşturalım.
 
-### Yıkım olmadan obje parametresi
+### Yıkım Olmadan Obje Parametresi
 
 ```js
 // Yıkım yok
@@ -306,7 +306,7 @@ const getPersonInfo = (obj) => {
 console.log(getPersonInfo(person));
 ```
 
-### Yıkım içeren nesne parametresi
+### Yıkım İçeren Nesne Parametresi
 
 ```js
 const calculatePerimeter = ({ width, height }) => {
@@ -342,7 +342,7 @@ Asabeneh Yetayeh lives in Finland. He is  250 years old. He is an Instructor and
 */
 ```
 
-### Iterasyon sırasında objeye Yıkım işlemi uygulamak
+### İterasyon Sırasında Objeye Yıkım İşlemi Uygulamak
 
 ```js
 const todoList = [
@@ -374,11 +374,11 @@ Give JS Test 4/1/2020 10:00 false
 Assess Test Result 4/1/2020 1:00 false
 ```
 
-### Yapıcı veya Rest operatörleri
+### Yapıcı veya Rest Operatörleri
 
 Bir diziye yıkım işlemi uygulandığında, kalan elemanları dizi olarak almak için yayılma operatörünü (...) kullanırız.Buna ek olarak, dizi öğelerini başka bir diziye yaymak için yapıcı operatörünü kullanırız.
 
-### Dizi ogelerinin geri kalanını almak için yapıcı operatörü
+### Dizi Ögelerinin Geri Kalanını Almak İçin Yapıcı Operatörü
 
 ```js
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -418,7 +418,7 @@ France
 ["Finland", "Sweden", "Norway", "Denmark", "Iceland"]
 ```
 
-### Diziyi kopyalamak için yapıcı operatörü
+### Diziyi Kopyalamak İçin Yapıcı Operatörü
 
 ```js
 const evens = [0, 2, 4, 6, 8, 10];
@@ -452,7 +452,7 @@ console.log(fullStack);
 ["HTML", "CSS", "JS", "React", "Node", "Express", "MongoDB"]
 ```
 
-### Nesneyi kopyalamak için yapıcı operatörü
+### Nesneyi Kopyalamak İçin Yapıcı Operatörü
 
 Bir objeyi kopyalamk için yapıcı operatörünü kullanabiliriz.
 
@@ -490,7 +490,7 @@ console.log(copiedUser);
 {name: "Asabeneh", title: "instructor", country: "Finland", city: "Helsinki"}
 ```
 
-#### Ok fonksiyonu ve yapıcı operatörü
+#### Ok Fonksiyonu ve Yapıcı Operatörü
 
 Sınırsız sayıda argüman alan bir ok fonksiyonu yazmak istersek, bir yayılma yapıcı kullanırız. Parametre olarak bir yapıcı işleci kullanırsak, bir işlevi çağırdığımızda iletilen bağımsız değişken bir diziye dönüşecektir.
 
