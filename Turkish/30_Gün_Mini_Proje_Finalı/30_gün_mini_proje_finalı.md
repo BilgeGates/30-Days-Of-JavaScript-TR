@@ -23,7 +23,7 @@
 
 # 📔 Gün 30
 
-Artık 30 Günlük JavaScript Proqramlama Diline yekun vurdunuz! Şimde ise son proje ile ilgilenek!
+Artık 30 Günlük JavaScript Programlama Diline yekun vurdunuz! Şimdi ise son proje ile ilgilenek!
 
 ## 💻 Gün 30: Egzersizleri
 
