@@ -1,45 +1,31 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript: Final Projects</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+<h1>30 Günde JavaScript: Mini Proje Finalı</h1>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<sub>Çevirmen:
-<a href="https://github.com/alicangunduz" target="_blank">Ali Can Gündüz</a><br>
-<small> Mart 2023</small>
+<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+</a><br>
+
+<sub>Yazar:
+<a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
+<small> Mayıs, 2023</small>
 </sub>
 
 </div>
-</div>
 
-<div>
+[<< Gün 29](../29_Gün_Mini_Proje_Animasyon_Karakterleri/29_gün_mini_proje_animasyon_karakterleri.md)
 
-</div>
+- [📔 Gün 30](#-Gün-30)
+- [Mükemmelsin](#Mükemmelsin)
+- [💻 Gün 30: Egzersizleri](#-Gün-30-Egzersizleri)
+- [Egzersiz: Seviye 1](#Egzersiz-seviye-1)
+- [Egzersiz: Seviye 2](#Egzersiz-seviye-2)
+- [Egzersiz: Seviye 3](#Egzersiz-seviye-3)
 
-<div>
-<small>Support the <strong>author</strong> to create more educational materials</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src='../images/.././../images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
-</div>
+# 📔 Gün 30
 
-[<< Gün 29](../29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)
+Artık 30 Günlük JavaScript Proqramlama Diline yekun vurdunuz! Şimde ise son proje ile ilgilenek!
 
-![Thirty Days Of JavaScript](../images/../../images/banners/day_1_30.png)
-
-- [Gün 30](#gün-30)
-  - [Egzersiz](#egzersiz)
-    - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
-  - [Mükemmelsin](#mükemmelsin)
-  - [Testimony](#testimony)
-  - [Support](#support)
-
-# Gün 30
-
-## Egzersiz
+## 💻 Gün 30: Egzersizleri
 
 ### Egzersiz: Seviye 1
 
@@ -53,20 +39,10 @@
 
    ![form validation](../images/.././../images/projects/dom_mini_project_form_validation_day_10.2.png)
 
-## Mükemmelsin
+## Mükemmelsin!
 
 🌕 Harika bir başarıya imza attınız! Yücelik yolculuğunuzda sona geldiniz ve yüksek bir seviyeye ulaştınız. Artık öncekinden daha büyük ve daha güçlüsünüz. Bu seviyeye gelmenin ne kadar zor olduğunu biliyorum ve siz bu noktaya ulaşarak gerçek bir kahraman oldunuz. Şimdi ise başarınızı sevdiklerinizle kutlama zamanı geldi! Sizden başka zorluklarla dolu yeni bir yolculukta görüşmek üzere.
 
-## Testimony
-
-Now it is time support the author and express your thoughts about the Author and 30DaysOfJavaScript. You can leave your testimonial on this [link](https://testimonify.herokuapp.com/)
-
-## Destek
-
-You can support the author to produce more educational materials
-
-[![paypal](../images/../../images/paypal_lg.png)](https://www.paypal.me/asabeneh)
-
 ![Congratulations](../images/.././../images/projects/congratulations.gif)
 
-[<< Day 29](../29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)
+[<< Gün 29](../29_Gün_Mini_Proje_Animasyon_Karakterleri/29_gün_mini_proje_animasyon_karakterleri.md)
