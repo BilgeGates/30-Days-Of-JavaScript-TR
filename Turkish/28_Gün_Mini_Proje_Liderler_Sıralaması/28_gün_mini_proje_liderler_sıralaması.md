@@ -1,5 +1,5 @@
 <div align="center">
-<h1>30 Günde JavaScript: Mini Proje: Portföy </h1>
+<h1>30 Günde JavaScript: Mini Proje: Liderler Sıralaması </h1>
 
 <a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
@@ -30,4 +30,4 @@
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 27](../27_Gwn_Mini_Proje_Portföy/27_gün_mini_proje_portföy.md) | [Gün 29 >>](../29_Gün_Mini_Proje_Animasiyon_Karakterleri/29_gün_mini_proje_animasiyon_karakterleri.md)
+[<< Gün 27](../27_Gün_Mini_Proje_Portföy/27_gün_mini_proje_portföy.md) | [Gün 29 >>](../29_Gün_Mini_Proje_Animasiyon_Karakterleri/29_gün_mini_proje_animasiyon_karakterleri.md)
