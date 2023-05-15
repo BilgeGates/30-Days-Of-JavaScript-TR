@@ -35,9 +35,9 @@ Artık 30 Günlük JavaScript Programlama Diline yekun vurdunuz! Şimdi ise son 
 
 2. Regex kullanarak aşağıdaki formu doğrulayın.
 
-   ![form validation](../images/.././../images/projects/dom_mini_project_form_validation_day_10.2.1.png)
+   ![form validation](../../images/projects/dom_mini_project_form_validation_day_10.2.1.png)
 
-   ![form validation](../images/.././../images/projects/dom_mini_project_form_validation_day_10.2.png)
+   ![form validation](../../images/projects/dom_mini_project_form_validation_day_10.2.png)
 
 ## Mükemmelsin!
 
