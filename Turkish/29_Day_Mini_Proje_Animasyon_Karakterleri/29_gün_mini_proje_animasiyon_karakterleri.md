@@ -26,7 +26,7 @@
 
 1. Şu animasyonu HTML, CSS, JS kullanarak oluşturun.
 
-![Kaydırıcı](../images/.././../images/projects/dom_min_project_30DaysOfJavaScript_color_changing_day_9.1.gif)
+![Kaydırıcı](..//..//images/projects/dom_min_project_30DaysOfJavaScript_color_changing_day_9.1.gif)
 
 🎉 TEBRİKLER ! 🎉
 
