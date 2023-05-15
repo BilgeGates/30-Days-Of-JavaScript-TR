@@ -13,27 +13,27 @@
 
 [<< Gün 9](..09_Gün_Üst_Düzey_Fonksiyonlar/09_gün_üst_düzey_fonksiyonlar.md) | [>> Gün 11 ](..11_Gün_Yıkıcılar_ve_Yapıcılar/11_gün_yıkıcılar_ve_yapıcılar.md)
 
-- [📔 Gün 10](#📔Gün-10)
+- [📔 Gün 10](#-Gün-10)
   - [Set](#Set)
-    - [Boş bir set oluşturma](#Boş-Bir-Set-Oluşturma)
-    - [Diziden set oluşturma](#diziden-set-oluşturma)
-    - [Bir sete eleman ekleme](#bir-sete-eleman-ekleme)
-    - [Bir elemanı setden silme](#bir-elemanı-setden-silme)
-    - [Setdeki bir elemanı kontrol etme](#setdeki-bir-elemanı-kontrol-etme)
-    - [Seti temizleme](#seti-temizleme)
-    - [Setlerin birleşimi](#setlerin-birleşimi)
-    - [Setlerin kesişimi](#setlerin-kesişimi)
-    - [setlerin farkı](#setlerin-farkı)
-  - [Map](#map)
-    - [Boş map oluşturma](#boş-map-oluşturma)
-    - [Bir diziden map oluşturma](#bir-diziden-map-oluşturma)
-    - [Mape değerler ekleme](#mape-değerler-ekleme)
-    - [Mapten değerler alma](#mapten-değerler-alma)
-    - [Map içindeki anahtarları kontrol etme](#map-içindeki-anahtarları-kontrol-etme)
-  - [💻 Gün 10: Egzersizleri](#💻Gün-10-Egzersizleri)
-    - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
-    - [Egzersiz: Seviye 2](#egzersiz-seviye-2)
-    - [Egzersiz: Seviye 3](#egzersiz-seviye-3)
+    - [Boş Bir Set Oluşturma](#Boş-Bir-Set-Oluşturma)
+    - [Diziden Set Oluşturma](#Diziden-Set-Oluşturma)
+    - [Bir Sete Eleman Ekleme](#Bir-Sete-Eleman-Ekleme)
+    - [Bir Elemanı Setden Silme](#Bir-Elemanı-Setden-Silme)
+    - [Setdeki Bir Elemanı Kontrol Etme](#Setdeki-Bir-Elemanı-Kontrol-Etme)
+    - [Seti Temizleme](#Seti-Temizleme)
+    - [Setlerin Birleşimi](#Setlerin-Birleşimi)
+    - [Setlerin Kesişimi](#Setlerin-Kesişimi)
+    - [setlerin Farkı](#Setlerin-Farkı)
+  - [Map](#Map)
+    - [Boş Map Oluşturma](#Boş-Map-Oluşturma)
+    - [Bir Diziden Map Oluşturma](#Bir-Diziden-Map-Oluşturma)
+    - [Mape Değerler Ekleme](#Mape-Değerler-Ekleme)
+    - [Mapten Değerler Alma](#Mapten-Değerler-Alma)
+    - [Map İçindeki Anahtarları Kontrol Etme](#Map-İçindeki-Anahtarları-Kontrol-Etme)
+  - [💻 Gün 10: Egzersizleri](#-Gün-10-Egzersizleri)
+    - [Egzersiz: Seviye 1](#Egzersiz-seviye-1)
+    - [Egzersiz: Seviye 2](#Egzersiz-seviye-2)
+    - [Egzersiz: Seviye 3](#Egzersiz-seviye-3)
 
 # 📔 Gün 10
 
@@ -41,7 +41,7 @@
 
 Set, elemanlar topluluğudur. Set yalnızca benzersiz öğeler içerebilir. Aşağıdaki bölümde bir setin nasıl oluşturulacağını görelim.
 
-### Boş bir set oluşturma
+### Boş Bir Set Oluşturma
 
 ```js
 const companies = new Set();
@@ -52,7 +52,7 @@ console.log(companies);
 Set(0) {}
 ```
 
-### Diziden set oluşturma
+### Diziden Set Oluşturma
 
 ```js
 const languages = [
@@ -100,7 +100,7 @@ for (const language of setOfLanguages) {
   Spanish
 ```
 
-### Bir sete eleman ekleme
+### Bir Sete Eleman Ekleme
 
 ```js
 const companies = new Set()  boş bir set oluşturuyoruz
@@ -134,16 +134,16 @@ Set(5) {Google, Facebook, Amazon, Oracle, Microsoft}
 
 ```
 
-### Bir elemanı setden silme
+### Bir Elemanı Setden Silme
 
 Set'den delete methodunu kullanrak bir eleman silebiliriz.
 
 ```js
-console.log(companies.delete('Google'))
-console.log(companies.size)  Set'de 4 eleman kaldı
+console.log(companies.delete("Google"));
+console.log(companies.size()); //Set'de 4 eleman kaldı
 ```
 
-### Setdeki bir elemanı kontrol etme
+### Setdeki Bir Elemanı Kontrol Etme
 
 Has methodu bir set'de belirli bir elemanı olup olmadığını kontrol eder true veya false döndürür.
 
@@ -152,7 +152,7 @@ console.log(companies.has('Apple'))  false
 console.log(companies.has('Facebook'))  true
 ```
 
-### Seti temizleme
+### Seti Temizleme
 
 Clear methodu set'deki bütün elemanları temizler.
 
@@ -214,7 +214,7 @@ console.log(setOfNumbers);
 Set(5) {5, 3, 2, 9, 4}
 ```
 
-### Setlerin birleşimi
+### Setlerin Birleşimi
 
 iki set nesnesini birleştirmek yayılma operatörü kullanılarak elde edilebilir A ve B set'lerinin birleşimini (A U B) bulmak için aşağıdaki kodlara göz atın
 
@@ -234,7 +234,7 @@ console.log(C);
 Set(6) {1, 2, 3, 4, 5,6}
 ```
 
-### Setlerin kesişimi
+### Setlerin Kesişimi
 
 iki set nesnesinin kesişimini bulmak için filter methodu kullanılması gerekir. A ve B setlerinin kesişimi (A ∩ B) bulmak için aşağıdaki kodlara göz atın
 
@@ -255,7 +255,7 @@ console.log(C);
 Set(3) {3, 4, 5}
 ```
 
-### Setlerin farkı
+### Setlerin Farkı
 
 iki set nesnesinin farkını bulmak için filter methodu kullanılması gerekir. A ve B setlerinin farkını (A B) bulmak için aşağıdaki kodlara göz atın
 
@@ -278,7 +278,7 @@ Set(2) {1, 2}
 
 ## Map
 
-### Boş map oluşturma
+### Boş Map Oluşturma
 
 ```js
 const map = new Map();
@@ -289,7 +289,7 @@ console.log(map);
 Map(0) {}
 ```
 
-### Bir diziden map oluşturma
+### Bir Diziden Map Oluşturma
 
 ```js
 countries = [
@@ -307,7 +307,7 @@ Map(3) {Finland = Helsinki, Sweden = Stockholm, Norway = Oslo}
 3
 ```
 
-### Mape değerler ekleme
+### Mape Değerler Ekleme
 
 ```js
 const countriesMap = new Map()
@@ -324,7 +324,7 @@ Map(3) {Finland = Helsinki, Sweden = Stockholm, Norway = Oslo}
 3
 ```
 
-### Mapten değer alma
+### Mapten Değer Alma
 
 ```js
 console.log(countriesMap.get("Finland"));
@@ -334,7 +334,7 @@ console.log(countriesMap.get("Finland"));
 Helsinki
 ```
 
-### Map içindeki anahtarları kontrol etme
+### Map içindeki Anahtarları Kontrol Etme
 
 Eğer Map içinde bir anahtarın olup olmadığını kontrol etmek istiyorsak has methodunu kullanabiliriz bu method bize true veya false döndürür.
 
