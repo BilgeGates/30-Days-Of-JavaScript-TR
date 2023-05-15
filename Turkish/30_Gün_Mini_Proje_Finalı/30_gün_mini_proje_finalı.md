@@ -15,11 +15,11 @@
 [<< Gün 29](../29_Gün_Mini_Proje_Animasyon_Karakterleri/29_gün_mini_proje_animasyon_karakterleri.md)
 
 - [📔 Gün 30](#-Gün-30)
-- [Mükemmelsin](#Mükemmelsin)
+  - [Mükemmelsin](#Mükemmelsin)
 - [💻 Gün 30: Egzersizleri](#-Gün-30-Egzersizleri)
-- [Egzersiz: Seviye 1](#Egzersiz-seviye-1)
-- [Egzersiz: Seviye 2](#Egzersiz-seviye-2)
-- [Egzersiz: Seviye 3](#Egzersiz-seviye-3)
+  - [Egzersiz: Seviye 1](#Egzersiz-seviye-1)
+  - [Egzersiz: Seviye 2](#Egzersiz-seviye-2)
+  - [Egzersiz: Seviye 3](#Egzersiz-seviye-3)
 
 # 📔 Gün 30
 

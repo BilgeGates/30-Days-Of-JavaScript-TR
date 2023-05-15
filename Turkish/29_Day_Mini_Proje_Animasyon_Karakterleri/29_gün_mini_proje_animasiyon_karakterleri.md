@@ -15,8 +15,8 @@
 [<< Gün 28](./28_Gün_Mini_Proje_Liderler_Sıralaması/28_gün_mini_proje_liderler_sıralaması.md) | [Gün 30>>](./30_Gün_Mini_Proje_Finalı/30_gün_mini_proje_finalı.md)
 
 - [📔 Gün 29](#-Gün-29)
-  - [💻 Gün 29: Egzersizleri](#-Gün-29-Egzersizleri)
-    - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
+- [💻 Gün 29: Egzersizleri](#-Gün-29-Egzersizleri)
+  - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
 
 # 📔 Gün 29
 
