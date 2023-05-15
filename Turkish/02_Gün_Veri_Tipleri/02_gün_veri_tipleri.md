@@ -10,6 +10,8 @@
 <small> Mayıs, 2023</small>
 </sub>
 
+</div>
+
 [<< Gün 1](../readMe.md) | [Gün 3 >>](../03_Gün_Boole-değerleri_Operatörler_Tarih-objesi/03_gün_boole-değerleri_operatörler_tarih-objesi.md)
 
 - [📔 Gün 2](#-Gün-2)
