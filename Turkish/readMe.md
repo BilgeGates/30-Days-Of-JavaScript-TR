@@ -94,7 +94,7 @@
 
 ## Giriş
 
-30 Günlük JavaScript programlama kursuna katılmaya karar verdiğiniz için **tebrikler**. Bu kursta, bir JavaScript programcısı olmak için ihtiyacınız olan her şeyi ve genel olarak tüm programlama kavramınlarını öğreneceksiniz. Eğitimin sonunda 30 Günlük JavaScript programlama kursu tamamlama sertifikası alacaksınız. 
+30 Günlük JavaScript programlama kursuna katılmaya karar verdiğiniz için **tebrikler**. Bu kursta, bir JavaScript programcısı olmak için ihtiyacınız olan her şeyi ve genel olarak tüm programlama kavramınlarını öğreneceksiniz. Eğitimin sonunda 30 Günlük JavaScript programlama kursu tamamlama sertifikası alacaksınız.
 
 **30 Günde Java Script** eğitimi, hem yeni başlayanlar için hem de uzman JavaScript geliştiricileri için rehber niteliği taşımaktadır. JavaScript'e Hoş Geldiniz. JavaScript web'in dilidir. JavaScript'i kullanmaktan ve öğretmekten zevk alıyorum, umuyorum siz de öğrenirken ve kullanırken zevk alacaksınız.
 

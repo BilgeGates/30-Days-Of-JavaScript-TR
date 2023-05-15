@@ -14,7 +14,7 @@
 
 [<< Gün 8](../08_Gün_Nesneler/08_gün_nesneler.md) | [Gün 10 >>](../10_Gün_Setler_ve_Haritalar/10_gün_setler_ve_haritalar.md)
 
-- [📔 Gün 9](#📔Gün-9)
+- [📔 Gün 9](#-Gün-9)
   - [Üst Düzey Fonksiyonlar](#Üst-Düzey-Fonksiyonlar)
     - [Geri Çağırmak](#Geri-Çağırmak)
     - [Dönen İşlev](#Dönen-İşlev)
@@ -34,10 +34,10 @@
       - [String Değerlerini Sıralama](#String-Değerlerini-Sıralama)
       - [Sayısal Değerleri Sıralama](#Sayısal-Değerleri-Sıralama)
       - [Nesne Dizilerini Sıralama](#Nesne-Dizilerini-Sıralama)
-  - [💻 Gün 9: Egzersizleri](#💻Gün-9-Egzersizleri)
-    - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
-    - [Egzersiz: Seviye 2](#egzersiz-seviye-2)
-    - [Egzersiz: Seviye 3](#egzersiz-seviye-3)
+  - [💻 Gün 9: Egzersizleri](#-Gün-9-Egzersizleri)
+    - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
+    - [Egzersiz: Seviye 2](#Egzersiz-Seviye-2)
+    - [Egzersiz: Seviye 3](#Egzersiz-Seviye-3)
 
 # 📔 Gün 9
 
