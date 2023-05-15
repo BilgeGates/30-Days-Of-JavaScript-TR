@@ -14,10 +14,10 @@
 
 [<< Gün 7](../07_Gün_Fonksiyonlar/07_gün_fonksiyonlar.md) | [Gün 9 >>](../09_Gün_Üst_Düzey_Fonksiyonlar/09_gün_üst_düzey_fonksiyonlar.md)
 
-- [📔 Gün 8](📔#Gün-8)
-  - [Kapsam Alanları](#Kapsam-alanları)
-    - [Window Küresel Nesne](#Window-küresel-nesne)
-    - [Küresel Kapsam](#küresel-kapsam)
+- [📔 Gün 8](#-Gün-8)
+  - [Kapsam Alanları](#Kapsam-Alanları)
+    - [Window Küresel Nesne](#Window-Küresel-Nesne)
+    - [Küresel Kapsam](#Küresel-Kapsam)
     - [Yerel Kapsam](#yerel-kapsam)
   - [Nesne](#nesne)
     - [Boş Nesne Oluşturmak](#boş-nesne-oluşturmak)
