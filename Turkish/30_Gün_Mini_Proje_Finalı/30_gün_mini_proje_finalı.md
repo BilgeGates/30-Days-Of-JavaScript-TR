@@ -19,7 +19,6 @@
 - [💻 Gün 30: Egzersizleri](#-Gün-30-Egzersizleri)
   - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
   - [Egzersiz: Seviye 2](#Egzersiz-Seviye-2)
-  - [Egzersiz: Seviye 3](#Egzersiz-Seviye-3)
 
 # 📔 Gün 30
 
@@ -29,15 +28,17 @@ Artık 30 Günlük JavaScript Programlama Diline yekun vurdunuz! Şimdi ise son 
 
 ### Egzersiz: Seviye 1
 
-1. (HTML, CSS, JS) kullanarak aşağıdaki animasyonu oluşturun
-
-![Countries data](../images/.././../images/projects/dom_mini_project_countries_object_day_10.1.gif)
-
-2. Regex kullanarak aşağıdaki formu doğrulayın.
+1. Regex kullanarak aşağıdaki formu doğrulayın.
 
    ![form validation](../../images/projects/dom_mini_project_form_validation_day_10.2.1.png)
 
    ![form validation](../../images/projects/dom_mini_project_form_validation_day_10.2.png)
+
+### Egzersiz: Seviye 1
+
+1. (HTML, CSS, JS) kullanarak aşağıdaki animasyonu oluşturun
+
+![Countries data](../../images/projects/dom_mini_project_countries_object_day_10.1.gif)
 
 ## Mükemmelsin!
 
