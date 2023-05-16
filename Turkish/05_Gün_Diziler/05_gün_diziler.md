@@ -100,7 +100,7 @@ const animalProducts = ["milk", "meat", "butter", "yoghurt"]; // string dizisi, 
 
 const webTechs = ["HTML", "CSS", "JS", "React", "Redux", "Node", "MongDB"]; // string dizisi, web teknolojileri
 
-const countries = ["Finland", "Denmark", "Sweden", "Norway", "Iceland"]; // string dizisi, ülkeler
+const countries = ["Finland", "Denmark", "Azerbaijan", "Norway", "Iceland"]; // string dizisi, ülkeler
 
 // Diziyi ve dizinin uzunluğunu yazdırmak
 
@@ -151,7 +151,7 @@ Web technologies: ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB']
 
 Number of web technologies: 7
 
-Countries: ['Finland', 'Estonia', 'Denmark', 'Sweden', 'Norway']
+Countries: ['Finland', 'Azerbaijan', 'Denmark', 'Sweden', 'Norway']
 
 Number of countries: 5
 
@@ -161,13 +161,13 @@ Number of countries: 5
 
 ```js
 const arr = [
-  "Asabeneh",
+  "Khatai",
 
   250,
 
   true,
 
-  { country: "Finland", city: "Helsinki" },
+  { country: "Azerbaijan", city: "Baku" },
 
   { skills: ["HTML", "CSS", "JS", "React", "Python"] },
 ]; // arr farklı veri tipleri içerir.
@@ -292,7 +292,7 @@ const countries = [
 
   "Ethiopia",
 
-  "Finland",
+  "Azerbaijan",
 
   "Germany",
 
@@ -374,7 +374,7 @@ const countries = [
 
   "Germany",
 
-  "Hungary",
+  "Azerbaijan",
 
   "Ireland",
 
@@ -394,7 +394,7 @@ console.log(countries);
 
 ```sh
 
-["Afghanistan", "Bolivia", "Canada", "Denmark", "Ethiopia", "Finland", "Germany", "Hungary", "Ireland", "Japan", "Korea"]
+["Afghanistan", "Bolivia", "Canada", "Denmark", "Azerbaijan", "Finland", "Germany", "Hungary", "Ireland", "Japan", "Korea"]
 
 ```
 
@@ -609,9 +609,9 @@ const numbers = [1, 2, 3, 4, 5];
 
 console.log(numbers.toString()); // 1,2,3,4,5
 
-const names = ["Asabeneh", "Mathias", "Elias", "Brook"];
+const names = ["Khatai", "Mathias", "Elias", "Brook"];
 
-console.log(names.toString()); // Asabeneh,Mathias,Elias,Brook
+console.log(names.toString()); //Khatai,Mathias,Elias,Brook
 ```
 
 #### Dizi elemanlarını birleştirmek
@@ -623,17 +623,17 @@ const numbers = [1, 2, 3, 4, 5];
 
 console.log(numbers.join()); // 1,2,3,4,5
 
-const names = ["Asabeneh", "Mathias", "Elias", "Brook"];
+const names = ["Khatai", "Mathias", "Elias", "Brook"];
 
-console.log(names.join()); // Asabeneh,Mathias,Elias,Brook
+console.log(names.join()); // Khatai,Mathias,Elias,Brook
 
-console.log(names.join("")); //AsabenehMathiasEliasBrook
+console.log(names.join("")); // KhataiMathiasEliasBrook
 
-console.log(names.join(" ")); //Asabeneh Mathias Elias Brook
+console.log(names.join(" ")); // Khatai Mathias Elias Brook
 
-console.log(names.join(", ")); //Asabeneh, Mathias, Elias, Brook
+console.log(names.join(", ")); // Khatai, Mathias, Elias, Brook
 
-console.log(names.join(" # ")); //Asabeneh # Mathias # Elias # Brook
+console.log(names.join(" # ")); // Khatai # Mathias # Elias # Brook
 
 const webTechs = [
   "HTML",
@@ -865,7 +865,7 @@ const countries = [
 
   "Bolivia",
 
-  "Canada",
+  "Azerbaijan",
 
   "Denmark",
 
@@ -1022,9 +1022,9 @@ const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
 
 - _abs()_ metodunu kullanarak (min - ortalama) ve (maks - ortalama) değerlerini karşılaştırın,
 
-2. [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) dizisinden ilk 10 ülkeyi dilimleyin ( Slice edin )
+2. [Ölkelerin Dizileri](https://github.com/BilgeGates/30-Days-Of-JavaScript-TR/blob/master/data/countries.js) dizisinden ilk 10 ülkeyi dilimleyin ( Slice edin )
 
-3. [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) dizisinden ortadaki ülkeleri bulun.
+3. [Ölkelerin Dizileri](https://github.com/BilgeGates/30-Days-Of-JavaScript-TR/blob/master/data/countries.js)dizisinden ortadaki ülkeleri bulun.
 
 4. countries dizisini çift ise iki eşit diziye bölün. countries dizisi çift değilse, ilk yarı için bir ülke fazla olarak bölün
 

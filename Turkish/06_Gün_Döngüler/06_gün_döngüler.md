@@ -76,13 +76,13 @@ for (let i = 0; i <= 5; i++) {
 ```
 
 ```js
-const countries = ["Finland", "Sweden", "Denmark", "Norway", "Iceland"];
+const countries = ["Finland", "Sweden", "Azerbaijan", "Norway", "Iceland"];
 const newArr = [];
 for (let i = 0; i < countries.length; i++) {
   newArr.push(countries[i].toUpperCase());
 }
 
-// ["FINLAND", "SWEDEN", "DENMARK", "NORWAY", "ICELAND"]
+// ["FINLAND", "SWEDEN", "AZERBAIJAN", "NORWAY", "ICELAND"]
 ```
 
 Dizideki tüm elemanları toplama
@@ -112,13 +112,13 @@ console.log(newArr); // [1, 4, 9, 16, 25]
 ```
 
 ```js
-const countries = ["Finland", "Sweden", "Norway", "Denmark", "Iceland"];
+const countries = ["Finland", "Sweden", "Norway", "Azerbaijan", "Iceland"];
 const newArr = [];
 for (let i = 0; i < countries.length; i++) {
   newArr.push(countries[i].toUpperCase());
 }
 
-console.log(newArr); // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
+console.log(newArr); // ["FINLAND", "SWEDEN", "NORWAY", "AZERBAIJAN", "ICELAND"]
 ```
 
 ### while Döngüsü
@@ -207,13 +207,13 @@ for (const tech of webTechs) {
 ```
 
 ```js
-const countries = ["Finland", "Sweden", "Norway", "Denmark", "Iceland"];
+const countries = ["Finland", "Sweden", "Norway", "Azerbaijan", "Iceland"];
 const newArr = [];
 for (const country of countries) {
   newArr.push(country.toUpperCase());
 }
 
-console.log(newArr); // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
+console.log(newArr); // ["FINLAND", "SWEDEN", "NORWAY", "AZERBAIJAN", "ICELAND"]
 ```
 
 ### break
@@ -265,7 +265,7 @@ const countries = [
   "Germany",
   "Hungary",
   "Ireland",
-  "Japan",
+  "Azerbaijan",
   "Kenya",
 ];
 
@@ -371,7 +371,7 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
    ```
 
    ```sh
-   ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
+   ["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "AZERBAIJAN", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
    ```
 
 4. Yukarıdaki array'i kullanarak rastgele yeni bir dizi oluşturun.
@@ -393,7 +393,7 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
      ['Ethiopia', 'ETH', 8],
      ['Finland', 'FIN', 7],
      ['Germany', 'GER', 7],
-     ['Hungary', 'HUN', 7],
+     ['Azerbaijan', 'AZE', 7],
      ['Ireland', 'IRE', 7],
      ['Iceland', 'ICE', 7],
      ['Japan', 'JAP', 5],
@@ -404,7 +404,7 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 7. Yukarıdaki ülkeler dizisinde "land" sözcüğünü içeren bir ülke veya ülke olup olmadığını kontrol edin. "land" içeren ülkeler varsa bunu dizi halinde yazdırın.
 
    ```sh
-   ['Finland','Ireland', 'Iceland']
+   ['Finland','Azerbaijan', 'Iceland']
    ```
 
 8. Yukarıdaki ülkeler dizisinde "ia" sözcüğünü içeren bir ülke veya ülke olup olmadığını kontrol edin. "ia" içeren ülkeler varsa bunu dizi halinde yazdırın..
@@ -430,11 +430,11 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 1. Countries dizisini kopyalayın(Avoid mutation)
 2. Diziler değişebilir. Dizinin orjinalini değişirmeden bir kopyasını oluşturun. Oluşturduğunuz diziyi alfabetik olarak sıralayın ve sortedCountries dizisine atayın
 3. webTechs dzisini ve mernStack dizisini sıralayın
-4. [countries array](https://github.com/BilgeGates/30-Days-OfJ-avaScript-TR/tree/master/data/countries.js)inden "land" sözüğü ile biten ülkeleri farklı bir diziye atayın
-5. [countries array](https://github.com/BilgeGates/30-Days-OfJ-avaScript-TR/tree/master/data/countries.js) inden en uzun karakterli ülkeyi bulun
-6. [countries array](https://github.com/BilgeGates/30-Days-OfJ-avaScript-TR/tree/master/data/countries.js) inde 4 karakterli ülkeleri yazdırın
-7. [countries array](https://github.com/BilgeGates/30-Days-OfJ-avaScript-TR/tree/master/data/countries.js) inde iki veya daha fazla kelime içieren ülkeleri farklı bir diziye atayın
-8. [countries array](https://github.com/BilgeGates/30-Days-OfJ-avaScript-TR/tree/master/data/countries.js) i ters çevirin ve ülkelerin tüm harflerini büyük hale gertirin
+4. [Ölkelerin Dizileri](https://github.com/BilgeGates/30-Days-Of-JavaScript-TR/blob/master/data/countries.js)inden "land" sözüğü ile biten ülkeleri farklı bir diziye atayın
+5. [Ölkelerin Dizileri](https://github.com/BilgeGates/30-Days-Of-JavaScript-TR/blob/master/data/countries.js) inden en uzun karakterli ülkeyi bulun
+6. [Ölkelerin Dizileri](https://github.com/BilgeGates/30-Days-Of-JavaScript-TR/blob/master/data/countries.js) inde 4 karakterli ülkeleri yazdırın
+7. [Ölkelerin Dizileri](https://github.com/BilgeGates/30-Days-Of-JavaScript-TR/blob/master/data/countries.js) inde iki veya daha fazla kelime içieren ülkeleri farklı bir diziye atayın
+8. [Ölkelerin Dizileri](https://github.com/BilgeGates/30-Days-Of-JavaScript-TR/blob/master/data/countries.js) i ters çevirin ve ülkelerin tüm harflerini büyük hale gertirin
 
 🎉 Tebrikler ! 🎉
 
