@@ -46,7 +46,7 @@ Değişken scope'ları şu şekilde olabilir.
 - Global
 - Local
 
-> `var`, `let` veya `const` olmadan tanımlanan her değişken global scope olarak geçerlidir.
+`var`, `let` veya `const` olmadan tanımlanan her değişken global scope olarak geçerlidir.
 
 Scope.js adında bir dosyanızın olduğunu düşünelim.
 
