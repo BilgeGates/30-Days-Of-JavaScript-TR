@@ -18,22 +18,22 @@
   - [Kapsam Alanları](#Kapsam-Alanları)
     - [Window Küresel Nesne](#Window-Küresel-Nesne)
     - [Küresel Kapsam](#Küresel-Kapsam)
-    - [Yerel Kapsam](#yerel-kapsam)
-  - [Nesne](#nesne)
-    - [Boş Nesne Oluşturmak](#boş-nesne-oluşturmak)
-    - [Değerlerle Birlikte Bir Nesne Oluşturmak](#değerlerle-birlikte-bir-nesne-oluşturmak)
-    - [Nesneden Değerleri Alabilmek](#nesneden-değerleri-alabilmek)
-    - [Nesne Metodu Oluşturma](#Nesne-metodu-oluşturma)
-    - [Object İçin Yeni Bir Anahtar Oluşturma](#object-için-yeni-bir-anahtar-oluşturma)
-    - [Object Metodları](#object-metodları)
-      - [Keys Metodu](#keys-metodu)
-      - [Values Metodu](#values-metodu)
-      - [Entries Metodu](#objectentries-metodu)
-      - [hasOwnProperty Metodu](#hasownproperty-metodu)
-  - [💻 Gün 8: Egzersizleri](#💻Gün-8-Egzersizleri)
-    - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
-    - [Egzersiz: Seviye 2](#egzersiz-seviye-2)
-    - [Egzersiz: Seviye 3](#egzersiz-seviye-3)
+    - [Yerel Kapsam](#Yerel-Kapsam)
+  - [Nesne](#Nesne)
+    - [Boş Nesne Oluşturmak](#Boş-Nesne-Oluşturmak)
+    - [Değerlerle Birlikte Bir Nesne Oluşturmak](#Değerlerle-Birlikte-Bir-Nesne-Oluşturmak)
+    - [Nesneden Değerleri Alabilmek](#Nesneden-Değerleri-Alabilmek)
+    - [Nesne Metodu Oluşturma](#Nesne-Metodu-Oluşturma)
+    - [Nesne İçin Yeni Bir Anahtar Oluşturma](#Nesne-İçin-Yeni-Bir-Anahtar-Oluşturma)
+    - [Nesne Metodları](#Nesne-metodları)
+      - [Keys Metodu](#Keys-Metodu)
+      - [Values Metodu](#Values-Metodu)
+      - [Entries Metodu](#Entries-Metodu)
+      - [hasOwnProperty Metodu](#HasOwnProperty-Metodu)
+  - [💻 Gün 8: Egzersizleri](#-Gün-8-Egzersizleri)
+    - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
+    - [Egzersiz: Seviye 2](#Egzersiz-Seviye-2)
+    - [Egzersiz: Seviye 3](#Egzersiz-Seviye-3)
 
 # 📔 Gün 8
 
@@ -133,8 +133,7 @@ function letsLearnScope() {
   var gravity = 9.81;
   console.log(gravity);
 }
-// console.log(gravity), Uncaught ReferenceError: gravity is not defined
-// yukarıdaki çıktı konsol ekranında alacağımız hatanın çıktısıdır.
+// console.log(gravity), Yakalanmayan ReferenceError: yerçekimi tanımlanmadı
 
 if (true) {
   var gravity = 9.81;
@@ -151,22 +150,21 @@ console.log(i); // 3
 ```js
 //scope.js
 function letsLearnScope() {
-  // you can use let or const, but gravity is constant I prefer to use const
+  // let veya const kullanabilirsiniz ama yerçekimi sabittir ben const kullanmayı tercih ederim
   const gravity = 9.81;
   console.log(gravity);
 }
-// console.log(gravity), Uncaught ReferenceError: gravity is not defined
+// console.log(gravity), Yakalanmayan ReferenceError: yerçekimi tanımlanmadı
 
 if (true) {
   const gravity = 9.81;
   console.log(gravity); // 9.81
 }
-// console.log(gravity), Uncaught ReferenceError: gravity is not defined
+// console.log(gravity), Yakalanmayan ReferenceError: yerçekimi tanımlanmadı
 
 for (let i = 0; i < 3; i++) {
   console.log(i); // 0, 1, 2
 }
-// console.log(i), Uncaught ReferenceError: i is not defined
 ```
 
 `let` ve `const` anahtar kelimeleri ile tanımlanan değişkenlerin kapsam alanlarının aynı olduğunu ifade ettik. Peki aralarındaki fark ne? Basitçe açıklamak gerekirse `const` ile tanımlanan bir değişkenin değerini daha sonraki satırlarda değiştiremeyiz ancak `let` ile tanımlanan değişkenin değerini değiştirebiliriz. Ben `let` ve `const` kullanarak temiz kod yazmanızı ve hata ayıklamanın zor olmasını önlemek için `let` ve `const` 'ı kullanmanızı tavsiye ederim. Temel kural olarak, herhangi bir sabit değer için `let` ve dizi, nesne, ok fonksiyonu ve işlev ifadesi için `const` özelliğini kullanabilirsiniz.
@@ -257,7 +255,7 @@ console.log(person["location"]); // undefined
 console.log(person["phone number"]);
 ```
 
-### Object Metodları Oluşturma
+### Nesne Metodları Oluşturma
 
 Şimdi, kişi nesnesinin getFullName özellikleri vardır. getFullName, kişi nesnesinin içindeki işlevdir ve biz ona nesne yöntemi diyoruz. _this_ anahtar sözcüğü, nesnenin kendisine atıfta bulunur. Nesnenin farklı özelliklerinin değerlerine erişmek için _this_ kelimesini kullanabiliriz. Bir arrow funtionu nesne yöntemi olarak kullanamayız çünkü bu sözcüğü nesnenin kendisi yerine bir arrow funtionun içindeki pencereyi ifade eder. Örnek olarak:
 
@@ -287,7 +285,7 @@ console.log(person.getFullName());
 // Asabeneh Yetayeh
 ```
 
-### Object İçin Yeni Bir Anahtar oluşturma
+### Nesne İçin Yeni Bir Anahtar oluşturma
 
 Nesne, eşlenebilen bir veri yapısıdır ve oluşturulduktan sonra nesnenin içeriğini değiştirebiliriz.
 
@@ -342,7 +340,7 @@ He lives in Finland.
 He teaches HTML, CSS, JavaScript, React, Node, MongoDB, Python, D3.js, Meteor, and SasS.
 ```
 
-### Object Metodları
+### Nesne Metodları
 
 Bir nesneyi manipüle etmek için farklı yöntemler vardır. Mevcut yöntemlerden bazılarını görelim.
 
