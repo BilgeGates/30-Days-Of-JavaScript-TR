@@ -430,7 +430,7 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 1. Countries dizisini kopyalayın(Avoid mutation)
 2. Diziler değişebilir. Dizinin orjinalini değişirmeden bir kopyasını oluşturun. Oluşturduğunuz diziyi alfabetik olarak sıralayın ve sortedCountries dizisine atayın
 3. webTechs dzisini ve mernStack dizisini sıralayın
-4. [Ölkelerin Dizileri](https://github.com/BilgeGates/30-Days-Of-JavaScript-TR/blob/master/data/countries.js)inden "land" sözüğü ile biten ülkeleri farklı bir diziye atayın
+4. [Ölkelerin Dizileri](https://github.com/BilgeGates/30-Days-Of-JavaScript-TR/blob/master/data/countries.js) inden "land" sözüğü ile biten ülkeleri farklı bir diziye atayın
 5. [Ölkelerin Dizileri](https://github.com/BilgeGates/30-Days-Of-JavaScript-TR/blob/master/data/countries.js) inden en uzun karakterli ülkeyi bulun
 6. [Ölkelerin Dizileri](https://github.com/BilgeGates/30-Days-Of-JavaScript-TR/blob/master/data/countries.js) inde 4 karakterli ülkeleri yazdırın
 7. [Ölkelerin Dizileri](https://github.com/BilgeGates/30-Days-Of-JavaScript-TR/blob/master/data/countries.js) inde iki veya daha fazla kelime içieren ülkeleri farklı bir diziye atayın
