@@ -1,46 +1,43 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript: Classes</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+<h1> 30 Günde JavaScript: JavaScript Nesne Yazımı</h1>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> January, 2020</small>
+<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+</a><br>
+
+<sub>Yazar:
+<a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
+<small>Mayıs, 2023</small>
 </sub>
 
 </div>
+</div>
 
-[<< Gün 14](../14_Day_Error_handling/14_day_error_handling.md) | [Gün 16>>](../16_Day_JSON/16_day_json.md)
+[<< Gün 14](../14_Gün_Hata_Yönetimi/14_gün_hata_yönetimi.md) | [Gün 16 >>](../16_Gün_JavaScript_Nesne_Yazımı/16_gün_javascript_nesne_yazımı.md)
 
-![Thirty Days Of JavaScript](../../images/banners/day_1_15.png)
+- [ 📔 Gün 15](#-Gün-15)
+  - [Sınıflar](#Sınıflar)
+    - [Sınıfın Tanımı ](#Sınıfın-Tanımı)
+    - [Sınıf Örneklemesi](#Sınıf-Örneklemesi)
+    - [Sınıf Oluşturucu](#Sınıf-Oluşturucu)
+    - [Yapıcı ile varsayılan değerler](#default-values-with-constructor)
+    - [Sınıf methodları](#class-methods)
+    - [Başlangıç ​​değeri olan özellikler](#properties-with-initial-value)
+    - [getter](#getter)
+    - [setter](#setter)
+    - [Statik method](#static-method)
+  - [Inheritance](#inheritance)
+    - [Overriding methods](#overriding-methods)
+  - [Egzersizler](#egzersizler)
+    - [Egzersiz Seviye 1](#egzersizler-seviye-1)
+    - [Egzersiz Seviye 2](#egzersizler-seviye-2)
+    - [Egzersiz Seviye 3](#egzersizler-seviye-3)
 
-- [Gün 15](#gün-15)
-	- [Sınıflar](#sınıflar)
-		- [Sınıfın Tanımı ](#defining-a-classes)
-		- [Sınıf Örneklemesi](#class-instantiation)
-		- [Sınıf Oluşturucu](#class-constructor)
-		- [Constructor ile varsayılan değerler](#default-values-with-constructor)
-		- [Sınıf methodları](#class-methods)
-		- [Başlangıç ​​değeri olan özellikler](#properties-with-initial-value)
-		- [getter](#getter)
-		- [setter](#setter)
-		- [Statik method](#static-method)
-	- [Inheritance](#inheritance)
-		- [Overriding methods](#overriding-methods)
-	- [Egzersizler](#egzersizler)
-		- [Egzersiz Seviye 1](#egzersizler-seviye-1)
-		- [Egzersiz Seviye 2](#egzersizler-seviye-2)
-		- [Egzersiz Seviye 3](#egzersizler-seviye-3)
+# 📔 Gün 15
 
-# Gün 15
+## Sınıflar
 
-## Sınıflar - Classes
-
-JavaScript nesne tabanlı progralama dilidir. JavaScript'teki her şey, özellikleri ve yöntemleriyle bir nesnedir. Nesne oluşturmak için sınıf oluşturutuz. Sınıflar nesne oluşturucu (constructor) gibidir yada nesne oluşturmak için  taslak gibidir. Nesne oluşturmak için sınıf oluştururuz. Sınıf, nesnenin niteliklerini ve davranışını tanımlarken, nesne ise sınıfı temsil eder.
+JavaScript nesne tabanlı progralama dilidir. JavaScript'teki her şey, özellikleri ve yöntemleriyle bir nesnedir. Nesne oluşturmak için sınıf oluşturutuz. Sınıflar nesne oluşturucu (constructor) gibidir yada nesne oluşturmak için taslak gibidir. Nesne oluşturmak için sınıf oluştururuz. Sınıf, nesnenin niteliklerini ve davranışını tanımlarken, nesne ise sınıfı temsil eder.
 
 Bir sınıf oluşturduğumuzda, istediğimiz zaman ondan nesne oluşturabiliriz. Bir sınıftan nesne oluşturmaya class instantiation(sınıf başlatma) denir.
 
@@ -78,8 +75,8 @@ Person sınıfımız içerisine dog nesnesi oluşturalım.
 class Person {
   // code goes here
 }
-const person = new Person()
-console.log(person)
+const person = new Person();
+console.log(person);
 ```
 
 ```sh
@@ -99,15 +96,15 @@ Aşağıdaki Person sınıfı oluşturucusu firstName ve lastName özelliği olu
 ```js
 class Person {
   constructor(firstName, lastName) {
-    console.log(this) // Check the output from here
-    this.firstName = firstName
-    this.lastName = lastName
+    console.log(this); // Check the output from here
+    this.firstName = firstName;
+    this.lastName = lastName;
   }
 }
 
-const person = new Person()
+const person = new Person();
 
-console.log(person)
+console.log(person);
 ```
 
 ```sh
@@ -119,14 +116,14 @@ Nesnenin tüm anahtarları tanımsızdır(undefined). Ne zaman somutlaştırsak,
 ```js
 class Person {
   constructor(firstName, lastName) {
-    this.firstName = firstName
-    this.lastName = lastName
+    this.firstName = firstName;
+    this.lastName = lastName;
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh')
+const person1 = new Person("Asabeneh", "Yetayeh");
 
-console.log(person1)
+console.log(person1);
 ```
 
 ```sh
@@ -138,19 +135,19 @@ En başta da belirttiğimiz gibi bir sınıf oluşturduğumuzda, sınıfı kulla
 ```js
 class Person {
   constructor(firstName, lastName) {
-    console.log(this) // Check the output from here
-    this.firstName = firstName
-    this.lastName = lastName
+    console.log(this); // Check the output from here
+    this.firstName = firstName;
+    this.lastName = lastName;
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh')
-const person2 = new Person('Lidiya', 'Tekle')
-const person3 = new Person('Abraham', 'Yetayeh')
+const person1 = new Person("Asabeneh", "Yetayeh");
+const person2 = new Person("Lidiya", "Tekle");
+const person3 = new Person("Abraham", "Yetayeh");
 
-console.log(person1)
-console.log(person2)
-console.log(person3)
+console.log(person1);
+console.log(person2);
+console.log(person3);
 ```
 
 ```sh
@@ -160,21 +157,22 @@ Person {firstName: "Abraham", lastName: "Yetayeh"}
 ```
 
 Person sınıfını kullanarak 3 kişi nesnesi oluşturduk. Gördüğünüz gibi sınıfımızda çok fazla özellik yok,hadi biraz daha sınıfımızın içerisine özellik ekleyelim.
+
 ```js
 class Person {
   constructor(firstName, lastName, age, country, city) {
-    console.log(this) // Check the output from here
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
+    console.log(this); // Check the output from here
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.country = country;
+    this.city = city;
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+const person1 = new Person("Asabeneh", "Yetayeh", 250, "Finland", "Helsinki");
 
-console.log(person1)
+console.log(person1);
 ```
 
 ```sh
@@ -188,25 +186,25 @@ Constructor fonksiyonun özellikleri,diğer normal fonksiyonlar gibi bir değere
 ```js
 class Person {
   constructor(
-    firstName = 'Asabeneh',
-    lastName = 'Yetayeh',
+    firstName = "Asabeneh",
+    lastName = "Yetayeh",
     age = 250,
-    country = 'Finland',
-    city = 'Helsinki'
+    country = "Finland",
+    city = "Helsinki"
   ) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.country = country;
+    this.city = city;
   }
 }
 
-const person1 = new Person() // it will take the default values
-const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
+const person1 = new Person(); // it will take the default values
+const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
 
-console.log(person1)
-console.log(person2)
+console.log(person1);
+console.log(person2);
 ```
 
 ```sh
@@ -221,23 +219,23 @@ Bir sınıfın içindeki constructor, nesne için bir tasklak oluşturmamıza iz
 ```js
 class Person {
   constructor(firstName, lastName, age, country, city) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.country = country;
+    this.city = city;
   }
   getFullName() {
-    const fullName = this.firstName + ' ' + this.lastName
-    return fullName
+    const fullName = this.firstName + " " + this.lastName;
+    return fullName;
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
-const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
+const person1 = new Person("Asabeneh", "Yetayeh", 250, "Finland", "Helsinki");
+const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
 
-console.log(person1.getFullName())
-console.log(person2.getFullName())
+console.log(person1.getFullName());
+console.log(person2.getFullName());
 ```
 
 ```sh
@@ -252,28 +250,28 @@ Bazı özellikler için bir sınıf oluşturduğumuzda bir başlangıç değerin
 ```js
 class Person {
   constructor(firstName, lastName, age, country, city) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-    this.score = 0
-    this.skills = []
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.country = country;
+    this.city = city;
+    this.score = 0;
+    this.skills = [];
   }
   getFullName() {
-    const fullName = this.firstName + ' ' + this.lastName
-    return fullName
+    const fullName = this.firstName + " " + this.lastName;
+    return fullName;
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
-const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
+const person1 = new Person("Asabeneh", "Yetayeh", 250, "Finland", "Helsinki");
+const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
 
-console.log(person1.score)
-console.log(person2.score)
+console.log(person1.score);
+console.log(person2.score);
 
-console.log(person1.skills)
-console.log(person2.skills)
+console.log(person1.skills);
+console.log(person2.skills);
 ```
 
 ```sh
@@ -292,34 +290,34 @@ get yöntemi, nesneden değere erişmemizi sağlar. Get anahtar sözcüğünü v
 ```js
 class Person {
   constructor(firstName, lastName, age, country, city) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-    this.score = 0
-    this.skills = []
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.country = country;
+    this.city = city;
+    this.score = 0;
+    this.skills = [];
   }
   getFullName() {
-    const fullName = this.firstName + ' ' + this.lastName
-    return fullName
+    const fullName = this.firstName + " " + this.lastName;
+    return fullName;
   }
   get getScore() {
-    return this.score
+    return this.score;
   }
   get getSkills() {
-    return this.skills
+    return this.skills;
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
-const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
+const person1 = new Person("Asabeneh", "Yetayeh", 250, "Finland", "Helsinki");
+const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
 
-console.log(person1.getScore) // We do not need parenthesis to call a getter method
-console.log(person2.getScore)
+console.log(person1.getScore); // We do not need parenthesis to call a getter method
+console.log(person2.getScore);
 
-console.log(person1.getSkills)
-console.log(person2.getSkills)
+console.log(person1.getSkills);
+console.log(person2.getSkills);
 ```
 
 ```sh
@@ -336,50 +334,50 @@ Setter yöntemi, belirli özelliklerin değerini değiştirmemize izin verir. _s
 ```js
 class Person {
   constructor(firstName, lastName, age, country, city) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-    this.score = 0
-    this.skills = []
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.country = country;
+    this.city = city;
+    this.score = 0;
+    this.skills = [];
   }
   getFullName() {
-    const fullName = this.firstName + ' ' + this.lastName
-    return fullName
+    const fullName = this.firstName + " " + this.lastName;
+    return fullName;
   }
   get getScore() {
-    return this.score
+    return this.score;
   }
   get getSkills() {
-    return this.skills
+    return this.skills;
   }
   set setScore(score) {
-    this.score += score
+    this.score += score;
   }
   set setSkill(skill) {
-    this.skills.push(skill)
+    this.skills.push(skill);
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
-const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
+const person1 = new Person("Asabeneh", "Yetayeh", 250, "Finland", "Helsinki");
+const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
 
-person1.setScore = 1
-person1.setSkill = 'HTML'
-person1.setSkill = 'CSS'
-person1.setSkill = 'JavaScript'
+person1.setScore = 1;
+person1.setSkill = "HTML";
+person1.setSkill = "CSS";
+person1.setSkill = "JavaScript";
 
-person2.setScore = 1
-person2.setSkill = 'Planning'
-person2.setSkill = 'Managing'
-person2.setSkill = 'Organizing'
+person2.setScore = 1;
+person2.setSkill = "Planning";
+person2.setSkill = "Managing";
+person2.setSkill = "Organizing";
 
-console.log(person1.score)
-console.log(person2.score)
+console.log(person1.score);
+console.log(person2.score);
 
-console.log(person1.skills)
-console.log(person2.skills)
+console.log(person1.skills);
+console.log(person2.skills);
 ```
 
 ```sh
@@ -394,67 +392,67 @@ Regular(normal) method ile getter arasındaki fark sizi şaşırtmasın. Normal 
 ```js
 class Person {
   constructor(firstName, lastName, age, country, city) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-    this.score = 0
-    this.skills = []
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.country = country;
+    this.city = city;
+    this.score = 0;
+    this.skills = [];
   }
   getFullName() {
-    const fullName = this.firstName + ' ' + this.lastName
-    return fullName
+    const fullName = this.firstName + " " + this.lastName;
+    return fullName;
   }
   get getScore() {
-    return this.score
+    return this.score;
   }
   get getSkills() {
-    return this.skills
+    return this.skills;
   }
   set setScore(score) {
-    this.score += score
+    this.score += score;
   }
   set setSkill(skill) {
-    this.skills.push(skill)
+    this.skills.push(skill);
   }
   getPersonInfo() {
-    let fullName = this.getFullName()
+    let fullName = this.getFullName();
     let skills =
       this.skills.length > 0 &&
-      this.skills.slice(0, this.skills.length - 1).join(', ') +
-        ` and ${this.skills[this.skills.length - 1]}`
-    let formattedSkills = skills ? `He knows ${skills}` : ''
+      this.skills.slice(0, this.skills.length - 1).join(", ") +
+        ` and ${this.skills[this.skills.length - 1]}`;
+    let formattedSkills = skills ? `He knows ${skills}` : "";
 
-    let info = `${fullName} is ${this.age}. He lives ${this.city}, ${this.country}. ${formattedSkills}`
-    return info
+    let info = `${fullName} is ${this.age}. He lives ${this.city}, ${this.country}. ${formattedSkills}`;
+    return info;
   }
 }
 
-const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
-const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
-const person3 = new Person('John', 'Doe', 50, 'Mars', 'Mars city')
+const person1 = new Person("Asabeneh", "Yetayeh", 250, "Finland", "Helsinki");
+const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
+const person3 = new Person("John", "Doe", 50, "Mars", "Mars city");
 
-person1.setScore = 1
-person1.setSkill = 'HTML'
-person1.setSkill = 'CSS'
-person1.setSkill = 'JavaScript'
+person1.setScore = 1;
+person1.setSkill = "HTML";
+person1.setSkill = "CSS";
+person1.setSkill = "JavaScript";
 
-person2.setScore = 1
-person2.setSkill = 'Planning'
-person2.setSkill = 'Managing'
-person2.setSkill = 'Organizing'
+person2.setScore = 1;
+person2.setSkill = "Planning";
+person2.setSkill = "Managing";
+person2.setSkill = "Organizing";
 
-console.log(person1.getScore)
-console.log(person2.getScore)
+console.log(person1.getScore);
+console.log(person2.getScore);
 
-console.log(person1.getSkills)
-console.log(person2.getSkills)
-console.log(person3.getSkills)
+console.log(person1.getSkills);
+console.log(person2.getSkills);
+console.log(person3.getSkills);
 
-console.log(person1.getPersonInfo())
-console.log(person2.getPersonInfo())
-console.log(person3.getPersonInfo())
+console.log(person1.getPersonInfo());
+console.log(person2.getPersonInfo());
+console.log(person3.getPersonInfo());
 ```
 
 ```sh
@@ -475,70 +473,70 @@ Statik anahtar kelime, bir sınıf için statik bir yöntem tanımlar. Statik me
 ```js
 class Person {
   constructor(firstName, lastName, age, country, city) {
-    this.firstName = firstName
-    this.lastName = lastName
-    this.age = age
-    this.country = country
-    this.city = city
-    this.score = 0
-    this.skills = []
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.country = country;
+    this.city = city;
+    this.score = 0;
+    this.skills = [];
   }
   getFullName() {
-    const fullName = this.firstName + ' ' + this.lastName
-    return fullName
+    const fullName = this.firstName + " " + this.lastName;
+    return fullName;
   }
   get getScore() {
-    return this.score
+    return this.score;
   }
   get getSkills() {
-    return this.skills
+    return this.skills;
   }
   set setScore(score) {
-    this.score += score
+    this.score += score;
   }
   set setSkill(skill) {
-    this.skills.push(skill)
+    this.skills.push(skill);
   }
   getPersonInfo() {
-    let fullName = this.getFullName()
+    let fullName = this.getFullName();
     let skills =
       this.skills.length > 0 &&
-      this.skills.slice(0, this.skills.length - 1).join(', ') +
-        ` and ${this.skills[this.skills.length - 1]}`
+      this.skills.slice(0, this.skills.length - 1).join(", ") +
+        ` and ${this.skills[this.skills.length - 1]}`;
 
-    let formattedSkills = skills ? `He knows ${skills}` : ''
+    let formattedSkills = skills ? `He knows ${skills}` : "";
 
-    let info = `${fullName} is ${this.age}. He lives ${this.city}, ${this.country}. ${formattedSkills}`
-    return info
+    let info = `${fullName} is ${this.age}. He lives ${this.city}, ${this.country}. ${formattedSkills}`;
+    return info;
   }
   static favoriteSkill() {
-    const skills = ['HTML', 'CSS', 'JS', 'React', 'Python', 'Node']
-    const index = Math.floor(Math.random() * skills.length)
-    return skills[index]
+    const skills = ["HTML", "CSS", "JS", "React", "Python", "Node"];
+    const index = Math.floor(Math.random() * skills.length);
+    return skills[index];
   }
   static showDateTime() {
-    let now = new Date()
-    let year = now.getFullYear()
-    let month = now.getMonth() + 1
-    let date = now.getDate()
-    let hours = now.getHours()
-    let minutes = now.getMinutes()
+    let now = new Date();
+    let year = now.getFullYear();
+    let month = now.getMonth() + 1;
+    let date = now.getDate();
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
     if (hours < 10) {
-      hours = '0' + hours
+      hours = "0" + hours;
     }
     if (minutes < 10) {
-      minutes = '0' + minutes
+      minutes = "0" + minutes;
     }
 
-    let dateMonthYear = date + '.' + month + '.' + year
-    let time = hours + ':' + minutes
-    let fullTime = dateMonthYear + ' ' + time
-    return fullTime
+    let dateMonthYear = date + "." + month + "." + year;
+    let time = hours + ":" + minutes;
+    let fullTime = dateMonthYear + " " + time;
+    return fullTime;
   }
 }
 
-console.log(Person.favoriteSkill())
-console.log(Person.showDateTime())
+console.log(Person.favoriteSkill());
+console.log(Person.showDateTime());
 ```
 
 ```sh
@@ -561,19 +559,18 @@ class ChildClassName extends {
 
 Person ebeveyn sınıfından bir Student alt sınıfı oluşturalım.
 
-
 ```js
 class Student extends Person {
   saySomething() {
-    console.log('I am a child of the person class')
+    console.log("I am a child of the person class");
   }
 }
 
-const s1 = new Student('Asabeneh', 'Yetayeh', 'Finland', 250, 'Helsinki')
-console.log(s1)
-console.log(s1.saySomething())
-console.log(s1.getFullName())
-console.log(s1.getPersonInfo())
+const s1 = new Student("Asabeneh", "Yetayeh", "Finland", 250, "Helsinki");
+console.log(s1);
+console.log(s1.saySomething());
+console.log(s1.getFullName());
+console.log(s1.getPersonInfo());
 ```
 
 ```sh
@@ -591,56 +588,56 @@ Gördüğünüz gibi Person Class'taki tüm yöntemlere erişmeyi başardık ve 
 ```js
 class Student extends Person {
   constructor(firstName, lastName, age, country, city, gender) {
-    super(firstName, lastName, age, country, city)
-    this.gender = gender
+    super(firstName, lastName, age, country, city);
+    this.gender = gender;
   }
 
   saySomething() {
-    console.log('I am a child of the person class')
+    console.log("I am a child of the person class");
   }
   getPersonInfo() {
-    let fullName = this.getFullName()
+    let fullName = this.getFullName();
     let skills =
       this.skills.length > 0 &&
-      this.skills.slice(0, this.skills.length - 1).join(', ') +
-        ` and ${this.skills[this.skills.length - 1]}`
+      this.skills.slice(0, this.skills.length - 1).join(", ") +
+        ` and ${this.skills[this.skills.length - 1]}`;
 
-    let formattedSkills = skills ? `He knows ${skills}` : ''
-    let pronoun = this.gender == 'Male' ? 'He' : 'She'
+    let formattedSkills = skills ? `He knows ${skills}` : "";
+    let pronoun = this.gender == "Male" ? "He" : "She";
 
-    let info = `${fullName} is ${this.age}. ${pronoun} lives in ${this.city}, ${this.country}. ${formattedSkills}`
-    return info
+    let info = `${fullName} is ${this.age}. ${pronoun} lives in ${this.city}, ${this.country}. ${formattedSkills}`;
+    return info;
   }
 }
 
 const s1 = new Student(
-  'Asabeneh',
-  'Yetayeh',
+  "Asabeneh",
+  "Yetayeh",
   250,
-  'Finland',
-  'Helsinki',
-  'Male'
-)
-const s2 = new Student('Lidiya', 'Tekle', 28, 'Finland', 'Helsinki', 'Female')
-s1.setScore = 1
-s1.setSkill = 'HTML'
-s1.setSkill = 'CSS'
-s1.setSkill = 'JavaScript'
+  "Finland",
+  "Helsinki",
+  "Male"
+);
+const s2 = new Student("Lidiya", "Tekle", 28, "Finland", "Helsinki", "Female");
+s1.setScore = 1;
+s1.setSkill = "HTML";
+s1.setSkill = "CSS";
+s1.setSkill = "JavaScript";
 
-s2.setScore = 1
-s2.setSkill = 'Planning'
-s2.setSkill = 'Managing'
-s2.setSkill = 'Organizing'
+s2.setScore = 1;
+s2.setSkill = "Planning";
+s2.setSkill = "Managing";
+s2.setSkill = "Organizing";
 
-console.log(s1)
+console.log(s1);
 
-console.log(s1.saySomething())
-console.log(s1.getFullName())
-console.log(s1.getPersonInfo())
+console.log(s1.saySomething());
+console.log(s1.getFullName());
+console.log(s1.getPersonInfo());
 
-console.log(s2.saySomething())
-console.log(s2.getFullName())
-console.log(s2.getPersonInfo())
+console.log(s2.saySomething());
+console.log(s2.getFullName());
+console.log(s2.getPersonInfo());
 ```
 
 ```sh
@@ -708,7 +705,7 @@ Standard Deviation:  4.2
 Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
 ```
 
-1. PersonAccount adlı bir sınıf oluşturun. ad, soyad, gelirler, giderler özelliklerine sahip olan totalIncome, totalExpense, accountInfo,addIncome, addExpense ve accountBalance methodlarına sahip. 
+1. PersonAccount adlı bir sınıf oluşturun. ad, soyad, gelirler, giderler özelliklerine sahip olan totalIncome, totalExpense, accountInfo,addIncome, addExpense ve accountBalance methodlarına sahip.
 
 🎉 TEBRİKLER ! 🎉
 
