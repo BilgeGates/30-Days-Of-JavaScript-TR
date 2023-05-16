@@ -14,28 +14,28 @@
 
 [<< Gün 5](../05_Gün_Diziler/05_gün_diziler.md) | [Gün 7 >>](../07_Gün_Fonksiyonlar/07_gün_fonksiyonlar.md)
 
-- [📔 Gün 6](#📔Gün-6)
+- [📔 Gün 6](#-Gün-6)
   - [Döngüler](#Döngüler)
-    - [For Döngüsü](#For-döngüsü)
-    - [While Döngüsü](#While-döngüsü)
-    - [Do while Döngüsü](#Do-while-döngüsü)
-    - [For of loop Döngüsü](#For-of-loop-döngüsü)
-    - [Break](#break)
-    - [Continue ](#continue)
-  - [💻 Gün 6: Egzersizleri](#💻Gün-6-Egzersizleri)
-    - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
-    - [Egzersiz: Seviye 2](#egzersiz-seviye-2)
-    - [Egzersiz: Seviye 3](#egzersiz-seviye-3)
+    - [for Döngüsü](#for-döngüsü)
+    - [while Döngüsü](#while-döngüsü)
+    - [do while Döngüsü](#do-while-döngüsü)
+    - [for of loop Döngüsü](#for-of-loop-döngüsü)
+    - [break](#break)
+    - [continue ](#continue)
+  - [💻 Gün 6: Egzersizleri](#-Gün-6-Egzersizleri)
+    - [Egzersiz: Seviye 1](#Egzersiz-seviye-1)
+    - [Egzersiz: Seviye 2](#Egzersiz-seviye-2)
+    - [Egzersiz: Seviye 3](#Egzersiz-seviye-3)
 
 # 📔 Gün 6
 
 ### Döngüler
 
-Yazılım kariyerimizde bir çok defa aynı işi tekrar tekrar yapmamız gerekebilir. Basit olarak Console.log() kullanarak 0'den 100'e kadar çıktı yazdırmayı deneyelim. Bu basit uygulamayı gerçekleştirmek bile 2 ila 5 dakika arasında zamanımızı alabilir; bu tür yorucu ve tekrarlayan görevler döngü kullanılarak gerçekleştirilebilir. Videoları izlemeyi tercih ediyorsanız. [video örnekleri](https://www.youtube.com/channel/UCM4xOopkYiPwJqyKsSqL9mw)
+Yazılım kariyerimizde bir çok defa aynı işi tekrar tekrar yapmamız gerekebilir. Basit olarak Console.log() kullanarak 0'den 100'e kadar çıktı yazdırmayı deneyelim. Bu basit uygulamayı gerçekleştirmek bile 2 ila 5 dakika arasında zamanımızı alabilir; bu tür yorucu ve tekrarlayan görevler döngü kullanılarak gerçekleştirilebilir. Videoları izlemeyi tercih ediyorsanız.
 
 Tekrar eden görevleri gerçekleştirmek için programlama dillerinde farklı döngü türleri kullanırız. Aşağıdaki örnekler, JavaScript ve diğer programlama dillerinde yaygın olarak kullanılan döngülerdir.
 
-### For döngüsü
+### for Döngüsü
 
 ```js
 // For Döngüsünün yapısı
@@ -121,7 +121,7 @@ for (let i = 0; i < countries.length; i++) {
 console.log(newArr); // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
 ```
 
-### While döngüsü
+### while Döngüsü
 
 while anahtar kelimesinin yanında belirtilen şarta doğru olduğu sürece çalışan bir döngü türüdür. Eğer koşul sürekli doğru çıkacak şekilde ayarlanırsa while döngüsü uygulama kasten kesilmediği sürece sonsuza kadar devam edebilir. Bu yüzden buraya dikkat etmek gerekebilir.
 
@@ -135,7 +135,7 @@ while (i <= 5) {
 // 0 1 2 3 4 5
 ```
 
-### Do while döngüsü
+### do while Döngüsü
 
 do while döngüsü Koşul ile belirtilen alanın doğru olup olmadığına bakmadan kod bloğunu bir kez çalıştırır ve daha sonra Koşul ile belirtilen alan doğru (true) olduğu sürece kod bloğunun çalışması için kullanılır.
 
@@ -149,7 +149,7 @@ do {
 // 0 1 2 3 4 5
 ```
 
-### For of loop döngüsü
+### аor of loop Döngüsü
 
 ES6, geleneksel bir döngüden daha basit olan bir döngü olan yeni bir döngü yöntemi sunar ve her tür için ve giriş döngülerinin eksikliklerini telafi eder.
 
@@ -216,7 +216,7 @@ for (const country of countries) {
 console.log(newArr); // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
 ```
 
-### Break
+### break
 
 Break, bir döngüyü kesmek için kullanılır.
 
@@ -233,7 +233,7 @@ for (let i = 0; i <= 5; i++) {
 
 i değeri 3 sayısına eşit olduğunda döngüyü durdurur
 
-### Continue
+### continue
 
 Belirli bir döngü aşamasını atlamak için `continue` anahtar kelimesi kullanılır.
 
@@ -430,11 +430,11 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 1. Countries dizisini kopyalayın(Avoid mutation)
 2. Diziler değişebilir. Dizinin orjinalini değişirmeden bir kopyasını oluşturun. Oluşturduğunuz diziyi alfabetik olarak sıralayın ve sortedCountries dizisine atayın
 3. webTechs dzisini ve mernStack dizisini sıralayın
-4. [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js)inden "land" sözüğü ile biten ülkeleri farklı bir diziye atayın
-5. [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) inden en uzun karakterli ülkeyi bulun
-6. [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) inde 4 karakterli ülkeleri yazdırın
-7. [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) inde iki veya daha fazla kelime içieren ülkeleri farklı bir diziye atayın
-8. [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) i ters çevirin ve ülkelerin tüm harflerini büyük hale gertirin
+4. [countries array](https://github.com/BilgeGates/30-Days-OfJ-avaScript-TR/tree/master/data/countries.js)inden "land" sözüğü ile biten ülkeleri farklı bir diziye atayın
+5. [countries array](https://github.com/BilgeGates/30-Days-OfJ-avaScript-TR/tree/master/data/countries.js) inden en uzun karakterli ülkeyi bulun
+6. [countries array](https://github.com/BilgeGates/30-Days-OfJ-avaScript-TR/tree/master/data/countries.js) inde 4 karakterli ülkeleri yazdırın
+7. [countries array](https://github.com/BilgeGates/30-Days-OfJ-avaScript-TR/tree/master/data/countries.js) inde iki veya daha fazla kelime içieren ülkeleri farklı bir diziye atayın
+8. [countries array](https://github.com/BilgeGates/30-Days-OfJ-avaScript-TR/tree/master/data/countries.js) i ters çevirin ve ülkelerin tüm harflerini büyük hale gertirin
 
 🎉 Tebrikler ! 🎉
 
