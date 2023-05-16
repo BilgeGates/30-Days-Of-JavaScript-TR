@@ -1,40 +1,33 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript: Mini Project Solar System</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+<h1>30 Günde JavaScript: Mini Proje: Dünya Ülkeleri Veri Görselleştirme: 1 </h1>
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<sub>Çevirmen:
-  <a href="https://github.com/alicangunduz" target="_blank">Ali Can Gündüz</a><br>
-  <small> Mart 2023</small>
-  </sub>
+<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+</a><br>
+
+<sub>Yazar:
+<a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
+<small> Mayıs, 2023</small>
+</sub>
 
 </div>
 
-[<< Gün 23](../23_Day_Event_listeners/23_day_event_listeners.md) | [Gün 25 >>](../25_Day_World_countries_data_visualization_1/25_day_world_countries_data_visualization_1.md)
+[<< Gün 23](../23_Gün_Olay_Tetikleyicileri/23_gün_olay_tetikleyicileri.md) | [Gün 25 >>](../25_Gün_Mini_Proje_Dünya_Veri_Görselleştirme_1/25_gün_mini_proje_dünya_veri_görselleştirme_1.md)
 
-![Thirty Days Of JavaScript](../images/../../images/banners/day_1_24.png)
+- [📔 Gün 24](#-Gün-24)
+- [💻 Gün 24: Egzersizleri](#-Gün-24-Egzersizleri)
+  - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
 
-- [Gün 24](#gün-24)
-  - [Egzersiz](#egzersiz)
-    - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
+# 📔 Gün 24
 
-# Gün 24
-
-## Egzersiz
+## 💻 Gün 24: Egzersizleri
 
 ### Egzersiz: Seviye 1
 
 1. Belirli bir gezegende bir nesnenin ağırlığını hesaplayan küçük bir uygulama geliştirin. Gif görüntüsü tamamlanmamıştır, başlangıç dosyasındaki videoya bakın.
 
-![Solar System](../images/.././../images/projects/dom_min_project_solar_system_day_4.1.gif)
+![Solar System](../../images/projects/dom_min_project_solar_system_day_4.1.gif)
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 23](../23_Day_Event_listeners/23_day_event_listeners.md) | [Gün 25 >>](../25_Day_World_countries_data_visualization_1/25_day_world_countries_data_visualization_1.md)
-
+[<< Gün 23](../23_Gün_Olay_Tetikleyicileri/23_gün_olay_tetikleyicileri.md) | [Gün 25 >>](../25_Gün_Mini_Proje_Dünya_Veri_Görselleştirme_1/25_gün_mini_proje_dünya_veri_görselleştirme_1.md)

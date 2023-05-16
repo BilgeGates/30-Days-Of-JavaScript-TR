@@ -1,5 +1,5 @@
 <div align="center">
-<h1>30 Günde JavaScript: Mini Proje: Liderler Sıralaması </h1>
+<h1>30 Günde JavaScript: Mini Proje: Portföy </h1>
 
 <a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
