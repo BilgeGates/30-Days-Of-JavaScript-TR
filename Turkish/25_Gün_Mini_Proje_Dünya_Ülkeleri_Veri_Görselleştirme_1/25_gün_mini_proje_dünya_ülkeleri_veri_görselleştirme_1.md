@@ -26,9 +26,9 @@
 
 1. Dünya'da en çok nüfusa sahip on ülkeyi ve en çok konuşulan on dilin görselleştirilmesi için DOM (HTML, CSS, JS) kullanarak küçük bir uygulama geliştirin.
 
-![Bar Graph](../../images/projects/dom_min_project_bar_graph_day_5.1.gif)
+![Çubuk Grafiği](../../images/projects/dom_min_project_bar_graph_day_5.1.gif)
 
-![Bar Graph](../../images/projects/dom_min_project_bar_graph_day_5.1.png)
+![Çubuk Grafiği](../../images/projects/dom_min_project_bar_graph_day_5.1.png)
 
 🎉 TEBRİKLER ! 🎉
 

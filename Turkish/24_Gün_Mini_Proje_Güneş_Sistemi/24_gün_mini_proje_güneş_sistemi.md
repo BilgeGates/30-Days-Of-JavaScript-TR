@@ -26,7 +26,7 @@
 
 1. Belirli bir gezegende bir nesnenin ağırlığını hesaplayan küçük bir uygulama geliştirin. Gif görüntüsü tamamlanmamıştır, başlangıç dosyasındaki videoya bakın.
 
-![Solar System](../../images/projects/dom_min_project_solar_system_day_4.1.gif)
+![Güneş Sistemi](../../images/projects/dom_min_project_solar_system_day_4.1.gif)
 
 🎉 TEBRİKLER ! 🎉
 

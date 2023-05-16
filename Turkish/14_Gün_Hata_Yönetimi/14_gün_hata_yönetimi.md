@@ -1,26 +1,21 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript: Error handling - Hata Yönetimi</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+<h1> 30 Günde JavaScript: Hata Yönetimi</h1>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<sub>Çevirmen:
-<a href="https://github.com/bilgegates" target="_blank">Khatai Huseynzade</a><br>
-<small> January, 2020</small>
+<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+</a><br>
+
+<sub>Yazar:
+<a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
+<small>Mayıs, 2023</small>
 </sub>
 
 </div>
+</div>
 
-[<< Gün 13](../13_Gün_Konsol_Nesne_Metodları/13_gün_konsol_nesne_metodları.md) | [Gün 15>>](../15_Gün_Sınıflar/15_gün_sınıflar.md)
+[<< Gün 13](../13_Gün_Konsol_Nesne_Metodları/13_gün_konsol_nesne_metodları.md) | [Gün 15 >>](../15_Gün_Sınıflar/15_gün_sınıflar.md)
 
-![Gün 14](../../images/banners/day_1_14.png)
-
-- [Gün 14](#Gün-14)
+- [ 📔 Gün 14](#-Gün-14)
   - [Hata Yönetimi](#Hata-Yönetimi)
     - [Hata Tipleri](#Hata-Tipleri)
 
@@ -174,4 +169,4 @@ Bunlar, kod yazarken karşılaşabileceğiniz yaygın hatalardan bazılarıdır.
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 13](../13_Gün_Konsol_Nesne_Metodları/13_gün_konsol_nesne_metodları.md) | [Gün 15>>](../15_Gün_Sınıflar/15_gün_sınıflar.md)
+[<< Gün 13](../13_Gün_Konsol_Nesne_Metodları/13_gün_konsol_nesne_metodları.md) | [Gün 15 >>](../15_Gün_Sınıflar/15_gün_sınıflar.md)

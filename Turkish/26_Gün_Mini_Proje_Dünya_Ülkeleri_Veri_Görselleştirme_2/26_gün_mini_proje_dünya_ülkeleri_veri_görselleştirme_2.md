@@ -26,7 +26,7 @@
 
 1. Ülkeler dizisini aşağıdaki gibi görselleştirin:
 
-![Motivation](../../images/projects/dom_mini_project_countries_day_6.1.gif)
+![Motivasyon](../../images/projects/dom_mini_project_countries_day_6.1.gif)
 
 🎉 TEBRİKLER ! 🎉
 
