@@ -13,7 +13,7 @@
 </div>
 </div>
 
-[<< Gün 19](../19_Gün_Sınıflar/19_gün_sınıflar.md) | [Gün 21 >>](../21_Gün_Belge_Nesne_modeli/21_gün_belge_nesne_modeli.md)
+[<< Gün 19](../19_Gün_Sınıflar/19_gün_sınıflar.md) | [Gün 21 >>](../21_Gün_Belge_Nesne_Modeli/21_gün_belge_nesne_modeli.md)
 
 - [ 📔 Gün 20](#-Gün-20)
   - [Temiz Kod Yazmak](#Temiz-Kod-Yazmak)
@@ -355,4 +355,4 @@ Takip ettiğiniz stil kılavuzu ne olursa olsun tutarlı olun. Bazı programlama
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 19](../19_Gün_Sınıflar/19_gün_sınıflar.md) | [Gün 21 >>](../21_Gün_Belge_Nesne_modeli/21_gün_belge_nesne_modeli.md)
+[<< Gün 19](../19_Gün_Sınıflar/19_gün_sınıflar.md) | [Gün 21 >>](../21_Gün_Belge_Nesne_Modeli/21_gün_belge_nesne_modeli.md)
