@@ -2,7 +2,7 @@
 
 | # Gün |                                                                                 Konular                                                                                 |
 | ----- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 01    |                                                                          [Giriş](./readMe.md)                                                                           |
+| 01    |                                                                 [Giriş](./01_Gün_Giriş/01_gün_giriş.md)                                                                 |
 | 02    |                                                      [Veri Tipleri](./02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md)                                                       |
 | 03    |           [Boole Değerleri, Operatörler, Tarih Objesi](./03_Gün_Boole-değerleri_Operatörler_Tarih-objesi/03_gün_boole-değerleri_operatörler_tarih-objesi.md)            |
 | 04    |                                                            [Koşullar](./04_Gün_Koşullar/04_gün_koşullar.md)                                                             |
@@ -44,6 +44,6 @@
 Bu adım-adım JavaScript kursunda, insanlık tarihindeki en popüler programlama dili olan JavaScript'i öğreneceksininiz.
 JavaScript **_web sitelerine interaktiflik katmak, mobil-masaüstü-oyun uygulamaları geliştirmek_** için, hatta günümüzde JavaScript ile **_makina öğrenimi_** ve **_Yapay Zeka_** uygulamaları da geliştirebilirsiniz.
 
-# _*Çevirmen Notu*_: 30 Günde JavaScript kılavuzunu yaratdığı üşün <a href="https://github.com/Asabeneh">Asabeneh Yetahyeh</a>'e teşekkür ederiz!
+## _*Çevirmen Notu*_: 30 Günde JavaScript kılavuzunu yaratdığı üşün <a href="https://github.com/Asabeneh">Asabeneh Yetahyeh</a>'e teşekkür ederiz!
 
 [ Gün 1 >>](../01_Gün_Giriş/01_gün_giriş.md)
