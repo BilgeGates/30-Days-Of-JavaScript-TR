@@ -13,7 +13,7 @@
 </div>
 </div>
 
-[<< Gün 14](../14_Gün_Hata_Yönetimi/14_gün_hata_yönetimi.md) | [Gün 16 >>](../16_Gün_JavaScript_Nesne_Yazımı/16_gün_javascript_nesne_yazımı.md)
+[<< Gün 14](../14_Gün_Hata_Yönetimi/14_gün_hata_yönetimi.md) | [Gün 16 >>](../16_Gün_JavaScript_Nesne_Kavramı/16_gün_javascript_nesne_kavramı.md)
 
 - [ 📔 Gün 15](#-Gün-15)
   - [Sınıflar](#Sınıflar)
@@ -718,4 +718,4 @@ Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 14](../14_Gün_Hata_Yönetimi/14_gün_hata_yönetimi.md) | [Gün 16 >>](../16_Gün_JavaScript_Nesne_Yazımı/16_gün_javascript_nesne_yazımı.md)
+[<< Gün 14](../14_Gün_Hata_Yönetimi/14_gün_hata_yönetimi.md) | [Gün 16 >>](../16_Gün_JavaScript_Nesne_Kavramı/16_gün_javascript_nesne_kavramı.md)
