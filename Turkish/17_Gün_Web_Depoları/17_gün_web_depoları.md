@@ -16,7 +16,7 @@
 [<< Gün 16](../16_Gün_JavaScript_Nesne_Kavramı/16_gün_javascript_nesne_kavramı.md) | [Gün 18 >>](../18_Gün_Sözler/18_gün_sözler.md)
 
 - [ 📔 Gün 17](#-Gün-17)
-  - [HTML5 Web Depolama)](HTML5-Web-Depolama)
+  - [HTML5 Web Depolama](#HTML5-Web-Depolama)
     - [Oturum Depolama](#Oturum-Depolame)
     - [Yerel Depolama](#Yerel-Depolama)
     - [Web Depoların Kullanım Durumu](#Web-Depoların-Kullanım-Durumu)
