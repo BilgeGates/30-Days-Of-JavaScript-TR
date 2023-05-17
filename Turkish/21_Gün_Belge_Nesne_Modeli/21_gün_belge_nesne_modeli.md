@@ -40,7 +40,7 @@
   - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
   - [Egzersiz: Seviye 2](#Egzersiz-Seviye-2)
   - [Egzersiz: Seviye 3](#Egzersiz-Seviye-3)
-    - [Mini Prohje](#Mini-Proje)
+    - [Mini Proje](#Mini-Proje)
 
 # 📔 Gün 21
 
