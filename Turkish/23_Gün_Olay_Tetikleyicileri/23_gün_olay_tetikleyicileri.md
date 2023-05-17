@@ -302,7 +302,7 @@ Farklı olay dinleyici türlerini kullanarak klavyenin tüm tuş numaralarına e
 
 ![Sayı Üreticisi](../../images/projects/dom_min_project_number_generator_day_3.1.gif)
 
-1. Klavye kodunu dinleyici kullanarak oluşturma. Aşağıdaki resme bakın.
+2. Klavye kodunu dinleyici kullanarak oluşturma. Aşağıdaki resme bakın.
 
 ![Klavye tuşu](../../images/projects/dom_min_project_keycode_day_3.2.gif)
 
