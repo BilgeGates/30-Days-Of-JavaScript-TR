@@ -148,9 +148,8 @@ console.log("Merhaba, Dünya!");
 ![console log multiple arguments](../../images/console_log_multipl_arguments.png)
 
 ```js
-console.log("Hello", "World", "!");
-console.log("HAPPY", "NEW", "YEAR", 2020);
-console.log("Welcome", "to", 30, "Days", "Of", "JavaScript");
+console.log("Merhaba Dünya!");
+console.log("30 Günde JavaScripte hoş geldiniz!");
 ```
 
 Yukarıdaki kod parçacığından da görebileceğiniz gibi, _`console.log()`_ birden çok değişken veri türü alabilir.
