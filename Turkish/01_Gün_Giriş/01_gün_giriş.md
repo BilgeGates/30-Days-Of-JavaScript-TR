@@ -27,8 +27,8 @@
       - [Google Chrome Kurulumu](#Google-Chrome-Kurulumu)
       - [Google Chrome Konsolu Açmak](#Google-Chrome-Konsolu-Açmak)
       - [Tarayıcı Konsolunda Kod Yazmak](#Tarayıcı-Konsolunda-Kod-Yazmak)
-        - [Console.log](#Console.log)
-        - [Çoklu Değişkenler ile Console.log ](#Çoklu-Değişkenler-ile-Console.log)
+        - [Console.log](#Console-log)
+        - [Çoklu Değişkenler ile Console.log ](#Çoklu-Değişkenler-ile-Console-log)
         - [Yorumlar](#Yorumlar)
         - [Sözdizimi](#Sözdizimi)
       - [Aritmetik İşlemler](#Aritmetik-İşlemler)
@@ -46,11 +46,11 @@
     - [Boolean](#Boolean)
     - [Tanımsız](#Tanımsız)
     - [Boş](#Boş)
-  - [Veri Türlerini Konrol Etme](#veri-türlerini-kontrol-etme)
+  - [Veri Türlerini Konrol Etme](#Veri-Türlerini-Kontrol-Etme)
   - [Tekrardan Yorumlar](#Tekrardan-Yorumlar)
   - [Değişkenler](#Değişkenler)
-- [💻 Gün 1: Egzersizler](#-Gün-1-egzersizler)
-  - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
+- [💻 Gün 1: Egzersizleri](#-Gün-1-Egzersizleri)
+  - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
 
 # 📔 Gün 1
 
@@ -580,7 +580,7 @@ Khatai_Huseynzade Azerbaijan
 
 🌕 Harikasınız! 1. gün eğitimini tamamladınız ve mükemmel olma yolundasınız. Şimdi beyniniz ve kasınız için bazı egzersizler yapın.
 
-## 💻 Gün 1: Egzersizler
+## 💻 Gün 1: Egzersizleri
 
 ### Egzersiz: Seviye 1
 

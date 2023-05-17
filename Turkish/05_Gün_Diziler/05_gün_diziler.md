@@ -14,7 +14,7 @@
 
 [<< Gün 4](../04_Gün_Koşullar/04_gün_koşullar.md) | [Gün 6 >>](../06_Gün_Döngüler/06_gün_döngüler.md)
 
-- [📔 Gün 5](#📔Gün-5)
+- [📔 Gün 5](#-Gün-5)
   - [Diziler](#Diziler)
     - [Boş bir dizi nasıl oluşturulur](#boş-bir-dizi-nasıl-oluşturulur)
     - [Değerlere sahip bir dizi nasıl oluşturulur](#değerlere-sahip-bir-dizi-nasıl-oluşturulur)
@@ -40,10 +40,10 @@
       - [Dizi sırasını terse çevirmek](#dizi-sırasını-terse-çevirmek)
       - [Dizi elemanlarını sıralamak](#dizi-elemanlarını-sıralamak)
       - [Dizi içinde Diziler](#dizi-içinde-diziler)
-  - [💻 Gün 5: Egzersizleri](#💻Gün-5-Egzersizleri)
-    - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
-    - [Egzersiz: Seviye 2](#egzersiz-seviye-2)
-    - [Egzersiz: Seviye 3](#egzersiz-seviye-3)
+  - [💻 Gün 5: Egzersizleri](#-Gün-5-Egzersizleri)
+    - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
+    - [Egzersiz: Seviye 2](#Egzersiz-Seviye-2)
+    - [Egzersiz: Seviye 3](#Egzersiz-Seviye-3)
 
 # 📔 Gün 5
 

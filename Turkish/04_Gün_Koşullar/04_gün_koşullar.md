@@ -14,17 +14,17 @@
 
 [<< Gün 3](../03_Gün_Boole-değerleri_Operatörler_Tarih-objesi/03_gün_boole-değerleri_operatörler_tarih-objesi.md) | [Gün 5 >>](../05_Gün_Diziler/05_gün_diziler.md)
 
-- [📔 Gün 4](📔#Gün-4)
+- [📔 Gün 4](-#Gün-4)
   - [Koşullar](#Koşullar)
-    - [If](#if)
-    - [If Else](#if-else)
-    - [If Else if Else ](#if-else-if-else)
-    - [Switch ](#switch)
-    - [Ternary Operator ](#ternary-operator)
-  - [💻 Gün 4: Egzersizleri](#💻Gün-4-Egzersizleri)
-    - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
-    - [Egzersiz: Seviye 2](#egzersiz-seviye-2)
-    - [Egzersiz: Seviye 3](#egzersiz-seviye-3)
+    - [if](#if)
+    - [if else](#if-else)
+    - [if else if Else ](#If-else-if-else)
+    - [switch ](#switch)
+    - [Ternary Operator ](#Ternary-Operator)
+  - [💻 Gün 4: Egzersizleri](#-Gün-4-Egzersizleri)
+    - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
+    - [Egzersiz: Seviye 2](#Egzersiz-Seviye-2)
+    - [Egzersiz: Seviye 3](#Egzersiz-Seviye-3)
 
 # 📔 Gün 4
 
