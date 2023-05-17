@@ -5,7 +5,7 @@
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
 </a><br>
 
-<sub>Yazar:
+<sub>Çevirmen:
 <a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
 <small> Mayıs, 2023</small>
 </sub>
