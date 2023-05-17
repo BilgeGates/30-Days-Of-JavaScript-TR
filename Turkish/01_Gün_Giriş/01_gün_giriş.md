@@ -602,4 +602,4 @@ Sen 30 Yaşındasın.
 
 🎉 TEBRİKLER ! 🎉
 
-[Gün 2 >>](../02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md)
+[<< ReadMe](../readMe.md) | [Gün 2 >>](../02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md)
