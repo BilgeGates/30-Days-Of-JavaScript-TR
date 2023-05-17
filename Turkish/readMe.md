@@ -1,5 +1,7 @@
 <h1 align="center">30 Günde JavaScript</h1>
 
+<div align="center">
+
 | # Gün |                                                                                 Konular                                                                                 |
 | ----- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 01    |                                                                 [Giriş](./01_Gün_Giriş/01_gün_giriş.md)                                                                 |
@@ -32,3 +34,5 @@
 | 28    |                           [Mini Proje: Liderler Sıralaması](./28_Gün_Mini_Proje_Liderler_Sıralaması/28_gün_mini_proje_liderler_sıralaması.md)                           |
 | 29    |                     [Mini Proje: Animasyon Karakterleri](./29_Gün_Mini_Proje_Animasiyon_Karakterleri/29_gün_mini_proje_animasiyon_karakterleri.md)                      |
 | 30    |                                                    [Son Gün](./30_Gün_Mini_Proje_Finalı/30_gün_mini_proje_finalı.md)                                                    |
+
+</div>
