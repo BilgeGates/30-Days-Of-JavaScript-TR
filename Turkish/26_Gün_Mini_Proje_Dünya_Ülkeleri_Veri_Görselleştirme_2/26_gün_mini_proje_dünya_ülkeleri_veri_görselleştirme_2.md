@@ -12,7 +12,7 @@
 
 </div>
 
-[<< Gün 25](../25_Gün_Mini_Proje_Dünya_Ülkeleri_Veri_Görselleştirme_1/25_gün_mini_proje_dünya_ülkeleri_veri_görselleştirme_1) | [Gün 27 >>](../27_Gün_Mini_Proje_Portöy/27_gün_mini_proje_portföy.md)
+[<< Gün 25](../25_Gün_Mini_Proje_Dünya_Ülkeleri_Veri_Görselleştirme_1/25_gün_mini_proje_dünya_ülkeleri_veri_görselleştirme_1) | [Gün 27 >>](../27_Gün_Mini_Proje_Portföy/27_gün_mini_proje_portföy.md)
 
 - [📔 Gün 26](#-Gün-26)
 - [💻 Gün 26: Egzersizleri](#-Gün-26-Egzersizleri)
@@ -30,4 +30,4 @@
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 25](../25_Gün_Mini_Proje_Dünya_Ülkeleri_Veri_Görselleştirme_1/25_gün_mini_proje_dünya_ülkeleri_veri_görselleştirme_1) | [Gün 27 >>](../27_Gün_Mini_Proje_Portöy/27_gün_mini_proje_portföy.md)
+[<< Gün 25](../25_Gün_Mini_Proje_Dünya_Ülkeleri_Veri_Görselleştirme_1/25_gün_mini_proje_dünya_ülkeleri_veri_görselleştirme_1) | [Gün 27 >>](../27_Gün_Mini_Proje_Portföy/27_gün_mini_proje_portföy.md)
