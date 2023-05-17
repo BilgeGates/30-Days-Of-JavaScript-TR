@@ -5,7 +5,7 @@
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
 </a><br>
 
-<sub>Yazar:
+<sub>Çevirmen>:
 <a href="https://github.com/BilgeGatess">Khatai Huseynzade</a><br>
 <small> Mayıs, 2023</small>
 </sub>
@@ -14,27 +14,26 @@
 
 [<< Gün 6](../06_Gün_Döngüler/06_gün_döngüler.md) | [Gün 8 >>](../08_Gün_Nesneler/08_gün_nesneler.md)
 
-- [📔 Gün 7](#📔Gün-7)
+- [📔 Gün 7](#-Gün-7)
   - [ Fonksiyonlar](#Fonksiyonlar)
-    - [Klasik fonksiyon tanımlama](#Klasik-fonksiyon-tanımlama)
-      - [İsimsiz Fonksiyon](#İsimsiz-fonksiyon)
-        - [İfade Fonksiyon](#İfade-fonksiyon)
-    - [Parametresiz ve dönüş değeri olmayan fonksiyon](#Parametresiz-ve-dönüş-değeri-olamayan-fonksiyon)
-    - [Fonksiyonlarda return kullanımı](#Fonksiyonlarda-return-kullanımı)
-    - [Bir parametreli fonksiyon](#Parametreli-fonksiyon)
-    - [İki parametreli fonksiyon](#İki-parametreli-fonksiyon)
-    - [Çok parametreli fonksiyon](#Çok-parametreli-fonksiyon)
-    - [Sınırsız sayıda parametreyle çalışan fonksiyon](#Sınırsız-sayıda-parametreyle-çalışan-fonksiyon)
-      - [Klasik fonksiyonda sınırsız sayıda parametre](#Klasik-fonksiyonda-sınırsız-sayıda-parametre)
-    - [Kendi-Kendine Çağırılan Fonksiyon ](#Kendi-kendine-çağırılan-fonksiyon)
-    - [Ok Fonksiyonu](#OK-fonksiyonu)
-    - [Ok Fonksiyonunda sınırsız sayıda parametre](#Ok-Fonksiyonunda-sınırsız-sayıda-parametre)
-    - [Default parametre ile fonksiyon kullanımı](#default-parametre-ile-fonksiyon-kullanımı)
-    - [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
-  - [💻 Gün 7: Egzersizleri](#💻Gün-7-Egzersizleri)
-    - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
-    - [Egzersiz: Seviye 2](#egzersiz-seviye-2)
-    - [Egzersiz: Seviye 3](#egzersiz-seviye-3)
+    - [Klasik Fonksiyon Tanımlama](#Klasik-Fonksiyon-Tanımlama)
+      - [İsimsiz Fonksiyon](#İsimsiz-Fonksiyon)
+        - [İfade Fonksiyon](#İfade-Fonksiyon)
+    - [Parametresiz ve Dönüş Değeri Olmayan Fonksiyon](#Parametresiz-ve-Dönüş-Değeri-Olamayan-Fonksiyon)
+    - [Fonksiyonlarda Return Kullanımı](#Fonksiyonlarda-Return-Kullanımı)
+    - [Bir Parametreli Fonksiyon](#Parametreli-Fonksiyon)
+    - [İki Parametreli Fonksiyon](#İki-Parametreli-Fonksiyon)
+    - [Çok Parametreli Fonksiyon](#Çok-Parametreli-Fonksiyon)
+    - [Sınırsız Sayıda Parametreyle Çalışan Fonksiyon](#Sınırsız-Sayıda-Parametreyle-Çalışan-Fonksiyon)
+      - [Klasik Fonksiyonda Sınırsız Sayıda Parametre](#Klasik-Fonksiyonda-Sınırsız-Sayıda-Parametre)
+    - [Kendi-Kendine Çağırılan Fonksiyon ](#Kendi-Kendine-Çağırılan-Fonksiyon)
+    - [Ok Fonksiyonu](#Ok-Fonksiyonu)
+    - [Ok Fonksiyonunda Sınırsız Sayıda Parametre](#Ok-Fonksiyonunda-Sınırsız-Sayıda-Parametre)
+    - [Default Parametre ile Fonksiyon Kullanımı](#Default-Parametre-ile-Fonksiyon-kullanımı)
+  - [💻 Gün 7: Egzersizleri](#-Gün-7-Egzersizleri)
+    - [Egzersiz: Seviye 1](#Egzersiz-seviye-1)
+    - [Egzersiz: Seviye 2](#Egzersiz-seviye-2)
+    - [Egzersiz: Seviye 3](#Egzersiz-seviye-3)
 
 # 📔 Gün 7
 
@@ -54,10 +53,10 @@ Fonksiyon kullanmanın avantajları:
 
 Bir fonksiyon birkaç şekilde tanımlanabilir:
 
-- _Klasik Declaration function_
-- _Expression function_
-- _Anonymous function_
-- _Arrow function_
+- _Klasik Fonksiyon Tanımlama_
+- _İfade Fonksiyonu_
+- _İsimsiz Fonksiyon_
+- _Ok Fonksiyonu_
 
 ### Klasik Fonksiyon Tanımlama
 
@@ -90,7 +89,7 @@ const square = function () {
 };
 ```
 
-### Parametresiz ve dönüş değeri olamayan fonksiyon
+### Parametresiz ve Dönüş Değeri Olmayan Fonksiyon
 
 Fonksiyon, parametre olmadan tanımlanabilir. (Şu ana kadar tanımladıklarımız zaten parametresizdi)
 
@@ -119,8 +118,8 @@ addTwoNumbers(); // fonksiyon, kendisine verilen isim ile çağırılmalı
 
 ```js
 function printFullName() {
-  let firstName = "Asabeneh";
-  let lastName = "Yetayeh";
+  let firstName = "Khatai";
+  let lastName = "Huseynzade";
   let space = " ";
   let fullName = firstName + space + lastName;
   console.log(fullName);
@@ -129,14 +128,14 @@ function printFullName() {
 printFullName(); // fonksiyon çağırımına bir örnek
 ```
 
-### Bir değer döndüren fonksiyon
+### Bir Değer Döndüren Fonksiyon
 
 Fonksiyonlar geriye bir değer döndürebilir. bu işlemi `return` anahtar kelimesini kullanarak sağlarız. Normal fonksiyondan farklı olarak bir field'a atanabilir veya bir metot içerisinde parametre olarak kullanılabilir.
 
 ```js
 function printFullName() {
-  let firstName = "Asabeneh";
-  let lastName = "Yetayeh";
+  let firstName = "Khatai";
+  let lastName = "Huseynzade";
   let space = " ";
   let fullName = firstName + space + lastName;
   return fullName;
@@ -155,7 +154,7 @@ function addTwoNumbers() {
 console.log(addTwoNumbers());
 ```
 
-### Parametreli fonksiyon
+### Parametreli Fonksiyon
 
 Bir fonksiyonda farklı veri türlerini (number, string, boolean, object, function) parametre olarak geçebiliriz.
 
@@ -180,7 +179,7 @@ function square(number) {
 console.log(square(10));
 ```
 
-### İki parametreli fonksiyon
+### İki Parametreli Fonksiyon
 
 ```js
 // iki parametreli fonksiyon
@@ -206,7 +205,7 @@ console.log(sumTwoNumbers(10, 20));
 function printFullName(firstName, lastName) {
   return `${firstName} ${lastName}`;
 }
-console.log(printFullName("Asabeneh", "Yetayeh"));
+console.log(printFullName("Khatai", "Huseynzade"));
 ```
 
 ### Çok parametreli fonksiyon
@@ -240,11 +239,11 @@ console.log(areaOfCircle(10))
 
 ```
 
-### Sınırsız sayıda parametreyle çalışan fonksiyon
+### Sınırsız Sayıda Parametreyle Çalışan Fonksiyon
 
 Fonksiyonlarla çalışırken kaç tane parametre gerekebileceğini bilemeyebiliriz. Javascript'te bu durumda bize sınırsız sayıda parametre alan fonksiyon yazabilme imkanı tanır. Bu şekilde bir fonksiyon tanımlamanın iki yolu vardır.
 
-#### Klasik fonksiyonda sınırsız sayıda parametre
+#### Klasik Fonksiyonda Sınırsız Sayıda Parametre
 
 A function declaration provides a function scoped arguments array like object. Any thing we passed as argument in the function can be accessed from arguments object inside the functions. Let us see an example
 
@@ -280,7 +279,7 @@ console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 
 > Arrow function'da sınırsız sayıda parametre konusunu Arraw fonksiyonu gördükten sonra görebilirsiniz.
 
-### Kendi-kendine çağırılan fonksiyon
+### Kendi-Kendine Çağırılan Fonksiyon
 
 JavaScript sözdiziminde birçok ilginç şey vardır, bunlardan biri kendi kendine çalışan (kendi kendini çağıran) fonksiyonların tanımıdır. Böyle bir fonksiyonu şu şekilde tanımlayabiliriz:
 
@@ -300,9 +299,9 @@ Yukarıdaki fonksiyon, tanımlandıktan hemen sonra çağrılır. Kendi kendini 
 
 ### Ok Fonksiyonu
 
-Klasik fonksiyona alternatif olarak kullanılan arrow function sözdiziminde ufak bir farklılık vardır. `function` anahtar kelimesi yerine `=>` işareti kullanılır.
+Klasik fonksiyona alternatif olarak kullanılan arrow fonksiyon sözdiziminde ufak bir farklılık vardır. `function` anahtar kelimesi yerine `=>` işareti kullanılır.
 
-Sırasıyla aynı fonksiyonun klasik ve arrow function halini yazalım
+Sırasıyla aynı fonksiyonun klasik ve ok fonksiyonu halini yazalım
 
 ```js
 function square(n) {
@@ -330,10 +329,10 @@ const changeToUpperCase = (arr) => {
   return newArr;
 };
 
-const countries = ["Finland", "Sweden", "Norway", "Denmark", "Iceland"];
+const countries = ["Azerbaijan", "Sweden", "Norway", "Denmark", "Iceland"];
 console.log(changeToUpperCase(countries));
 
-// ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
+// ["AZERBAİJAN", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
 ```
 
 ```js
@@ -341,7 +340,7 @@ const printFullName = (firstName, lastName) => {
   return `${firstName} ${lastName}`;
 };
 
-console.log(printFullName("Asabeneh", "Yetayeh"));
+console.log(printFullName("Khatai", "Huseynzade"));
 ```
 
 Yukarıdaki fonksiyon yalnızca geri dönüş ifadesine sahiptir, bu nedenle bunu aşağıdaki şekilde açıkça iade edebiliriz.
@@ -349,10 +348,10 @@ Yukarıdaki fonksiyon yalnızca geri dönüş ifadesine sahiptir, bu nedenle bun
 ```js
 const printFullName = (firstName, lastName) => `${firstName} ${lastName}`;
 
-console.log(printFullName("Asabeneh", "Yetayeh"));
+console.log(printFullName("Khatai", "Huseynzade"));
 ```
 
-#### OK Fonksiyonunda sınırsız sayıda parametre
+#### OK Fonksiyonunda Sınırsız Sayıda Parametre
 
 Arrow function, klasik fonksiyon gibi arguments nesnesine sahip değildir. Arrow function'da sınırsız sayıda parametre kullanmak istersek spread operatör (...) ve hemen ardından parametre adı kullanılır. Fonksiyonda bağımsız değişken olarak geçtiğimiz her şeye arrow functionda dizi olarak erişilebilir. Bir örnek görelim
 
@@ -360,8 +359,7 @@ Arrow function, klasik fonksiyon gibi arguments nesnesine sahip değildir. Arrow
 // arguments nesnesine erişmemize bir örnek
 ​
 const sumAllNums = (...args) => {
- // console.log(arguments), arguments nesnesi bulunamadı
- // bunun yerine spread operator (...) ve parametre adı kullanalım
+ // bunun yerine yapıcı operatorünü (...) ve parametre adı kullanalım
  console.log(args)
 }
 
@@ -371,7 +369,6 @@ sumAllNums(1, 2, 3, 4)
 ```
 
 ```js
-// function declaration
 ​
 const sumAllNums = (...args) => {
   let sum = 0
@@ -386,7 +383,7 @@ console.log(sumAllNums(10, 20, 13, 40, 10))  // 93
 console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 ```
 
-### Default parametre ile fonksiyon kullanımı
+### Default Parametre ile Fonksiyon Kullanımı
 
 Bazen parametrelere default değerler geçmek isteyebiliriz. Bu durumda fonksiyon çağırımı sırasında söz konusu parametreyi vermek zorunda olmadan kullanabiliriz. Eğer bu parametreyi vermezsek fonksiyon işlevinin parametrenin default değerini kullanarak tamamlayacaktır.
 
@@ -405,24 +402,24 @@ functionName(arg);
 **Example:**
 
 ```js
-function greetings(name = "Peter") {
-  let message = `${name}, welcome to 30 Days Of JavaScript!`;
+function greetings(name = "Khatai") {
+  let message = `${name}, 30 Günde JavaScripte hoş geldiniz!`;
   return message;
 }
 
 console.log(greetings());
-console.log(greetings("Asabeneh"));
+console.log(greetings("Khatai"));
 ```
 
 ```js
-function generateFullName(firstName = "Asabeneh", lastName = "Yetayeh") {
+function generateFullName(firstName = "Khatai", lastName = "Huseynzade") {
   let space = " ";
   let fullName = firstName + space + lastName;
   return fullName;
 }
 
 console.log(generateFullName());
-console.log(generateFullName("David", "Smith"));
+console.log(generateFullName("Khatai", "Huseynzade"));
 ```
 
 ```js
@@ -444,7 +441,7 @@ console.log("Weight of an object in Newton: ", weightOfObject(100)); // 9.81 Dü
 console.log("Weight of an object in Newton: ", weightOfObject(100, 1.62)); // Ay yüzeyinde yerçekimi
 ```
 
-Yukarıdaki fonksiyonları bir de arrow function kullanarak tanımlayalım
+Yukarıdaki fonksiyonları bir de ok fonksiyon kullanarak tanımlayalım
 
 ```js
 // syntax -  söz dizimi
@@ -461,24 +458,24 @@ functionName(arg);
 **Example:**
 
 ```js
-const greetings = (name = "Peter") => {
-  let message = name + ", welcome to 30 Days Of JavaScript!";
+const greetings = (name = "Khatai") => {
+  let message = name + "30 Günde JavaScripte hoş gelsiniz!!";
   return message;
 };
 
 console.log(greetings());
-console.log(greetings("Asabeneh"));
+console.log(greetings("Khatai"));
 ```
 
 ```js
-const generateFullName = (firstName = "Asabeneh", lastName = "Yetayeh") => {
+const generateFullName = (firstName = "Khatai", lastName = "Huseynzade") => {
   let space = " ";
   let fullName = firstName + space + lastName;
   return fullName;
 };
 
 console.log(generateFullName());
-console.log(generateFullName("David", "Smith"));
+console.log(generateFullName("Huseynzade", "Huseynzade"));
 ```
 
 ```js

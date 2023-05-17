@@ -5,14 +5,14 @@
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
 </a><br>
 
-<sub>Yazar:
+<sub>Çevirmen:
 <a href="https://github.com/BilgeGatess">Khatai Huseynzade</a><br>
 <small> Mayıs, 2023</small>
 </sub>
 
 </div>
 
-[<< Gün 1](../readMe.md) | [Gün 3 >>](../03_Gün_Boole-değerleri_Operatörler_Tarih-objesi/03_gün_boole-değerleri_operatörler_tarih-objesi.md)
+[<< Gün 1](../01_Gün_Giriş/01_gün_giriş.md) | [Gün 3 >>](../03_Gün_Boole-değerleri_Operatörler_Tarih-objesi/03_gün_boole-değerleri_operatörler_tarih-objesi.md)
 
 - [📔 Gün 2](#-Gün-2)
   - [Veri Tipleri](#Veri-Tipleri)
@@ -965,4 +965,4 @@ console.log(numInt); // 9
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 1](../readMe.md) | [Gün 3 >>](../03_Gün_Boole-değerleri_Operatörler_Tarih-objesi/03_gün_boole-değerleri_operatörler_tarih-objesi.md)
+[<< Gün 1](../01_Gün_Giriş/01_gün_giriş.md) | [Gün 3 >>](../03_Gün_Boole-değerleri_Operatörler_Tarih-objesi/03_gün_boole-değerleri_operatörler_tarih-objesi.md)

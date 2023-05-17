@@ -1,50 +1,48 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript: Closures</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+<h1> 30 Günde JavaScript: Kapatma</h1>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> January, 2020</small>
+<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+</a><br>
+
+<sub>Çevirmen:
+<a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
+<small>Mayıs, 2023</small>
 </sub>
 
 </div>
+</div>
 
-[<< Gün 18](../18_Day_Promises/18_day_promises.md) | [Gün 20 >>](../20_Day_Writing_clean_codes/20_Day_writing_clean_codes.md)
+[<< Gün 18](../18_Gün_Sözler/18_gün_sözler.md) | [Gün 20 >>](../20_Gün_Temiz_Kod_Yazımı/20_gün_temiz_kod_yazımı.md)
 
-![Thirty Days Of JavaScript](../../images/banners/day_1_19.png)
-- [Gün 19](#gün-19)
-	- [Closure](#closure)
-	- [Egzersizler](#egzersizler)
-		- [Egzersiz: Seviye 1](#egzersiz-seviye-1)
-		- [Egzersiz: Seviye 2](#egzersiz-seviye-2)
-		- [Egzersiz: Seviye 3](#egzersiz-seviye-3)
+- [ 📔 Gün 19](#-Gün-19)
+  - [Kapatma](#Kapatma)
+- [💻 Gün 19: Egzersizleri](#-Gün-19-Egzersizleri)
+  - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
+  - [Egzersiz: Seviye 2](#Egzersiz-Seviye-2)
+  - [Egzersiz: Seviye 3](#Egzersiz-Seviye-3)
 
-# Gün 19
+# 📔 Gün 19
 
-## Closure
+## Kapatma
 
-JavaScript, bir outer(dış) fonksiyonu içine yazma fonksiyonu izni verir. İstediğimiz kadar inner(iç) fonksiyon yazabiliriz. Inner fonksiyon, outer fonksiyonun değişkenlerine erişiyorsa, buna closure(kapatma) denir.
+JavaScript, bir dış(outher) fonksiyonu içine yazma fonksiyonu izni verir. İstediğimiz kadar iç(Inner) fonksiyon yazabiliriz. İç fonksiyonu, dış fonksiyonun değişkenlerine erişiyorsa, buna kapatma denir.
 
 ```js
 function outerFunction() {
-    let count = 0;
-    function innerFunction() {
-        count++
-        return count
-    }
+  let count = 0;
+  function innerFunction() {
+    count++;
+    return count;
+  }
 
-    return innerFunction
+  return innerFunction;
 }
-const innerFunc = outerFunction()
+const innerFunc = outerFunction();
 
-console.log(innerFunc())
-console.log(innerFunc())
-console.log(innerFunc())
+console.log(innerFunc());
+console.log(innerFunc());
+console.log(innerFunc());
 ```
 
 ```sh
@@ -53,29 +51,29 @@ console.log(innerFunc())
 3
 ```
 
-Inner(iç) fonksiyonlara daha fazla örnek vermek gerekirse
+İç(Inner) fonksiyonlara daha fazla örnek vermek gerekirse
 
 ```js
 function outerFunction() {
-    let count = 0;
-    function plusOne() {
-        count++
-        return count
-    }
-    function minusOne() {
-        count--
-        return count
-    }
+  let count = 0;
+  function plusOne() {
+    count++;
+    return count;
+  }
+  function minusOne() {
+    count--;
+    return count;
+  }
 
-    return {
-        plusOne:plusOne(),
-        minusOne:minusOne()
-    }
+  return {
+    plusOne: plusOne(),
+    minusOne: minusOne(),
+  };
 }
-const innerFuncs = outerFunction()
+const innerFuncs = outerFunction();
 
-console.log(innerFuncs.plusOne)
-console.log(innerFuncs.minusOne)
+console.log(innerFuncs.plusOne);
+console.log(innerFuncs.minusOne);
 ```
 
 ```sh
@@ -85,7 +83,7 @@ console.log(innerFuncs.minusOne)
 
 🌕 İlerleme kaydediyorsun. Hızınızı koruyun, iyi işlere devam edin. Şimdi beyniniz ve kasınız için bazı egzersizler yapın.
 
-## Egzersizler
+## 💻 Gün 19: Egzersizleri
 
 ### Egzersiz: Seviye 1
 
@@ -101,4 +99,4 @@ console.log(innerFuncs.minusOne)
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 18](../18_Day_Promises/18_day_promises.md) | [Gün 20 >>](../20_Day_Writing_clean_codes/20_Day_writing_clean_codes.md)
+[<< Gün 18](../18_Gün_Sözler/18_gün_sözler.md) | [Gün 20 >>](../20_Gün_Temiz_Kod_Yazımı/20_gün_temiz_kod_yazımı.md)

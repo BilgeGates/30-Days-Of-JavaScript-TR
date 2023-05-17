@@ -26,7 +26,7 @@
       - [Bulanlılık Olayı](#Blanlılık-Olayı)
       - [keypress, keydown ve keyup](#keypress-keydown-ve-kyup)
   - [💻 Gün 23: Egzersizleri](#-Gün-23-Egzersizleri)
-    - [Egzersiz: Seviye 1](#Egzersiz-seviye-1)
+    - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
 
 # 📔 Gün 23
 

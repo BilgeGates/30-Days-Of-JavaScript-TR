@@ -16,21 +16,21 @@
 [<< Gün 12](../12_Gün_Düzenli_İfadeler/12_gün_düzenli_ifadeler.md) | [Gün 14 >>](../14_Gün_Hata_Yönetimi/14_gün_hata_yönetimi.md)
 
 - [📔 Gün 13](#-Gün-13)
-- [Konsol Nesne Yöntemleri](#Konsol-Nesne-Yöntemleri)
-- [console.log()](#consolelog)
-- [console.warn()](#consolewarn)
-- [console.error()](#consoleerror)
-- [console.table()](#consoletable)
-- [console.time()](#consoletime)
-- [console.info()](#consoleinfo)
-- [console.assert()](#onsoleassert)
-- [console.group()](#consolegroup)
-- [console.count()](#consolecount)
-- [console.clear()](#consoleclear)
-- [💻 Gün 13: Egzersizleri](#-Gün-13-Egzersizleri)
-- [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
-- [Egzersiz: Seviye 2](#Egzersiz-Seviye-2)
-- [Egzersiz: Seviye 3](#Egzersiz-Seviye-3)
+  - [Konsol Nesne Yöntemleri](#Konsol-Nesne-Yöntemleri)
+    - [console.log()](#consolelog)
+    - [console.warn()](#consolewarn)
+    - [console.error()](#consoleerror)
+    - [console.table()](#consoletable)
+    - [console.time()](#consoletime)
+    - [console.info()](#consoleinfo)
+    - [console.assert()](#onsoleassert)
+    - [console.group()](#consolegroup)
+    - [console.count()](#consolecount)
+    - [console.clear()](#consoleclear)
+  - [💻 Gün 13: Egzersizleri](#-Gün-13-Egzersizleri)
+    - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
+    - [Egzersiz: Seviye 2](#Egzersiz-Seviye-2)
+    - [Egzersiz: Seviye 3](#Egzersiz-Seviye-3)
 
 # 📔 Gün 13
 
@@ -110,7 +110,7 @@ console.table() yöntemi, verileri konsolda bir tablo olarak görüntüler. Tabl
 Önce basit bir dizi ile başlayalım. Aşağıdaki kod, iki sütunlu bir tablo görüntüler. Dizini görüntülemek için bir dizin sütunu ve adları görüntülemek için değer sütunu.
 
 ```js
-const names = ["Asabeneh", "Brook", "David", "John"];
+const names = ["Khatai", "Brook", "David", "John"];
 console.table(names);
 ```
 
@@ -118,11 +118,10 @@ Bir nesnenin sonucunu da kontrol edelim. Bu, iki sütunlu bir tablo oluşturur: 
 
 ```js
 const user = {
-  name: "Asabeneh",
-  title: "Programmer",
-  country: "Finland",
-  city: "Helsinki",
-  age: 250,
+  name: "Khatai",
+  title: "Developer",
+  country: "Huseynzade",
+  city: "Baku",
 };
 console.table(user);
 ```
@@ -131,7 +130,7 @@ Tarayıcı konsoluna kopyalayıp yapıştırarak örneklerin geri kalanını kon
 
 ```js
 const countries = [
-  ["Finland", "Helsinki"],
+  ["Huseynzade", "Khatai"],
   ["Sweden", "Stockholm"],
   ["Norway", "Oslo"],
 ];
@@ -141,32 +140,22 @@ console.table(countries);
 ```js
 const users = [
   {
-    name: "Asabeneh",
-    title: "Programmer",
-    country: "Finland",
-    city: "Helsinki",
-    age: 250,
+    name: "Khatai",
+    title: "Developer",
+    country: "Huseynzade",
+    city: "Baku",
   },
   {
     name: "Eyob",
     title: "Teacher",
     country: "Sweden",
     city: "London",
-    age: 25,
-  },
-  {
-    name: "Asab",
-    title: "Instructor",
-    country: "Norway",
-    city: "Oslo",
-    age: 22,
   },
   {
     name: "Matias",
     title: "Developer",
     country: "Denmark",
     city: "Copenhagen",
-    age: 28,
   },
 ];
 console.table(users);
@@ -292,7 +281,7 @@ for (let i = 0; i <= 10; i += 1) {
 console.group(), farklı günlük gruplarının gruplanmasına yardımcı olabilir. Aşağıdaki kodu kopyalayın ve tarayıcı konsolunda gruplara yapıştırın.
 
 ```js
-const names = ["Khatai", "Asabeneh", "David", "John"];
+const names = ["Khatai", "David", "John"];
 const countries = [
   ["Azerbaijan", "Baku"],
   ["Sweden", "Stockholm"],

@@ -5,7 +5,7 @@
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
 </a><br>
 
-<sub>Yazar:
+<sub>Çevirmen:
 <a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
 <small> Mayıs, 2023</small>
 </sub>
@@ -54,14 +54,14 @@ console.log(numOne, numTwo, numThree);
 ```
 
 ```js
-const names = ["Asabeneh", "Brook", "David", "John"];
+const names = ["Khatai", "Brook", "David", "John"];
 let [firstPerson, secondPerson, thirdPerson, fourthPerson] = names;
 
 console.log(firstPerson, secondPerson, thirdPerson, fourthPerson);
 ```
 
 ```sh
-Asabeneh Brook David John
+Khatai Brook David John
 ```
 
 ```js

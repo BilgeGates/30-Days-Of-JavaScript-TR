@@ -430,7 +430,7 @@ Başlangıcı ^ ve sonu olan $ olmalıdır.
 
 ```js
 let pattern = /^[A-Z][a-z]{3,12}$/;
-let name = "Asabeneh";
+let name = "Khatai";
 let result = pattern.test(name);
 
 console.log(result); // true

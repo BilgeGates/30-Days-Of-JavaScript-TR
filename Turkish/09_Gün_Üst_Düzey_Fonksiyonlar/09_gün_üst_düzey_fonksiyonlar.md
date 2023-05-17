@@ -5,7 +5,7 @@
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
 </a><br>
 
-<sub>Yazar:
+<sub>Çevirmen:
 <a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
 <small> Mayıs, 2023</small>
 </sub>
@@ -257,13 +257,13 @@ console.log(numbersSquare);
 ```
 
 ```js
-const names = ["Asabeneh", "Mathias", "Elias", "Brook"];
+const names = ["Khatai", "Mathias", "Elias", "Brook"];
 const namesToUpperCase = names.map((name) => name.toUpperCase());
 console.log(namesToUpperCase);
 ```
 
 ```sh
-['ASABENEH', 'MATHIAS', 'ELIAS', 'BROOK']
+['KHATAİ', 'MATHIAS', 'ELIAS', 'BROOK']
 ```
 
 ```js
@@ -346,7 +346,7 @@ console.log(countriesHaveFiveLetters);
 ```js
 const scores = [
   { name: "Asabeneh", score: 95 },
-  { name: "Lidiya", score: 98 },
+  { name: "Khatai", score: 98 },
   { name: "Mathias", score: 80 },
   { name: "Elias", score: 50 },
   { name: "Martha", score: 85 },
@@ -358,7 +358,7 @@ console.log(scoresGreaterEighty);
 ```
 
 ```sh
-[{name: 'Asabeneh', score: 95}, { name: 'Lidiya', score: 98 },{name: 'Martha', score: 85},{name: 'John', score: 100}]
+[{name: 'Asabeneh', score: 95}, { name: 'Khatai', score: 98 },{name: 'Martha', score: 85},{name: 'John', score: 100}]
 ```
 
 ### reduce
@@ -389,7 +389,7 @@ console.log(sum);
 _every_: Tüm elemanların tek bir açıdan benzer olup olmadığını kontrol edin. Booelan türünde geri dönüş yapar
 
 ```js
-const names = ["Asabeneh", "Mathias", "Elias", "Brook"];
+const names = ["Khatai", "Mathias", "Elias", "Brook"];
 const areAllStr = names.every((name) => typeof name === "string"); // hepsi string türünde mi?
 
 console.log(areAllStr);
@@ -427,20 +427,16 @@ console.log(age);
 ```
 
 ```js
-const names = ["Asabeneh", "Mathias", "Elias", "Brook"];
+const names = ["Khatai", "Mathias", "Elias", "Brook"];
 const result = names.find((name) => name.length > 7);
 console.log(result);
-```
-
-```sh
-Asabeneh
 ```
 
 ```js
 const scores = [
   { name: "Asabeneh", score: 95 },
   { name: "Mathias", score: 80 },
-  { name: "Elias", score: 50 },
+  { name: "Khatai", score: 150 },
   { name: "Martha", score: 85 },
   { name: "John", score: 100 },
 ];
@@ -450,7 +446,7 @@ console.log(score);
 ```
 
 ```sh
-{ name: "Asabeneh", score: 95 }
+{ name: "Khatai", score: 150 }
 ```
 
 ### findIndex
@@ -550,7 +546,7 @@ objArr.sort(function (a, b) {
 
 const users = [
   { name: "Asabeneh", age: 150 },
-  { name: "Brook", age: 50 },
+  { name: "Khataik", age: 50 },
   { name: "Eyob", age: 100 },
   { name: "Elias", age: 22 },
 ];
@@ -570,8 +566,8 @@ console.log(users); // sorted ascending
 ### Egzersiz: Seviye 1
 
 ```js
-const countries = ["Finland", "Sweden", "Denmark", "Norway", "IceLand"];
-const names = ["Asabeneh", "Mathias", "Elias", "Brook"];
+const countries = ["Finland", "Azerbaijan", "Denmark", "Norway", "IceLand"];
+const names = ["Asabeneh", "Khatai", "Elias", "Brook"];
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const products = [
   { product: "banana", price: 3 },

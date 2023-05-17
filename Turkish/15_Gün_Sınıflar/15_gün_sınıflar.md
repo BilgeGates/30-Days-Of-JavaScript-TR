@@ -1,11 +1,11 @@
 <div align="center">
-<h1> 30 Günde JavaScript: JavaScript Nesne Yazımı</h1>
+<h1> 30 Günde JavaScript: Sınıflar</h1>
 
 <a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
 </a><br>
 
-<sub>Yazar:
+<sub>Çevirmen:
 <a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
 <small>Mayıs, 2023</small>
 </sub>
@@ -20,18 +20,18 @@
     - [Sınıfın Tanımı ](#Sınıfın-Tanımı)
     - [Sınıf Örneklemesi](#Sınıf-Örneklemesi)
     - [Sınıf Oluşturucu](#Sınıf-Oluşturucu)
-    - [Yapıcı ile varsayılan değerler](#default-values-with-constructor)
-    - [Sınıf methodları](#class-methods)
-    - [Başlangıç ​​değeri olan özellikler](#properties-with-initial-value)
-    - [getter](#getter)
-    - [setter](#setter)
-    - [Statik method](#static-method)
-  - [Inheritance](#inheritance)
-    - [Overriding methods](#overriding-methods)
-  - [Egzersizler](#egzersizler)
-    - [Egzersiz Seviye 1](#egzersizler-seviye-1)
-    - [Egzersiz Seviye 2](#egzersizler-seviye-2)
-    - [Egzersiz Seviye 3](#egzersizler-seviye-3)
+    - [Yapıcı ile Varsayılan Ceğerler](#Yapıc-ile-Varsayılan_Değerler)
+    - [Sınıf Metodları](#Sınıf-Metodları)
+    - [Başlangıç ​​Değeri Olan Özellikler](#Başlanğıç-Değeri-Olan-Özellikler)
+    - [Alıcı](#Alıcı)
+    - [Tasarımcı](#Tasarımcı)
+    - [Statik Metod](#Statik-Metod)
+  - [Miras](#Miras)
+    - [Geçersiz Kılma Yöntemleri](#Geçersiz-Kılma-Yöntemleri)
+  - [💻 Gün 15: Egzersizleri](#-Gün-15-Egzersizleri)
+    - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
+    - [Egzersiz: Seviye 2](#Egzersiz-Seviye-2)
+    - [Egzersiz: Seviye 3](#Egzersiz-Seviye-3)
 
 # 📔 Gün 15
 
@@ -43,7 +43,7 @@ Bir sınıf oluşturduğumuzda, istediğimiz zaman ondan nesne oluşturabiliriz.
 
 Nesne bölümünde, bir nesne değişmezinin nasıl oluşturulacağını gördük. Nesne değişmezi bir singleton'dur. Benzer bir nesne elde etmek istiyorsak, onu yazmalıyız. Ancak sınıf, birçok nesne oluşturmaya izin verir. Bu, kod miktarını ve kod tekrarını azaltmaya yardımcı olur.
 
-### Sınıfın Tanımı ( Instantiation )
+### Sınıfın Tanımı
 
 JavaScript'te bir sınıf tanımlamak için class anahtar kelimesine, **CamelCase**'de bir sınıfın adına ve blok koduna (iki küme parantez) ihtiyacımız var. Kişi adında bir sınıf oluşturalım.
 
@@ -87,7 +87,7 @@ Gördüğünüz gibi bir Person nesnesi oluşturduk. Sınıfın henüz herhangi 
 
 Sınıfta farklı özellikler iletmek için class constructor(sınıf yapıcısını) kullanalım.
 
-### Sınıf Oluşturucu ( Constructor )
+### Sınıf Oluşturucu
 
 Constructor, nesnemiz için bir taslak oluşturmamıza izin veren yerleşik bir fonksiyondur. Constructor fonksiyonu, constructor anahtar sözcüğü ile başlar ve ardından bir parantez gelir. Parantez içinde nesnenin özelliklerini parametre olarak iletiyoruz. Bu anahtar sözcüğü, constructor parametrelerini sınıfa eklemek için kullanırız.
 
@@ -121,13 +121,13 @@ class Person {
   }
 }
 
-const person1 = new Person("Asabeneh", "Yetayeh");
+const person1 = new Person("Khatai", "Huseynzade");
 
 console.log(person1);
 ```
 
 ```sh
-Person {firstName: "Asabeneh", lastName: "Yetayeh"}
+Person {firstName: "Khatai", lastName: "Huseynzade"}
 ```
 
 En başta da belirttiğimiz gibi bir sınıf oluşturduğumuzda, sınıfı kullanarak birçok nesne oluşturabiliriz. Şimdi, Person sınıfını kullanarak birden fazla kişi nesnesi oluşturalım.
@@ -141,9 +141,9 @@ class Person {
   }
 }
 
-const person1 = new Person("Asabeneh", "Yetayeh");
-const person2 = new Person("Lidiya", "Tekle");
-const person3 = new Person("Abraham", "Yetayeh");
+const person1 = new Person("Khatai", "Huseynzadr");
+const person2 = new Person("Ugur", "Hasanli");
+const person3 = new Person("Abraham", "Mamedyarov");
 
 console.log(person1);
 console.log(person2);
@@ -151,9 +151,9 @@ console.log(person3);
 ```
 
 ```sh
-Person {firstName: "Asabeneh", lastName: "Yetayeh"}
-Person {firstName: "Lidiya", lastName: "Tekle"}
-Person {firstName: "Abraham", lastName: "Yetayeh"}
+Person {firstName: "Khatai", lastName: "Huseynzade"}
+Person {firstName: "Ugur", lastName: "Hasanli"}
+Person {firstName: "Abraham", lastName: "Mamedyarov"}
 ```
 
 Person sınıfını kullanarak 3 kişi nesnesi oluşturduk. Gördüğünüz gibi sınıfımızda çok fazla özellik yok,hadi biraz daha sınıfımızın içerisine özellik ekleyelim.
@@ -170,27 +170,27 @@ class Person {
   }
 }
 
-const person1 = new Person("Asabeneh", "Yetayeh", 250, "Finland", "Helsinki");
+const person1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
 
 console.log(person1);
 ```
 
 ```sh
-Person {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki"}
+Person {firstName: "Khatai", lastName: "Huseynzade", age: 250, country: "Azerbaijan", city: "Baku"}
 ```
 
-### Constructor ile varsayılan değerler
+### Yapıcı ile Varsayılan Değerler
 
-Constructor fonksiyonun özellikleri,diğer normal fonksiyonlar gibi bir değere sahip olabilir.
+Yapıcı fonksiyonun özellikleri,diğer normal fonksiyonlar gibi bir değere sahip olabilir.
 
 ```js
 class Person {
   constructor(
-    firstName = "Asabeneh",
-    lastName = "Yetayeh",
+    firstName = "Khatai",
+    lastName = "Huseynzade",
     age = 250,
-    country = "Finland",
-    city = "Helsinki"
+    country = "Azerbaijan",
+    city = "Baku"
   ) {
     this.firstName = firstName;
     this.lastName = lastName;
@@ -201,20 +201,20 @@ class Person {
 }
 
 const person1 = new Person(); // it will take the default values
-const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
+const person2 = new Person("Ugur", "Hasanli", 28, "Azerbaijan", "Guba");
 
 console.log(person1);
 console.log(person2);
 ```
 
 ```sh
-Person {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki"}
-Person {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Espoo"}
+Person {firstName: "Khatai", lastName: "Huseynzade", age: 250, country: "Azerbaijan", city: "Baku"}
+Person {firstName: "Ugur", lastName: "Hasanli", age: 28, country: "Azerbaijan", city: "Guba"}
 ```
 
-### Sınıf methodları
+### Sınıf Metodları
 
-Bir sınıfın içindeki constructor, nesne için bir tasklak oluşturmamıza izin veren yerleşik bir fonksiyondur. Bir sınıfta sınıf methodları oluşturabiliriz. Methodlar, sınıf içindeki JavaScript fonksiyonlarıdır. Bazı sınıf methodları oluşturalım.
+Bir sınıfın içindeki yapıcı, nesne için bir tasklak oluşturmamıza izin veren yerleşik bir fonksiyondur. Bir sınıfta sınıf metodları oluşturabiliriz. Metodlar, sınıf içindeki JavaScript fonksiyonlarıdır. Bazı sınıf metodları oluşturalım.
 
 ```js
 class Person {
@@ -231,19 +231,19 @@ class Person {
   }
 }
 
-const person1 = new Person("Asabeneh", "Yetayeh", 250, "Finland", "Helsinki");
-const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
+const person1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
+const person2 = new Person("Ugur", "Hasanli", 28, "Azerbaijan", "Guba");
 
 console.log(person1.getFullName());
 console.log(person2.getFullName());
 ```
 
 ```sh
-Asabeneh Yetayeh
+Khatai Huseynzade
 test.js:19 Lidiya Tekle
 ```
 
-### Başlangıç ​​değeri olan özellikler
+### Başlangıç ​​Değeri Olan Özellikler
 
 Bazı özellikler için bir sınıf oluşturduğumuzda bir başlangıç değerine sahip olabiliriz. Örneğin bir oyun oynuyorsanız, başlama puanınız sıfır olacaktır. Yani, sıfır olan bir başlangıç puanımız veya herhangi bir puanımız olabilir. Diğer bir şekilde, bir başlangıç becerisine sahip olabiliriz ve bir süre sonra biraz beceri kazanacağız.
 
@@ -264,8 +264,8 @@ class Person {
   }
 }
 
-const person1 = new Person("Asabeneh", "Yetayeh", 250, "Finland", "Helsinki");
-const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
+const person1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
+const person2 = new Person("Ugur", "Hasanli", 28, "Azerbaijan", "Guba");
 
 console.log(person1.score);
 console.log(person2.score);
@@ -281,11 +281,11 @@ console.log(person2.skills);
 []
 ```
 
-Bir method regular , getter yada setter olabilir. getter ve setter yakından inceleyelim.
+Bir metod düzenli, alıcı yada tasarımcı olabilir. Alıcı ve tasarımcını yakından inceleyelim.
 
-### getter
+### Alıcı
 
-get yöntemi, nesneden değere erişmemizi sağlar. Get anahtar sözcüğünü ve ardından bir fonksiyon kullanarak bir get methodu yazıyoruz. Özelliklere doğrudan nesneden erişmek yerine değeri almak için getter kullanırız. Aşağıdaki örneğe bakalım
+Alıcı yöntemi, nesneden değere erişmemizi sağlar. _*Get*_ anahtar sözcüğünü ve ardından bir fonksiyon kullanarak bir get metodu yazıyoruz. Özelliklere doğrudan nesneden erişmek yerine değeri almak için getter kullanırız. Aşağıdaki örneğe bakalım
 
 ```js
 class Person {
@@ -310,10 +310,10 @@ class Person {
   }
 }
 
-const person1 = new Person("Asabeneh", "Yetayeh", 250, "Finland", "Helsinki");
-const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
+const person1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
+const person2 = new Person("Ugur", "Hasanli", 28, "Azerbaijan", "Guba");
 
-console.log(person1.getScore); // We do not need parenthesis to call a getter method
+console.log(person1.getScore);
 console.log(person2.getScore);
 
 console.log(person1.getSkills);
@@ -327,9 +327,9 @@ console.log(person2.getSkills);
 []
 ```
 
-### setter
+### Tasarımcı
 
-Setter yöntemi, belirli özelliklerin değerini değiştirmemize izin verir. _set_ anahtar kelimesini kullanarak bir fonksiyon kullanarak bir setter methodu yazıyoruz. Aşağıdaki örneğe bakalım.
+Tasarımcı yöntemi, belirli özelliklerin değerini değiştirmemize izin verir. _set_ anahtar kelimesini kullanarak bir fonksiyon kullanarak bir tasarımcı metodu yazıyoruz. Aşağıdaki örneğe bakalım.
 
 ```js
 class Person {
@@ -360,8 +360,15 @@ class Person {
   }
 }
 
-const person1 = new Person("Asabeneh", "Yetayeh", 250, "Finland", "Helsinki");
-const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
+const person1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
+const person2 = new Person(
+  "Ugur",
+  "Hasanli",
+  "Tekle",
+  28,
+  "Azerbaijan",
+  "Baku"
+);
 
 person1.setScore = 1;
 person1.setSkill = "HTML";
@@ -387,7 +394,7 @@ console.log(person2.skills);
 ["Planning", "Managing", "Organizing"]
 ```
 
-Regular(normal) method ile getter arasındaki fark sizi şaşırtmasın. Normal bir method yapmayı biliyorsanız, iyisiniz. Person sınıfına getPersonInfo adlı normal method ekleyelim.
+Ьormal metod ile alıcı arasındaki fark sizi şaşırtmasın. Normal bir metod yapmayı biliyorsanız, iyisiniz. Person sınıfına getPersonInfo adlı normal metod ekleyelim.
 
 ```js
 class Person {
@@ -429,8 +436,8 @@ class Person {
   }
 }
 
-const person1 = new Person("Asabeneh", "Yetayeh", 250, "Finland", "Helsinki");
-const person2 = new Person("Lidiya", "Tekle", 28, "Finland", "Espoo");
+const person1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
+const person2 = new Person("Ugur", "Hasanli", 28, "Azerbaijan", "Guba");
 const person3 = new Person("John", "Doe", 50, "Mars", "Mars city");
 
 person1.setScore = 1;
@@ -461,14 +468,14 @@ console.log(person3.getPersonInfo());
 ["HTML", "CSS", "JavaScript"]
 ["Planning", "Managing", "Organizing"]
 []
-Asabeneh Yetayeh is 250. He lives Helsinki, Finland. He knows HTML, CSS and JavaScript
-Lidiya Tekle is 28. He lives Espoo, Finland. He knows Planning, Managing and Organizing
+Khatai Huseynzade is 250. He lives Azerbaijan, Baku. He knows HTML, CSS and JavaScript
+Lidiya Tekle is 28. He lives Amerika, New-York. He knows Planning, Managing and Organizing
 John Doe is 50. He lives Mars city, Mars.
 ```
 
-### Statik method
+### Statik Metod
 
-Statik anahtar kelime, bir sınıf için statik bir yöntem tanımlar. Statik methodlar, sınıfın örneklerinde(instance) çağrılmaz. Bunun yerine, sınıfın kendisinde çağrılırlar. Bunlar genellikle nesneler oluşturma veya klonlama fonskiyonları gibi yardımcı fonksiyonlardır. Statik methoda bir örnek _Date.now()_'dur. _now_ yöntemi doğrudan sınıftan çağrılır.
+Statik anahtar kelime, bir sınıf için statik bir yöntem tanımlar. Statik metodlar, sınıfın örneklerinde çağrılmaz. Bunun yerine, sınıfın kendisinde çağrılırlar. Bunlar genellikle nesneler oluşturma veya klonlama fonskiyonları gibi yardımcı fonksiyonlardır. Statik metoda bir örnek _Date.now()_'dur. _now_ yöntemi doğrudan sınıftan çağrılır.
 
 ```js
 class Person {
@@ -544,11 +551,11 @@ Node
 15.1.2020 23:56
 ```
 
-Statik methodlar, yardımcı fonksiyonlar olarak kullanılabilen yöntemlerdir.
+Statik metodlar, yardımcı fonksiyonlar olarak kullanılabilen yöntemlerdir.
 
-## Inheritance (Kalıtım)
+## Kalıt
 
-Inheritance kullanarak ana sınıfın tüm özelliklerine ve yöntemlerine erişebiliriz. Bu, kod tekrarını azaltır. Hatırlarsanız, bir Person ana sınıfımız var ve ondan alt sınıflar yaratacağız. Alt sınıfımız öğrenci, öğretmen vb. olabilir.
+Kalıt kullanarak ana sınıfın tüm özelliklerine ve yöntemlerine erişebiliriz. Bu, kod tekrarını azaltır. Hatırlarsanız, bir Person ana sınıfımız var ve ondan alt sınıflar yaratacağız. Alt sınıfımız öğrenci, öğretmen vb. olabilir.
 
 ```js
 // syntax
@@ -566,7 +573,7 @@ class Student extends Person {
   }
 }
 
-const s1 = new Student("Asabeneh", "Yetayeh", "Finland", 250, "Helsinki");
+const s1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
 console.log(s1);
 console.log(s1.saySomething());
 console.log(s1.getFullName());
@@ -574,16 +581,16 @@ console.log(s1.getPersonInfo());
 ```
 
 ```sh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: "Finland", country: 250, city: "Helsinki", …}
+Student {firstName: "Khatai", lastName: "Huseynzade", age: "250", country: Azerbaijan, city: "Baku", …}
 I am a child of the person class
-Asabeneh Yetayeh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: "Finland", country: 250, city: "Helsinki", …}
-Asabeneh Yetayeh is Finland. He lives Helsinki, 250.
+Khatai Huseynzade
+Student {firstName: "Khatai", lastName: "Huseynzade", age: "250", country: Azerbaijan, city: "Baku", …}
+Khatai Huseynzade is Azerbaijan. He lives Baku, 250.
 ```
 
-### Overriding method
+### Geçersiz Kılma Yöntemleri
 
-Gördüğünüz gibi Person Class'taki tüm yöntemlere erişmeyi başardık ve Student alt sınıfında kullandık. Ana yöntemlerini özelleştirebiliriz, bir alt sınıfa ek özellikler ekleyebiliriz. Özelleştirmek istiyorsak, methodlar ve ekstra özellikler eklemek istiyorsak, alt sınıfa için constructor fonksiyonu kullanmamız gerekir. Constructor işlevinin içinde, üst sınıftan tüm özelliklere erişmek için super() işlevini çağırırız. Person sınıfının cinsiyeti yoktu ama şimdi öğrenci sınıfı için cinsiyet özelliğini verelim. Alt sınıfta aynı method adı kullanılıyorsa, üst yöntem geçersiz kılınır.
+Gördüğünüz gibi Person Class'taki tüm yöntemlere erişmeyi başardık ve Student alt sınıfında kullandık. Ana yöntemlerini özelleştirebiliriz, bir alt sınıfa ek özellikler ekleyebiliriz. Özelleştirmek istiyorsak, metodlar ve ekstra özellikler eklemek istiyorsak, alt sınıfa için yapıcı fonksiyonu kullanmamız gerekir. yapıcı işlevinin içinde, üst sınıftan tüm özelliklere erişmek için super() işlevini çağırırız. Person sınıfının cinsiyeti yoktu ama şimdi öğrenci sınıfı için cinsiyet özelliğini verelim. Alt sınıfta aynı metod adı kullanılıyorsa, üst yöntem geçersiz kılınır.
 
 ```js
 class Student extends Person {
@@ -611,14 +618,15 @@ class Student extends Person {
 }
 
 const s1 = new Student(
-  "Asabeneh",
-  "Yetayeh",
-  250,
-  "Finland",
-  "Helsinki",
-  "Male"
+"Khatai"
+"Huseynzade"
+250
+"Azerbaijan"
+"Baku";
+"Male"
+
 );
-const s2 = new Student("Lidiya", "Tekle", 28, "Finland", "Helsinki", "Female");
+const person2 = new Person("Ugur", "Hasanli", 28, "Azerbaijan", "Guba", "female");
 s1.setScore = 1;
 s1.setSkill = "HTML";
 s1.setSkill = "CSS";
@@ -641,34 +649,35 @@ console.log(s2.getPersonInfo());
 ```
 
 ```sh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki", …}
-Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Helsinki", …}
+Student {firstName: "Khatai", lastName: "Huseynzade", age: "250", country: Azerbaijan, city: "Baku", …}
 I am a child of the person class
-Asabeneh Yetayeh
-Student {firstName: "Asabeneh", lastName: "Yetayeh", age: 250, country: "Finland", city: "Helsinki", …}
-Asabeneh Yetayeh is 250. He lives in Helsinki, Finland. He knows HTML, CSS and JavaScript
+Khatai Huseynzade
+Student {firstName: "Ughur", lastName: "Hasanli", age: 28, country: "Azerbaijan", city: "Guba", …}
 I am a child of the person class
-Lidiya Tekle
-Student {firstName: "Lidiya", lastName: "Tekle", age: 28, country: "Finland", city: "Helsinki", …}
-Lidiya Tekle is 28. She lives in Helsinki, Finland. He knows Planning, Managing and Organizing
+Ugur Hasanli
+Student {firstName: "Khatai", lastName: "Huseynzade", age: "250", country: Azerbaijan, city: "Baku", …}
+I am a child of the person class
+Khatai Huseynzade
+Student {firstName: "Ughur", lastName: "Hasanli", age: 28, country: "Azerbaijan", city: "Guba", …}
+Ugur Hasanli is 28. She lives in Baku, Azerbaijan. He knows Planning, Managing and Organizing
 ```
 
-Şimdi, getPersonInfo methodu geçersiz kılındı ​​ve kişinin erkek mi yoksa kadın mı olduğunu tanımlar.
+Şimdi, getPersonInfo metodu geçersiz kılındı ​​ve kişinin erkek mi yoksa kadın mı olduğunu tanımlar.
 
 🌕 Sen mükemmelsin. Artık sınıf oluşturmayı biliyorsunuz ve her şeyi bir nesneye dönüştürme gücünüz var. Büyüklüğe giden yolun yarısına kadar geldin. Şimdi beyniniz ve kasınız için bazı egzersizler yapın.
 
-## Egzersizler
+## 💻 Gün 15: Egzersizleri
 
-### Egzersiz Seviye 1
+### Egzersiz: Seviye 1
 
 1. Bir Animal sınıfı oluşturun. Sınıf, isim, yaş, renk, ayak sayısı özelliklerine sahip olacak ve farklı yöntemler oluşturacaktır
 2. Animal sınıfına Dog ve Cat adı altında alt sınıflar oluşturun
 
-### Egzersiz Seviye 2
+### Egzersiz: Seviye 2
 
-1. Oluşturduğunuz Animal sınıfını override methoduyla yazın
+1. Oluşturduğunuz Animal sınıfını override metoduyla yazın
 
-### Egzersiz Seviye 3
+### Egzersiz: Seviye 3
 
 1. Bir örneğin merkezi eğilim ölçüsünü (ortalama, medyan, mod) ve değişkenlik ölçüsünü (aralık, varyans, standart sapma) hesaplayan bir program geliştirmeye çalışalım. Bu ölçülere ek olarak, numunenin min, maks, sayım, yüzdelik ve frekans dağılımını bulun. İstatistikler adlı bir sınıf oluşturabilir ve İstatistik sınıfı için yöntem olarak istatistiksel hesaplamalar yapan tüm işlevleri oluşturabilirsiniz. Aşağıdaki çıktıyı kontrol edin.
 
@@ -705,8 +714,8 @@ Standard Deviation:  4.2
 Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
 ```
 
-1. PersonAccount adlı bir sınıf oluşturun. ad, soyad, gelirler, giderler özelliklerine sahip olan totalIncome, totalExpense, accountInfo,addIncome, addExpense ve accountBalance methodlarına sahip.
+1. PersonAccount adlı bir sınıf oluşturun. ad, soyad, gelirler, giderler özelliklerine sahip olan totalIncome, totalExpense, accountInfo,addIncome, addExpense ve accountBalance metodlarına sahip.
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 14](../14_Day_Error_handling/14_day_error_handling.md) | [Gün 16>>](../16_Day_JSON/16_day_json.md)
+[<< Gün 14](../14_Gün_Hata_Yönetimi/14_gün_hata_yönetimi.md) | [Gün 16 >>](../16_Gün_JavaScript_Nesne_Yazımı/16_gün_javascript_nesne_yazımı.md)

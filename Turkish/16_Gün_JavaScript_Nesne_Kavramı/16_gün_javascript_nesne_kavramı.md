@@ -1,38 +1,35 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript: JSON</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+<h1> 30 Günde JavaScript: JavaScript Nesne Kavramı</h1>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> January, 2020</small>
+<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+</a><br>
+
+<sub>Çevirmen:
+<a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
+<small>Mayıs, 2023</small>
 </sub>
 
 </div>
+</div>
 
-[<< Gün 15](../15_Day_Classes/15_day_classes.md) | [Gün 17 >>](../17_Day_Web_storages/17_day_web_storages.md)
+[<< Gün 15](../15_Gün_Sınıflar/15_gün_sınıflar.md) | [Gün 17 >>](../17_Gün_Web_Depoları/17_gün_web_depoları.md)
 
-![Thirty Days Of JavaScript](../../images/banners/day_1_16.png)
+- [ 📔 Gün 16](#-Gün-16)
+  - [JavaScript Nesne Kavramı (JSON)](#JavaScript-Nesne-Kavramı-JSON)
+    - [JSONu JavaScript Nesnesine Dönüştürme](#JSONu-JavaScript-Nesnesine-Dönüştürme)
+      - [JSON.parse()](#JSON-parse)
+    - [JSON.parse() ile bir canlandırıcı fonksiyonu kullanma](#JSON-parse-ile-bir-canlandırıcı-fonksiyonu-kullanma)
+    - [Nesneyi JSONa Dönüştürme](#Nesneyi-JSONa-Dönüştürme)
+    - [JSON.stringify ile filtre Dizisi Kullanma](#JSON-stringify-ile-filtre-Dizisi-Kullanma)
+  - [💻 Gün 16: Egzersizleri](#-Gün-16-Egzersizleri)
+    - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
+    - [Egzersiz: Seviye 2](#Egzersiz-Seviye-2)
+    - [Egzersiz: Seviye 3](#Egzersiz-Seviye-3)
 
-- [Gün 16](#day-16)
-	- [JSON](#json)
-		- [JSON'u JavaScript Nesnesine Dönüştürme](#converting-json-to-javascript-object)
-			- [JSON.parse()](#jsonparse)
-		- [JSON.parse() ile bir reviver fonksiyonu kullanma](#using-a-reviver-function-with-jsonparse)
-		- [Nesneyi JSON'a Dönüştürme](#converting-object-to-json)
-		- [JSON.stringify ile Filtre Dizisi Kullanma](#using-a-filter-array-with-jsonstringify)
-	- [Egzersizler](#exercises)
-		- [Egzersiz Seviye 1](#exercises-level-1)
-		- [Egzersiz Seviye 2](#exercises-level-2)
-		- [Egzersiz Seviye 3](#exercises-level-3)
+# 📔 Gün 16
 
-# Gün 16
-
-## JSON
+## JavaScript Nesne Kavramı (JSON)
 
 JSON, javascript nesne kavramı anlamına gelir. JSON syntaxı(sözdizim), JavaScript nesne gösterimi sözdiziminden türetilmiştir, ancak JSON biçimi yalnızca metin veya dizedir. JSON, depolama ve taşıma için hafif bir veri formatıdır. JSON, çoğunlukla bir sunucudan bir istemciye veri gönderildiğinde kullanılır. JSON, XML'e göre kullanımı daha kolay bir alternatiftir.
 
@@ -205,13 +202,13 @@ const usersText = `{
   "email":"lidiya@lidiya.com"
   }
 ]
-}`
+}`;
 
-const usersObj = JSON.parse(usersText, undefined, 4)
-console.log(usersObj)
+const usersObj = JSON.parse(usersText, undefined, 4);
+console.log(usersObj);
 ```
 
-### JSON.parse() ile bir reviver fonksiyonu kullanma
+### JSON.parse() ile Bir Canlandırıcı Fonksiyonu Kullanma
 
 Reviver fonksiyonunu formatlayıcı olarak kullanmak için isim ve soyadı değerini formatlamak istediğimiz tuşları koyuyoruz. Diyelim ki, JSON verilerinin ad ve soyadını biçimlendirmekle ilgileniyoruz.
 
@@ -237,14 +234,14 @@ const usersText = `{
   "email":"lidiya@lidiya.com"
   }
 ]
-}`
+}`;
 
 const usersObj = JSON.parse(usersText, (key, value) => {
   let newValue =
-    typeof value == 'string' && key != 'email' ? value.toUpperCase() : value
-  return newValue
-})
-console.log(usersObj)
+    typeof value == "string" && key != "email" ? value.toUpperCase() : value;
+  return newValue;
+});
+console.log(usersObj);
 ```
 
 _JSON.parse()_ kullanımı çok kullanışlıdır. İsteğe bağlı parametreyi geçmenize gerek yok, sadece gerekli parametre ile kullanabilirsiniz ve çok şey başaracaksınız.
@@ -254,7 +251,7 @@ _JSON.parse()_ kullanımı çok kullanışlıdır. İsteğe bağlı parametreyi 
 Nesneyi JSON olarak değiştirmek istediğimizde _JSON.stringify()_ kullanırız. stringify yöntemi, bir gerekli parametre ve iki isteğe bağlı parametre alır. Değiştirici filtre olarak kullanılır ve boşluk bir girintidir. Nesnedeki anahtarlardan herhangi birini filtrelemek istemiyorsak, tanımsız olarak geçebiliriz.
 
 ```js
-JSON.stringify(obj, replacer, space)
+JSON.stringify(obj, replacer, space);
 // json or text , the data
 // reviver opsiyonel callback fonksiyonudur
 ```
@@ -264,75 +261,75 @@ Aşağıdaki nesneyi bir string değere dönüştürelim. İlk önce tüm anahta
 ```js
 const users = {
   Alex: {
-    email: 'alex@alex.com',
-    skills: ['HTML', 'CSS', 'JavaScript'],
+    email: "alex@alex.com",
+    skills: ["HTML", "CSS", "JavaScript"],
     age: 20,
     isLoggedIn: false,
-    points: 30
+    points: 30,
   },
   Asab: {
-    email: 'asab@asab.com',
+    email: "asab@asab.com",
     skills: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'Redux',
-      'MongoDB',
-      'Express',
-      'React',
-      'Node'
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Redux",
+      "MongoDB",
+      "Express",
+      "React",
+      "Node",
     ],
     age: 25,
     isLoggedIn: false,
-    points: 50
+    points: 50,
   },
   Brook: {
-    email: 'daniel@daniel.com',
-    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    email: "daniel@daniel.com",
+    skills: ["HTML", "CSS", "JavaScript", "React", "Redux"],
     age: 30,
     isLoggedIn: true,
-    points: 50
+    points: 50,
   },
   Daniel: {
-    email: 'daniel@alex.com',
-    skills: ['HTML', 'CSS', 'JavaScript', 'Python'],
+    email: "daniel@alex.com",
+    skills: ["HTML", "CSS", "JavaScript", "Python"],
     age: 20,
     isLoggedIn: false,
-    points: 40
+    points: 40,
   },
   John: {
-    email: 'john@john.com',
-    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Node.js'],
+    email: "john@john.com",
+    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Node.js"],
     age: 20,
     isLoggedIn: true,
-    points: 50
+    points: 50,
   },
   Thomas: {
-    email: 'thomas@thomas.com',
-    skills: ['HTML', 'CSS', 'JavaScript', 'React'],
+    email: "thomas@thomas.com",
+    skills: ["HTML", "CSS", "JavaScript", "React"],
     age: 20,
     isLoggedIn: false,
-    points: 40
+    points: 40,
   },
   Paul: {
-    email: 'paul@paul.com',
+    email: "paul@paul.com",
     skills: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'MongoDB',
-      'Express',
-      'React',
-      'Node'
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MongoDB",
+      "Express",
+      "React",
+      "Node",
     ],
     age: 20,
     isLoggedIn: false,
-    points: 40
-  }
-}
+    points: 40,
+  },
+};
 
-const txt = JSON.stringify(users, undefined, 4)
-console.log(txt) // text, JSON- anlamına gelir, çünkü json bir nesnenin string biçimidir.
+const txt = JSON.stringify(users, undefined, 4);
+console.log(txt); // text, JSON- anlamına gelir, çünkü json bir nesnenin string biçimidir.
 ```
 
 ```sh
@@ -433,25 +430,29 @@ console.log(txt) // text, JSON- anlamına gelir, çünkü json bir nesnenin stri
 }
 ```
 
-### JSON.stringify ile Filtre Dizisi Kullanma
+### JSON.stringify ile filtre Dizisi Kullanma
 
 Şimdi, replacerı filtre olarak kullanalım. Kullanıcı nesnesinin uzun bir anahtar listesi var ama biz sadece birkaçıyla ilgileniyoruz. Örnekte gösterildiği gibi dizide tutmak istediğimiz anahtarları koyuyoruz ve replacer yerine kullanıyoruz.
 
 ```js
 const user = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
-  country: 'Finland',
-  city: 'Helsinki',
-  email: 'alex@alex.com',
-  skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Python'],
+  firstName: "Asabeneh",
+  lastName: "Yetayeh",
+  country: "Finland",
+  city: "Helsinki",
+  email: "alex@alex.com",
+  skills: ["HTML", "CSS", "JavaScript", "React", "Python"],
   age: 250,
   isLoggedIn: false,
-  points: 30
-}
+  points: 30,
+};
 
-const txt = JSON.stringify(user,['firstName', 'lastName', 'country', 'city', 'age'],4)
-console.log(txt)
+const txt = JSON.stringify(
+  user,
+  ["firstName", "lastName", "country", "city", "age"],
+  4
+);
+console.log(txt);
 ```
 
 ```sh
@@ -466,19 +467,19 @@ console.log(txt)
 
 🌕 Sen olağanüstüsün. Artık verileri depolamak veya bir HTTP sunucusu göndermek için kullanabileceğiniz hafif bir veri formatı biliyorsunuz. Büyüklüğe giden yolda 16 adım öndesin. Şimdi beyniniz ve kasınız için bazı egzersizler yapın.
 
-## Egzersizler
+## 💻 Gün 16: Egzersizleri
 
 ```js
-const skills = ['HTML', 'CSS', 'JS', 'React','Node', 'Python']
+const skills = ["HTML", "CSS", "JS", "React", "Node", "Python"];
 let age = 250;
-let isMarried = true
+let isMarried = true;
 const student = {
-  firstName:'Asabeneh',
-  lastName:'Yetayehe',
-  age:250,
-  isMarried:true,
-  skills:['HTML', 'CSS', 'JS', 'React','Node', 'Python', ]
-}
+  firstName: "Asabeneh",
+  lastName: "Yetayehe",
+  age: 250,
+  isMarried: true,
+  skills: ["HTML", "CSS", "JS", "React", "Node", "Python"],
+};
 const txt = `{
     "Alex": {
         "email": "alex@alex.com",
@@ -574,7 +575,7 @@ const txt = `{
         "points": 40
     }
 }
-`
+`;
 ```
 
 ### Egzersiz Seviye 1
@@ -590,9 +591,9 @@ const txt = `{
 
 ### Egzersiz Seviye 3
 
-1. *txt* JSON'u nesneye ayrıştırın.
-2. *txt* içinde saklanan değişkenden birçok skills'e sahip olan kullanıcıyı bulun.
+1. _txt_ JSON'u nesneye ayrıştırın.
+2. _txt_ içinde saklanan değişkenden birçok skills'e sahip olan kullanıcıyı bulun.
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 15](../15_Day_Classes/15_day_classes.md) | [Gün 17 >>](../17_Day_Web_storages/17_day_web_storages.md)
+[<< Gün 15](../15_Gün_Sınıflar/15_gün_sınıflar.md) | [Gün 17 >>](../17_Gün_Web_Depoları/17_gün_web_depoları.md)

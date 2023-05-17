@@ -5,7 +5,7 @@
 <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
 </a><br>
 
-<sub>Yazar:
+<sub>Çevirmen:
 <a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
 <small> Mayıs, 2023</small>
 </sub>
@@ -186,26 +186,16 @@ const person = {};
 
 Şimdi oluşturacağımız person nesnesinin firstName, lastName, age, country, city ve skills gibi bazı özellikleri olacak şekilde oluşturalım.
 
-```
+```js
 const person = {
-  firstName: 'Asabeneh',
-  lastName: 'Yetayeh',
+  firstName: "Khatai",
+  lastName: "Huseynzade",
   age: 250,
-  country: 'Finland',
-  city: 'Helsinki',
-  skills: [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'Node',
-    'MongoDB',
-    'Python',
-    'D3.js'
-  ],
-  isMarried: true
-}
-console.log(person)
+  country: "Azerbaijan",
+  city: "Bakui",
+  skills: ["HTML", "CSS", "JavaScript"],
+};
+console.log(person);
 ```
 
 ### Nesneden Değerleri Alabilmek
@@ -216,26 +206,26 @@ Nesnenin değerlerine iki yöntem kullanarak erişebiliriz:
 - köşeli parantez kullanarak erişebiliriz
 
 ```js
+
 const person = {
-  firstName: "Asabeneh",
-  lastName: "Yetayeh",
+  firstName: "Khatai",
+  lastName: "Huseynzade",
   age: 250,
-  country: "Finland",
-  city: "Helsinki",
-  skills: [
+  country: "Azerbaijan",
+  city: "Bakui",
+  skills:
+   [
     "HTML",
     "CSS",
-    "JavaScript",
-    "React",
-    "Node",
-    "MongoDB",
-    "Python",
-    "D3.js",
-  ],
+    "JavaScript"
+    ],
+
+console.log(person);
+
   getFullName: function () {
     return `${this.firstName}${this.lastName}`;
   },
-  "phone number": "+3584545454545",
+  "phone number": "+994 555 55 55",
 };
 
 // "." operatörü kullanarak
@@ -261,28 +251,20 @@ console.log(person["phone number"]);
 
 ```js
 const person = {
-  firstName: "Asabeneh",
-  lastName: "Yetayeh",
+  firstName: "Khatai",
+  lastName: "Huseynzade",
   age: 250,
-  country: "Finland",
-  city: "Helsinki",
-  skills: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Node",
-    "MongoDB",
-    "Python",
-    "D3.js",
-  ],
+  country: "Azerbaijan",
+  city: "Bakui",
+  skills: ["HTML", "CSS", "JavaScript"],
+};
+console.log(person);
+
   getFullName: function () {
     return `${this.firstName} ${this.lastName}`;
-  },
-};
+  };
 
 console.log(person.getFullName());
-// Asabeneh Yetayeh
 ```
 
 ### Nesne İçin Yeni Bir Anahtar oluşturma
@@ -292,32 +274,19 @@ Nesne, eşlenebilen bir veri yapısıdır ve oluşturulduktan sonra nesnenin iç
 nesne de yeni key'ler oluşturabilme
 
 ```js
-const person = {
-  firstName: "Asabeneh",
-  lastName: "Yetayeh",
+  firstName: "Khatai",
+  lastName: "Huseynzade",
   age: 250,
-  country: "Finland",
-  city: "Helsinki",
-  skills: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Node",
-    "MongoDB",
-    "Python",
-    "D3.js",
-  ],
+  country: "Azerbaijan",
+  city: "Bakui",
+  skills: ["HTML", "CSS", "JavaScript"],
   getFullName: function () {
     return `${this.firstName} ${this.lastName}`;
   },
 };
-person.nationality = "Ethiopian";
-person.country = "Finland";
-person.title = "teacher";
-person.skills.push("Meteor");
-person.skills.push("SasS");
-person.isMarried = true;
+person.nationality = "Azerbaijan";
+person.country = "Azerbaijan";
+person.title = "student";
 
 person.getPersonInfo = function () {
   let skillsWithoutLastSkill = this.skills
@@ -327,7 +296,7 @@ person.getPersonInfo = function () {
 
   let skills = `${skillsWithoutLastSkill}, and ${lastSkill}`;
   let fullName = this.getFullName();
-  let statement = `${fullName} is a ${this.title}.\nHe lives in ${this.country}.\nHe teaches ${skills}.`;
+  let statement = `${fullName} is a ${this.title}.\nHe lives in ${this.country}.\nHe skillss ${skills}.`;
   return statement;
 };
 console.log(person);
@@ -335,9 +304,9 @@ console.log(person.getPersonInfo());
 ```
 
 ```sh
-Asabeneh Yetayeh is a teacher.
-He lives in Finland.
-He teaches HTML, CSS, JavaScript, React, Node, MongoDB, Python, D3.js, Meteor, and SasS.
+Khatai Huseynzade is a student.
+He lives in Azerbaijan.
+He skills HTML, CSS, JavaScript.
 ```
 
 ### Nesne Metodları
