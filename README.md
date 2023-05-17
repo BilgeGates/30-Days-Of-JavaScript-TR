@@ -1,8 +1,8 @@
-# 30 Günde JavaScript
+<h1 align="center">30 Günde JavaScript</h1>
 
 | # Gün |                                                                                Konular                                                                                |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 01    |                                                            [Giriş](/Turkish/01_Gün_Giriş/01_gün_giriş.md)                                                             |
+| 01    |                                                            [Giriş](./Turkish/01_Gün_Giriş/01_gün_giriş.md)                                                            |
 | 02    |                                                      [Veri Tipleri](02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md)                                                       |
 | 03    |           [Boole Değerleri, Operatörler, Tarih Objesi](03_Gün_Boole-değerleri_Operatörler_Tarih-objesi/03_gün_boole-değerleri_operatörler_tarih-objesi.md)            |
 | 04    |                                                            [Koşullar](04_Gün_Koşullar/04_gün_koşullar.md)                                                             |
