@@ -30,4 +30,4 @@
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 23](../23_Gün_Olay_Tetikleyicileri/23_gün_olay_tetikleyicileri.md) | [Gün 25 >>](../25_Gün_Mini_Proje_Dünya_Veri_Görselleştirme_1/25_gün_mini_proje_dünya_veri_görselleştirme_1.md)
+[<< Gün 23](../23_Gün_Olay_Tetikleyicileri/23_gün_olay_tetikleyicileri.md) | [Gün 25 >>](../25_Gün_Mini_Proje_Dünya__Ülkeleri_Veri_Görselleştirme_1/25_gün_mini_proje_dünya_ülkeleri_veri_görselleştirme_1.md)
