@@ -1,4 +1,4 @@
-# 30 Günde JavaScript
+<h1 align="center">30 Günde JavaScript</h1>
 
 | # Gün |                                                                                 Konular                                                                                 |
 | ----- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -43,5 +43,7 @@
 
 Bu adım-adım JavaScript kursunda, insanlık tarihindeki en popüler programlama dili olan JavaScript'i öğreneceksininiz.
 JavaScript **_web sitelerine interaktiflik katmak, mobil-masaüstü-oyun uygulamaları geliştirmek_** için, hatta günümüzde JavaScript ile **_makina öğrenimi_** ve **_Yapay Zeka_** uygulamaları da geliştirebilirsiniz.
+
+_*Çevirmen Notu*_: 30 Günde JavaScript kılavuzunu yaratdığı üşün <a href="https://github.com/Asabaneh">Asabeneh Yatahyeh</a>'e teşekkür ederiz!
 
 [ Gün 1 >>](../01_Gün_Giriş/01_gün_giriş.md)

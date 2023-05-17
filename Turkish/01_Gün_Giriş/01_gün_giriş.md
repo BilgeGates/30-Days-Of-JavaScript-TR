@@ -74,11 +74,11 @@ Bir geliştirici olmak için motivasyonunuz ve güçlü bir arzunuz olduğuna in
 
 Şu aşamada belki Node.js'e ihtiyacınız olmayabilir, fakat ilerisi için ihtiyacınız olacaktır. Dilerseniz şuan [node.js](https://nodejs.org/en/) yükleyebilirsiniz.
 
-![Node download](../images/download_node.png)
+![Node download](../../images/download_node.png)
 
 Görseldeki web sitesinden son sürümü indirin ve çift tıklayarak bilgisayarınıza yükleyin.
 
-![Install node](../images/install_node.png)
+![Install node](../../images/install_node.png)
 
 Node.js'i başarılı bir şekilde yüklediğinizi kontrol etmek için komut satırı(cmd) ya da terminal ekranınızda aşağıdaki komutu kullanabilirsiniz.
 
@@ -97,13 +97,13 @@ Kullanabileceğiniz çok sayıda tarayıcı bulunmaktadır. Ancak, kesinlikle Go
 
 [Google Chrome](https://www.google.com/chrome/) yükleyin. Tarayıcı konsoluna küçük JavaScript kodları yazabiliriz, ancak uygulamaları geliştirmek için tarayıcı konsolunu kullanmayız.
 
-![Google Chrome](../images/google_chrome.png)
+![Google Chrome](../../images/google_chrome.png)
 
 #### Google Chrome Konsolu Açmak
 
 Tarayıcının sağ üst köşesindeki üç noktaya tıkladıktan sonra, _Diğer Araçlar -> Geliştirici Araçları_ öğesine ulaşarak veya F12 kısayolu kullanarak geliştirici araçlarını açabilirsiniz. Ben kısayolu kullanmayı tercih ediyorum.
 
-![Opening chrome](../images/opening_developer_tool.png)
+![Opening chrome](../../images/opening_developer_tool.png)
 
 Geliştiri araçları kısmındaki consol sekmesine erişmek için aşağıdaki kısayolu kullanabilirsiniz.
 
@@ -115,11 +115,11 @@ Windows/Linux:
 Ctl+Shift+J
 ```
 
-![Opening console](../images/opening_chrome_console_shortcut.png)
+![Opening console](../../images/opening_chrome_console_shortcut.png)
 
 Google Chrome konsolunu açtıktan sonra görseldeki sekmeleri keşfetmeye çalışın. Zamanımızın çoğunu Konsolda geçireceğiz. Konsol, JavaScript kodlarımızı çalıştırabileceğimiz alandır. Google Console V8 motoru, JavaScript kodumuzu makine koduna Dönüştürerek makine ile iletişim kurmamızı sağlar. Google Chrome konsoluna bir JavaScript kodu yazalım:
 
-![write code on console](../images/js_code_on_chrome_console.png)
+![write code on console](../../images/js_code_on_chrome_console.png)
 
 #### Tarayıcı Konsolunda Kod Yazmak
 
@@ -145,7 +145,7 @@ console.log("Merhaba, Dünya!");
 
 **console.log()** fonksiyonu virgülle ayrılmış birden fazla parametre alabilir. Kullanımı şu şekildedir:**`console.log(param1, param2, param3)`**
 
-![console log multiple arguments](../images/console_log_multipl_arguments.png)
+![console log multiple arguments](../../images/console_log_multipl_arguments.png)
 
 ```js
 console.log("Hello", "World", "!");
@@ -183,7 +183,7 @@ Kodumuza yorum ekleyebiliriz. Yorumlar, kodu daha okunabilir hale getirmek ve ko
 
 Programlama dilleri insan dillerine benzer. Türkçe veya diğer birçok dil, anlamlı bir mesaj iletmek için kelimeler, deyimler, cümleler, birleşik cümleler ve daha fazlasını kullanır. Sözdiziminin Türkçedeki anlamı, bir dilde cümleler oluşturmak için sözcüklerin dilbilgisi kurallarına göre dizilişi, sıralanışıdır. Sözdiziminin teknik tanımına baktığımızda, bir bilgisayar dilindeki ifadelerin yapısıdır. Programlama dillerinin kendilerine özgü sözdizimleri vardır. JavaScript bir programlama dilidir ve diğer programlama dilleri gibi kendi sözdizimine sahiptir. Kodlarımızı JavaScript'in anladığı sözdizimi kuralları çerçevesinde yazmaz isek, farklı türde hatalar ortaya çıkar. Farklı JavaScript hata türlerini daha sonra keşfedeceğiz ve açıklayacağız. Şimdilik sözdizimi hatalarını basitçe görelim.
 
-![Error](../images/raising_syntax_error.png)
+![Error](../../images/raising_syntax_error.png)
 
 Görselde görülen şekilde kasıtlı olarak hatalar yaptım. Hatalar sonucunda konsol bize sözdizimi hataları verdi. Aslında, uyarı metinleri bilgilendiricidir. Ne tür bir hata yapıldığını bildiririrler. Bu hata mesajlarını okuyarak yapmış olduğumuz sözdizim hatasını düzeltebilir ve sorunları çözebiliriz. Bir programdaki hataları tanımlama ve kaldırma işlemine hata ayıklama denir. Hataları düzeltelim:
 
@@ -207,7 +207,7 @@ console.log(`Merhaba, Dünya`);
 JavaScript kullanarak matematiksel hesaplamalar da yapabiliriz. Aşağıdaki basit hesaplamaları yapalım.
 Konsolda **_console.log()_** işlevi olmadan doğrudan işlemler yaptırabiliriz. Ancak, buna ilişkin kullanımlar, bu eğitimde açıklanmamıştır, çünkü eğitimimiz boyuncu biz bu fonksiyonları hep bir kod editöründe kullanacağız. Dilerseniz konsola doğrudan sayıları yazarak da işlemleri gerçekleştirebilirsiniz.
 
-![Arithmetic](../images/arithmetic.png)
+![Arithmetic](../../images/arithmetic.png)
 
 ```js
 console.log(2 + 3); // Toplama
@@ -226,7 +226,7 @@ Kodlarımızı tarayıcı konsoluna yazabiliriz, ancak daha büyük projeler iç
 
 Çok popüler ve açık kaynak kodlu olan Visual Studio Code(Metin Düzenleyicisi)'u tavsiye ederim. [download Visual Studio Code](https://code.visualstudio.com/), Fakat başka editörler kullanıyorsanız, kullanıdığınız editör ile devam edebilirsin.
 
-![Vscode](../images/vscode.png)
+![Vscode](../../images/vscode.png)
 
 Visual Studio Code yüklediyseniz, kullanmaya başlayalım.
 
@@ -234,19 +234,19 @@ Visual Studio Code yüklediyseniz, kullanmaya başlayalım.
 
 Visual Studio Kodunu açtığınızda, görseldeki gibi bir arayüz açılacaktır. Görsellerde belrtilen simgelerle uğraşarak özellikleri hakkında deneyim edinebilirsiniz.
 
-![Vscode ui](../images/vscode_ui.png)
+![Vscode ui](../../images/vscode_ui.png)
 
-![Vscode add project](../images/adding_project_to_vscode.png)
+![Vscode add project](../../images/adding_project_to_vscode.png)
 
-![Vscode open project](../images/opening_project_on_vscode.png)
+![Vscode open project](../../images/opening_project_on_vscode.png)
 
-![script file](../images/scripts_on_vscode.png)
+![script file](../../images/scripts_on_vscode.png)
 
-![Installing Live Server](../images/vsc_live_server.png)
+![Installing Live Server](../../images/vsc_live_server.png)
 
-![running script](../images/running_script.png)
+![running script](../../images/running_script.png)
 
-![coding running](../images/launched_on_new_tab.png)
+![coding running](../../images/launched_on_new_tab.png)
 
 ## Bir Web Sayfasında JavaScript Kodları Oluşturma
 
@@ -383,7 +383,7 @@ console.log("Hello, World!");
 
 _ana.js dosyanız, diğer tüm .js dosyalarınızın altında olmalıdır_. Derleme yapılırken satırlar yukarıdan aşağıya okunduğu için ana JavaScript dosyanınız en son okunması önem taşımaktadır.
 
-![Multiple Script](../images/multiple_script.png)
+![Multiple Script](../../images/multiple_script.png)
 
 ## Veri Türlerine Giriş
 
@@ -576,7 +576,7 @@ Khatai_Huseynzade Azerbaijan
 
 01-Day klasörü içindeki _index.html_ dosyasını tarayıcınızda açtığınızda, şu sonucu alıyor olacaksınız:
 
-![Day one](../images/day_1.png)
+![Day one](../../images/day_1.png)
 
 🌕 Harikasınız! 1. gün eğitimini tamamladınız ve mükemmel olma yolundasınız. Şimdi beyniniz ve kasınız için bazı egzersizler yapın.
 
