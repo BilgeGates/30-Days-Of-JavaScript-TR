@@ -13,7 +13,7 @@
 </div>
 </div>
 
-[<< Gün 16](../16_Gün_JavaScript_Nesne_Kullanımı/16_gün_javascript_nesne_kullanımı.md) | [Gün 18 >>](../18_Gün_Sözler/18_gün_sözler.md)
+[<< Gün 16](../16_Gün_JavaScript_Nesne_Kavramı/16_gün_javascript_nesne_kavramı.md) | [Gün 18 >>](../18_Gün_Sözler/18_gün_sözler.md)
 
 - [ 📔 Gün 17](#-Gün-17)
   - [HTML5 Web Depolama)](HTML5-Web-Depolama)
@@ -228,4 +228,4 @@ localStorage.clear();
 
 🎉 TEBRİKLER ! 🎉
 
-[<< Gün 16](../16_Gün_JavaScript_Nesne_Kullanımı/16_gün_javascript_nesne_kullanımı.md) | [Gün 18 >>](../18_Gün_Sözler/18_gün_sözler.md)
+[<< Gün 16](../16_Gün_JavaScript_Nesne_Kavraml/16_gün_javascript_nesne_kavramı.md) | [Gün 18 >>](../18_Gün_Sözler/18_gün_sözler.md)
