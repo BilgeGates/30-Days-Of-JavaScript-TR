@@ -27,7 +27,7 @@
       - [Google Chrome Kurulumu](#Google-Chrome-Kurulumu)
       - [Google Chrome Konsolu Açmak](#Google-Chrome-Konsolu-Açmak)
       - [Tarayıcı Konsolunda Kod Yazmak](#Tarayıcı-Konsolunda-Kod-Yazmak)
-        - [Console.log](#Console-log)
+        - [Console.log](#Consolelog)
         - [Çoklu Değişkenler ile Console.log ](#Çoklu-Değişkenler-ile-Console-log)
         - [Yorumlar](#Yorumlar)
         - [Sözdizimi](#Sözdizimi)
@@ -433,9 +433,9 @@ let ismim;
 console.log(ismim); // undefined, çünkü henüz değişkene bir değer atanmamış.
 ```
 
-### Null
+### Boş
 
-JavaScript'te 'null' boş bir değer anlamına gelir.
+JavaScript'te boş bir değer anlamına gelir.
 
 ```js
 let bosDeger = null;
