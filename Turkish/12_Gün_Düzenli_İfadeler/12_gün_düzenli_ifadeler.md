@@ -249,7 +249,7 @@ I am teacher and  I love teaching.There is nothing as more rewarding as educatin
   - r'elma|muz', elma veya muz anlamına gelir
 - (): Yakala ve grupla
 
-![Düzenli İfade kopya sayfası](../images/regex.png)
+![Düzenli İfade kopya sayfası](../../images/regex.png)
 
 Yukarıdaki meta karakterleri açıklığa kavuşturmak için örnek kullanalım
 

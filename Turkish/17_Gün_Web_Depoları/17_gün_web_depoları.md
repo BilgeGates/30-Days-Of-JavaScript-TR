@@ -46,7 +46,7 @@ Yerel Depolama veya Oturum Depolama depolanan verilerin sayfanın protokolüne �
 
 Anahtarlar ve değerler her zaman dizelerdir.
 
-![web_storage](../images/web_storage.png)
+![web_storage](../../images/web_storage.png)
 
 ### Oturum Depolama
 
@@ -93,7 +93,7 @@ Web Depolama Nesneleri:
 - _localStorage.removeItem()_ - depolanan öğeyi Yerel Depolamadan kaldırmak için. Parametre olarak bir anahtar alır.
 - _localStorage.key()_ - Yerel Depolamada depolanan verileri görüntülemek için. Parametre olarak indeks alır.
 
-![local_storage](../images/local_storage.png)
+![local_storage](../../images/local_storage.png)
 
 ### Öğeyi Yerel Depolamada Ayarlama
 
