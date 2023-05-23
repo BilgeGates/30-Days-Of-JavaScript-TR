@@ -394,7 +394,7 @@ console.log(person2.skills);
 ["Planning", "Managing", "Organizing"]
 ```
 
-Ьormal metod ile alıcı arasındaki fark sizi şaşırtmasın. Normal bir metod yapmayı biliyorsanız, iyisiniz. Person sınıfına getPersonInfo adlı normal metod ekleyelim.
+Normal metod ile alıcı arasındaki fark sizi şaşırtmasın. Normal bir metod yapmayı biliyorsanız, iyisiniz. Person sınıfına getPersonInfo adlı normal metod ekleyelim.
 
 ```js
 class Person {
