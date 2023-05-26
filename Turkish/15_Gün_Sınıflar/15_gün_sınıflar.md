@@ -469,7 +469,7 @@ console.log(person3.getPersonInfo());
 ["Planning", "Managing", "Organizing"]
 []
 Khatai Huseynzade is 250. He lives Azerbaijan, Baku. He knows HTML, CSS and JavaScript
-Lidiya Tekle is 28. He lives Amerika, New-York. He knows Planning, Managing and Organizing
+Ugur Hasanli is 28. He lives Azerbaijan, Guba. He knows Planning, Managing and Organizing
 John Doe is 50. He lives Mars city, Mars.
 ```
 
