@@ -240,7 +240,7 @@ console.log(person2.getFullName());
 
 ```sh
 Khatai Huseynzade
-test.js:19 Lidiya Tekle
+Ugur Hasanli
 ```
 
 ### Başlangıç ​​Değeri Olan Özellikler
