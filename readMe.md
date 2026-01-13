@@ -18,7 +18,7 @@ JavaScript ile:
 ### _Çevirmen Notu_
 
 Bu rehberin orijinal hali,  
-[Asabeneh Yetayeh](https://github.com/Asabeneh) tarafından hazırlanmıştır.  
+[Khatai Huseynzada](https://github.com/Asabeneh) tarafından hazırlanmıştır.  
 Türkçe çeviri, eğitim amaçlı olarak yapılmıştır.  
 Orijinal içerik ve tüm haklar eser sahibine aittir.
 
