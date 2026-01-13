@@ -1,4 +1,4 @@
-## 30 Günde JavaScript'e Hoş Geldiniz! 🚀
+## 30 Günde JavaScript'e Hoş Geldiniz! 
 
 30 günlük JavaScript programlama kursuna katılmaya karar verdiğiniz için **tebrikler**.  
 Bu kursta, bir JavaScript geliştiricisi olmak için ihtiyacınız olan temel ve ileri düzey programlama kavramlarını adım adım öğreneceksiniz. Eğitimin sonunda **30 Günde JavaScript** programını tamamlamış olacaksınız.
@@ -24,6 +24,6 @@ Orijinal içerik ve tüm haklar eser sahibine aittir.
 
 ---
 
-<h1 align="center">💻 MUTLU KODLAMALAR!</h1>
+<h1 align="center">MUTLU KODLAMALAR!</h1>
 
 [ Gün 1 >>](./Turkish/01_Gün_Giriş/01_gün_giriş.md)
