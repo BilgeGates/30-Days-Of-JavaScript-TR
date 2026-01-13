@@ -1,12 +1,10 @@
 <div align="center">
 <h1> 30 Günde JavaScript: Veri Tipleri</h1>
 
-<a class="header-badge" target="_blank" href="https://x.com/Asabeneh">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Asabeneh?style=social">
-</a><br>
+[![GitHub](https://img.shields.io/badge/Follow-0a4d0a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BilgeGates)<br>
 
 <sub>Çevirmen:
-<a href="https://github.com/BilgeGatess">Asabeneh Yetayeh</a><br>
+<a href="https://github.com/BilgeGatess">Khatai Huseynzada</a><br>
 <small> Mayıs, 2023</small>
 </sub>
 
@@ -129,7 +127,7 @@ let userOne = {
 
 let userTwo = {
   name: "Khatai",
-  country: "Huseynzade",
+  country: "Huseynzada",
 };
 
 console.log(userOne == userTwo); // false
@@ -267,7 +265,7 @@ Bazı dize örnekleri görelim:
 ```js
 let space = " "; // boş alan string çift tırnaklı
 let firstName = _'Khatai'_; // tek tırnaklı string
-let lastName = "Huseynzade"; // çift tırnaklı string
+let lastName = "Huseynzada"; // çift tırnaklı string
 let country = `Azerbaijan`; // ters tırnaklı string
 ```
 
@@ -282,7 +280,7 @@ console.log(fullName);
 ```
 
 ```sh
-Asabeneh Yetayeh
+Khatai Huseynzada
 ```
 
 String'leri farklı şekildede birleştirebiliriz.
@@ -295,7 +293,7 @@ Ekleme operatörü kullanarak birleştirme eski bir yöntemdir. Bu birleştirme 
 // Farklı veri türlerini oluşturma
 let space = " ";
 let firstName = "Khatai";
-let lastName = "Huseynzade";
+let lastName = "Huseynzada";
 let country = "Azerbaijan";
 let city = "Baku";
 let language = "JavaScript";
@@ -307,7 +305,7 @@ console.log(personInfoOne);
 ```
 
 ```sh
-Asabeneh Yetayeh.  I live in Azerbaijan
+Khatai Huseynzada.  I live in Azerbaijan
 ```
 
 #### Uzun Değişmez Stringler
@@ -386,7 +384,7 @@ console.log(`${a} ve ${b}'nin toplamı ${a + b}`); // verileri dinamik olarak ek
 ```js
 // Bu kısımda yazar + kullanarak ekleme yapmanın diğer yöntemi olan  ekleme yöntemini gösteriyor. Bu daha stabil çalışıyor.
 let firstName = "Khatai";
-let lastName = "Huseynzade";
+let lastName = "Huseynzada";
 let country = "Azerbaijan";
 let city = "Baku";
 let fullName = firstName + " " + lastName;
@@ -398,8 +396,8 @@ console.log(personInfoThree);
 ```
 
 ```sh
-Ben Asabeneh Yetayeh. Ben Azerbaijanda yaşıyorum.
-Ben Asabeneh Yetayeh. Ben Baku, Azerbaijanda yaşıyorum.
+Ben Khatai Huseynzada. Ben Azerbaijanda yaşıyorum.
+Ben Khatai Huseynzada. Ben Baku, Azerbaijanda yaşıyorum.
 ```
 
 Bir string şablonu veya interpolasyon ( matematiksel bir terim ) yöntemi kullanarak, bir değer olabilecek ifadeler veya bazı işlemler ekleyebiliriz.(karşılaştırma, aritmetik işlemler, üçlü işlem)

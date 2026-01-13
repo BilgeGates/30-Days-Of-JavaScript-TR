@@ -1,12 +1,10 @@
 <div align="center">
   <h1> 30 Günde JavaScript: Yıkıcılar ve Yapıcılar</h1>
 
-<a class="header-badge" target="_blank" href="https://x.com/Asabeneh">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Asabeneh?style=social">
-</a><br>
+[![GitHub](https://img.shields.io/badge/Follow-0a4d0a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BilgeGates)<br>
 
 <sub>Çevirmen:
-<a href="https://github.com/Asabeneh">Asabeneh Yetayeh</a><br>
+<a href="https://github.com/BilgeGates">Khatai Huseynzada</a><br>
 <small> Mayıs, 2023</small>
 </sub>
 </sub>
@@ -338,7 +336,7 @@ const getPersonInfo = ({
 };
 console.log(getPersonInfo(person));
 /*
-Asabeneh Yetayeh lives in Finland. He is  250 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish)
+Khatai Huseynzada lives in Finland. He is  250 years old. He is an Instructor and Developer. He teaches HTML, CSS, JavaScript, React, Redux, Node, MongoDB, Python and D3.js. He speaks Amharic, English and a little bit of Suomi(Finnish)
 */
 ```
 

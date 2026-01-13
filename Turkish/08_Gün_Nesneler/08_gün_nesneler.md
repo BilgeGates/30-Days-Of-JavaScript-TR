@@ -1,12 +1,10 @@
 <div align="center">
   <h1> 30 Günde Javascript: Nesneler</h1>
 
-<a class="header-badge" target="_blank" href="https://x.com/Asabeneh">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Asabeneh?style=social">
-</a><br>
+[![GitHub](https://img.shields.io/badge/Follow-0a4d0a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BilgeGates)<br>
 
 <sub>Çevirmen:
-<a href="https://github.com/Asabeneh">Asabeneh Yetayeh</a><br>
+<a href="https://github.com/BilgeGates">Khatai Huseynzada</a><br>
 <small> Mayıs, 2023</small>
 </sub>
 
@@ -189,7 +187,7 @@ const person = {};
 ```js
 const person = {
   firstName: "Khatai",
-  lastName: "Huseynzade",
+  lastName: "Huseynzada",
   age: 250,
   country: "Azerbaijan",
   city: "Bakui",
@@ -209,7 +207,7 @@ Nesnenin değerlerine iki yöntem kullanarak erişebiliriz:
 
 const person = {
   firstName: "Khatai",
-  lastName: "Huseynzade",
+  lastName: "Huseynzada",
   age: 250,
   country: "Azerbaijan",
   city: "Bakui",
@@ -252,7 +250,7 @@ console.log(person["phone number"]);
 ```js
 const person = {
   firstName: "Khatai",
-  lastName: "Huseynzade",
+  lastName: "Huseynzada",
   age: 250,
   country: "Azerbaijan",
   city: "Bakui",
@@ -275,7 +273,7 @@ nesne de yeni key'ler oluşturabilme
 
 ```js
   firstName: "Khatai",
-  lastName: "Huseynzade",
+  lastName: "Huseynzada",
   age: 250,
   country: "Azerbaijan",
   city: "Bakui",
@@ -304,7 +302,7 @@ console.log(person.getPersonInfo());
 ```
 
 ```sh
-Asabeneh Yetayeh is a student.
+Khatai Huseynzada is a student.
 He lives in Azerbaijan.
 He skills HTML, CSS, JavaScript.
 ```

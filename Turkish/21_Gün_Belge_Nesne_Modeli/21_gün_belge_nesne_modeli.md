@@ -1,12 +1,10 @@
 <div align="center">
 <h1> 30 Günde JavaScript: Belge Nesne Modeli</h1>
 
-<a class="header-badge" target="_blank" href="https://x.com/Asabeneh">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Asabeneh?style=social">
-</a><br>
+[![GitHub](https://img.shields.io/badge/Follow-0a4d0a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BilgeGates)<br>
 
 <sub>Çevirmen:
-<a href="https://github.com/Asabeneh">Asabeneh Yetayeh</a><br>
+<a href="https://github.com/BilgeGates">Khatai Huseynzada</a><br>
 <small>Mayıs, 2023</small>
 </sub>
 
@@ -158,7 +156,7 @@ Atadığımız değer, bir HTML öğeleri dizisi olacak.
   </head>
   <body>
     <div class="wrapper">
-      <h1>2020'de Asabeneh Yetayeh meydan okumaları</h1>
+      <h1>2020'de Khatai Huseynzada meydan okumaları</h1>
       <h2>30 Günde JavaScript Yarışması</h2>
       <ul>
         <li>30 Günde Python Mücadelesi Tamamlandı</li>
@@ -269,7 +267,7 @@ Fark ettiğiniz gibi, JavaScript'te kullandığımız css'nin özellikleri bir c
   </head>
   <body>
     <div class="wrapper">
-      <h1>2020'de Asabeneh Yetayeh meydan okumaları</h1>
+      <h1>2020'de Khatai Huseynzada meydan okumaları</h1>
       <h2>30 Günde JavaScript Yarışması</h2>
       <ul>
         <li>30 Günde Python Mücadelesi Tamamlandı</li>

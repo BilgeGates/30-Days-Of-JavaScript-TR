@@ -1,12 +1,10 @@
 <div align="center">
   <h1> 30 Günde JavaScript: Giriş</h1>
 
-  <a class="header-badge" target="_blank" href="https://x.com/Asabeneh">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Asabeneh?style=social">
-</a><br>
+  [![GitHub](https://img.shields.io/badge/Follow-0a4d0a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BilgeGates)<br>
 
 <sub>Çevirmen
-<a href="https://github.com/Asabeneh">Asabeneh Yetayeh</a><br>
+<a href="https://github.com/BilgeGates">Khatai Huseynzada</a><br>
 <small> Ocak, 2020</small>
 </sub>
 
@@ -537,7 +535,7 @@ Değişkenin adı, farklı değer verilerini depolayabilir. Ayrıntılı örnekl
 ```js
 // Farklı veri türlerinin, farklı değişkenlerini tanımlama
 let ad = "Khatai"; // bir kişinin adı
-let soyAd = "Huseynzade"; // bir kişinni soyadı
+let soyAd = "Huseynzada"; // bir kişinni soyadı
 let ulke = "Azerbaijan"; // ülke
 let sehir = "Baku"; // başkent
 let github = "@bilgegates"; // githubadresi
@@ -546,7 +544,7 @@ console.log(ad, soyAd, ulke, sehir, github);
 ```
 
 ```sh
-Asabeneh Yetayeh Azerbaijan Baku @bilgegates
+Khatai Huseynzada Azerbaijan Baku @bilgegates
 ```
 
 ```js
@@ -564,13 +562,13 @@ console.log(yerCekim, kaynamaNoktasi, PI);
 
 ```js
 // Birden fazla değişkenleri virgül ile ayırarak tek satırda tanımlayabiliriz. Ancak ayrı satırlarda tanımlamak, kodu daha okunabilir kıldığı için tavsiye ederim.
-let isim = "Khatai_Huseynzade",
+let isim = "Khatai_Huseynzada",
   konum = "Azerbaijan";
 console.log(isim, konum);
 ```
 
 ```sh
-Khatai_Huseynzade Azerbaijan
+Khatai_Huseynzada Azerbaijan
 ```
 
 01-Day klasörü içindeki _index.html_ dosyasını tarayıcınızda açtığınızda, şu sonucu alıyor olacaksınız:

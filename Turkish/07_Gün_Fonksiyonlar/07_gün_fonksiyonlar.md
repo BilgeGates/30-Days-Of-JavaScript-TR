@@ -1,12 +1,10 @@
 <div align="center">
 <h1> 30 günde JavaScript: Fonksiyonlar</h1>
 
-<a class="header-badge" target="_blank" href="https://x.com/Asabeneh">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Asabeneh?style=social">
-</a><br>
+[![GitHub](https://img.shields.io/badge/Follow-0a4d0a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BilgeGates)<br>
 
 <sub>Çevirmen>:
-<a href="https://github.com/BilgeGatess">Asabeneh Yetayeh</a><br>
+<a href="https://github.com/BilgeGatess">Khatai Huseynzada</a><br>
 <small> Mayıs, 2023</small>
 </sub>
 
@@ -119,7 +117,7 @@ addTwoNumbers(); // fonksiyon, kendisine verilen isim ile çağırılmalı
 ```js
 function printFullName() {
   let firstName = "Khatai";
-  let lastName = "Huseynzade";
+  let lastName = "Huseynzada";
   let space = " ";
   let fullName = firstName + space + lastName;
   console.log(fullName);
@@ -135,7 +133,7 @@ Fonksiyonlar geriye bir değer döndürebilir. bu işlemi `return` anahtar kelim
 ```js
 function printFullName() {
   let firstName = "Khatai";
-  let lastName = "Huseynzade";
+  let lastName = "Huseynzada";
   let space = " ";
   let fullName = firstName + space + lastName;
   return fullName;
@@ -205,7 +203,7 @@ console.log(sumTwoNumbers(10, 20));
 function printFullName(firstName, lastName) {
   return `${firstName} ${lastName}`;
 }
-console.log(printFullName("Khatai", "Huseynzade"));
+console.log(printFullName("Khatai", "Huseynzada"));
 ```
 
 ### Çok parametreli fonksiyon
@@ -340,7 +338,7 @@ const printFullName = (firstName, lastName) => {
   return `${firstName} ${lastName}`;
 };
 
-console.log(printFullName("Khatai", "Huseynzade"));
+console.log(printFullName("Khatai", "Huseynzada"));
 ```
 
 Yukarıdaki fonksiyon yalnızca geri dönüş ifadesine sahiptir, bu nedenle bunu aşağıdaki şekilde açıkça iade edebiliriz.
@@ -348,7 +346,7 @@ Yukarıdaki fonksiyon yalnızca geri dönüş ifadesine sahiptir, bu nedenle bun
 ```js
 const printFullName = (firstName, lastName) => `${firstName} ${lastName}`;
 
-console.log(printFullName("Khatai", "Huseynzade"));
+console.log(printFullName("Khatai", "Huseynzada"));
 ```
 
 #### OK Fonksiyonunda Sınırsız Sayıda Parametre
@@ -412,14 +410,14 @@ console.log(greetings("Khatai"));
 ```
 
 ```js
-function generateFullName(firstName = "Khatai", lastName = "Huseynzade") {
+function generateFullName(firstName = "Khatai", lastName = "Huseynzada") {
   let space = " ";
   let fullName = firstName + space + lastName;
   return fullName;
 }
 
 console.log(generateFullName());
-console.log(generateFullName("Khatai", "Huseynzade"));
+console.log(generateFullName("Khatai", "Huseynzada"));
 ```
 
 ```js
@@ -468,14 +466,14 @@ console.log(greetings("Khatai"));
 ```
 
 ```js
-const generateFullName = (firstName = "Khatai", lastName = "Huseynzade") => {
+const generateFullName = (firstName = "Khatai", lastName = "Huseynzada") => {
   let space = " ";
   let fullName = firstName + space + lastName;
   return fullName;
 };
 
 console.log(generateFullName());
-console.log(generateFullName("Huseynzade", "Huseynzade"));
+console.log(generateFullName("Huseynzada", "Huseynzada"));
 ```
 
 ```js

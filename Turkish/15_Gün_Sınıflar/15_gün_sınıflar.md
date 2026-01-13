@@ -1,12 +1,10 @@
 <div align="center">
 <h1> 30 Günde JavaScript: Sınıflar</h1>
 
-<a class="header-badge" target="_blank" href="https://x.com/Asabeneh">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Asabeneh?style=social">
-</a><br>
+[![GitHub](https://img.shields.io/badge/Follow-0a4d0a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BilgeGates)<br>
 
 <sub>Çevirmen:
-<a href="https://github.com/Asabeneh">Asabeneh Yetayeh</a><br>
+<a href="https://github.com/BilgeGates">Khatai Huseynzada</a><br>
 <small>Mayıs, 2023</small>
 </sub>
 
@@ -121,13 +119,13 @@ class Person {
   }
 }
 
-const person1 = new Person("Khatai", "Huseynzade");
+const person1 = new Person("Khatai", "Huseynzada");
 
 console.log(person1);
 ```
 
 ```sh
-Person {firstName: "Khatai", lastName: "Huseynzade"}
+Person {firstName: "Khatai", lastName: "Huseynzada"}
 ```
 
 En başta da belirttiğimiz gibi bir sınıf oluşturduğumuzda, sınıfı kullanarak birçok nesne oluşturabiliriz. Şimdi, Person sınıfını kullanarak birden fazla kişi nesnesi oluşturalım.
@@ -151,7 +149,7 @@ console.log(person3);
 ```
 
 ```sh
-Person {firstName: "Khatai", lastName: "Huseynzade"}
+Person {firstName: "Khatai", lastName: "Huseynzada"}
 Person {firstName: "Ugur", lastName: "Hasanli"}
 Person {firstName: "Abraham", lastName: "Mamedyarov"}
 ```
@@ -170,13 +168,13 @@ class Person {
   }
 }
 
-const person1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
+const person1 = new Person("Khatai", "Huseynzada", 250, "Azerbaijan", "Baku");
 
 console.log(person1);
 ```
 
 ```sh
-Person {firstName: "Khatai", lastName: "Huseynzade", age: 250, country: "Azerbaijan", city: "Baku"}
+Person {firstName: "Khatai", lastName: "Huseynzada", age: 250, country: "Azerbaijan", city: "Baku"}
 ```
 
 ### Yapıcı ile Varsayılan Değerler
@@ -187,7 +185,7 @@ Yapıcı fonksiyonun özellikleri,diğer normal fonksiyonlar gibi bir değere sa
 class Person {
   constructor(
     firstName = "Khatai",
-    lastName = "Huseynzade",
+    lastName = "Huseynzada",
     age = 250,
     country = "Azerbaijan",
     city = "Baku"
@@ -208,7 +206,7 @@ console.log(person2);
 ```
 
 ```sh
-Person {firstName: "Khatai", lastName: "Huseynzade", age: 250, country: "Azerbaijan", city: "Baku"}
+Person {firstName: "Khatai", lastName: "Huseynzada", age: 250, country: "Azerbaijan", city: "Baku"}
 Person {firstName: "Ugur", lastName: "Hasanli", age: 28, country: "Azerbaijan", city: "Guba"}
 ```
 
@@ -231,7 +229,7 @@ class Person {
   }
 }
 
-const person1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
+const person1 = new Person("Khatai", "Huseynzada", 250, "Azerbaijan", "Baku");
 const person2 = new Person("Ugur", "Hasanli", 28, "Azerbaijan", "Guba");
 
 console.log(person1.getFullName());
@@ -239,7 +237,7 @@ console.log(person2.getFullName());
 ```
 
 ```sh
-Asabeneh Yetayeh
+Khatai Huseynzada
 test.js:19 Lidiya Tekle
 ```
 
@@ -264,7 +262,7 @@ class Person {
   }
 }
 
-const person1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
+const person1 = new Person("Khatai", "Huseynzada", 250, "Azerbaijan", "Baku");
 const person2 = new Person("Ugur", "Hasanli", 28, "Azerbaijan", "Guba");
 
 console.log(person1.score);
@@ -310,7 +308,7 @@ class Person {
   }
 }
 
-const person1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
+const person1 = new Person("Khatai", "Huseynzada", 250, "Azerbaijan", "Baku");
 const person2 = new Person("Ugur", "Hasanli", 28, "Azerbaijan", "Guba");
 
 console.log(person1.getScore);
@@ -360,7 +358,7 @@ class Person {
   }
 }
 
-const person1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
+const person1 = new Person("Khatai", "Huseynzada", 250, "Azerbaijan", "Baku");
 const person2 = new Person(
   "Ugur",
   "Hasanli",
@@ -436,7 +434,7 @@ class Person {
   }
 }
 
-const person1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
+const person1 = new Person("Khatai", "Huseynzada", 250, "Azerbaijan", "Baku");
 const person2 = new Person("Ugur", "Hasanli", 28, "Azerbaijan", "Guba");
 const person3 = new Person("John", "Doe", 50, "Mars", "Mars city");
 
@@ -468,7 +466,7 @@ console.log(person3.getPersonInfo());
 ["HTML", "CSS", "JavaScript"]
 ["Planning", "Managing", "Organizing"]
 []
-Asabeneh Yetayeh is 250. He lives Azerbaijan, Baku. He knows HTML, CSS and JavaScript
+Khatai Huseynzada is 250. He lives Azerbaijan, Baku. He knows HTML, CSS and JavaScript
 Lidiya Tekle is 28. He lives Amerika, New-York. He knows Planning, Managing and Organizing
 John Doe is 50. He lives Mars city, Mars.
 ```
@@ -573,7 +571,7 @@ class Student extends Person {
   }
 }
 
-const s1 = new Person("Khatai", "Huseynzade", 250, "Azerbaijan", "Baku");
+const s1 = new Person("Khatai", "Huseynzada", 250, "Azerbaijan", "Baku");
 console.log(s1);
 console.log(s1.saySomething());
 console.log(s1.getFullName());
@@ -581,11 +579,11 @@ console.log(s1.getPersonInfo());
 ```
 
 ```sh
-Student {firstName: "Khatai", lastName: "Huseynzade", age: "250", country: Azerbaijan, city: "Baku", …}
+Student {firstName: "Khatai", lastName: "Huseynzada", age: "250", country: Azerbaijan, city: "Baku", …}
 I am a child of the person class
-Asabeneh Yetayeh
-Student {firstName: "Khatai", lastName: "Huseynzade", age: "250", country: Azerbaijan, city: "Baku", …}
-Asabeneh Yetayeh is Azerbaijan. He lives Baku, 250.
+Khatai Huseynzada
+Student {firstName: "Khatai", lastName: "Huseynzada", age: "250", country: Azerbaijan, city: "Baku", …}
+Khatai Huseynzada is Azerbaijan. He lives Baku, 250.
 ```
 
 ### Geçersiz Kılma Yöntemleri
@@ -619,7 +617,7 @@ class Student extends Person {
 
 const s1 = new Student(
 "Khatai"
-"Huseynzade"
+"Huseynzada"
 250
 "Azerbaijan"
 "Baku";
@@ -649,15 +647,15 @@ console.log(s2.getPersonInfo());
 ```
 
 ```sh
-Student {firstName: "Khatai", lastName: "Huseynzade", age: "250", country: Azerbaijan, city: "Baku", …}
+Student {firstName: "Khatai", lastName: "Huseynzada", age: "250", country: Azerbaijan, city: "Baku", …}
 I am a child of the person class
-Asabeneh Yetayeh
+Khatai Huseynzada
 Student {firstName: "Ughur", lastName: "Hasanli", age: 28, country: "Azerbaijan", city: "Guba", …}
 I am a child of the person class
 Ugur Hasanli
-Student {firstName: "Khatai", lastName: "Huseynzade", age: "250", country: Azerbaijan, city: "Baku", …}
+Student {firstName: "Khatai", lastName: "Huseynzada", age: "250", country: Azerbaijan, city: "Baku", …}
 I am a child of the person class
-Asabeneh Yetayeh
+Khatai Huseynzada
 Student {firstName: "Ughur", lastName: "Hasanli", age: 28, country: "Azerbaijan", city: "Guba", …}
 Ugur Hasanli is 28. She lives in Baku, Azerbaijan. He knows Planning, Managing and Organizing
 ```
