@@ -1,13 +1,28 @@
-## 30 Günde JavaScript'e hoş geldiniz!
+## 30 Günde JavaScript'e Hoş Geldiniz! 🚀
 
-30 Günlük JavaScript programlama kursuna katılmaya karar verdiğiniz için **tebrikler**. Bu kursta, bir JavaScript programcısı olmak için ihtiyacınız olan her şeyi ve genel olarak tüm programlama kavramınlarını öğreneceksiniz. Eğitimin sonunda 30 Günlük JavaScript programlama kursu tamamlama sertifikası alacaksınız.
+30 günlük JavaScript programlama kursuna katılmaya karar verdiğiniz için **tebrikler**.  
+Bu kursta, bir JavaScript geliştiricisi olmak için ihtiyacınız olan temel ve ileri düzey programlama kavramlarını adım adım öğreneceksiniz. Eğitimin sonunda **30 Günde JavaScript** programını tamamlamış olacaksınız.
 
-**30 Günde Java Script** eğitimi, hem yeni başlayanlar için hem de uzman JavaScript geliştiricileri için rehber niteliği taşımaktadır. JavaScript'e Hoş Geldiniz. JavaScript web'in dilidir. JavaScript'i kullanmaktan ve öğretmekten zevk alıyorum, umuyorum siz de öğrenirken ve kullanırken zevk alacaksınız.
+**30 Günde JavaScript**, hem yeni başlayanlar hem de deneyimli JavaScript geliştiricileri için rehber niteliğinde hazırlanmıştır.  
+JavaScript web’in dilidir. JavaScript’i kullanmaktan ve öğretmekten keyif alıyorum; umarım siz de öğrenirken ve kullanırken keyif alırsınız.
 
-Bu adım-adım JavaScript kursunda, insanlık tarihindeki en popüler programlama dili olan JavaScript'i öğreneceksininiz.
-JavaScript **_web sitelerine interaktiflik katmak, mobil-masaüstü-oyun uygulamaları geliştirmek_** için, hatta günümüzde JavaScript ile **_makina öğrenimi_** ve **_Yapay Zeka_** uygulamaları da geliştirebilirsiniz.
+Bu adım adım JavaScript kursunda, günümüzde insanlık tarihinin en popüler programlama dillerinden biri olan **JavaScript**’i öğreneceksiniz.  
+JavaScript ile:
 
-### _*Çevirmen Notu*_: 30 Günde JavaScript kılavuzunu yaratdığı üçün <a href="https://github.com/Asabeneh">Asabeneh Yetahyeh</a>'e teşekkür ederiz!
+- Web sitelerine **interaktiflik** kazandırabilir
+- **Mobil**, **masaüstü** ve **oyun** uygulamaları geliştirebilir
+- Günümüzde JavaScript kullanarak **Makine Öğrenimi** ve **Yapay Zeka** projeleri oluşturabilirsiniz
+
+---
+
+### _Çevirmen Notu_
+
+Bu rehberin orijinal hali,  
+[Asabeneh Yetayeh](https://github.com/Asabeneh) tarafından hazırlanmıştır.  
+Türkçe çeviri, eğitim amaçlı olarak yapılmıştır.  
+Orijinal içerik ve tüm haklar eser sahibine aittir.
+
+---
 
 <h1 align="center">💻 MUTLU KODLAMALAR!</h1>
 
