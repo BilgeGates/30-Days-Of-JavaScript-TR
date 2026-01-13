@@ -1,12 +1,12 @@
 <div align="center">
 <h1> 30 Günde JavaScript:  Boole Değerleri, Operatörler, Tarih Objesi</h1>
 
-<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+<a class="header-badge" target="_blank" href="https://x.com/Asabeneh">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Asabeneh?style=social">
 </a><br>
 
 <sub>Yazar:
-<a href="https://github.com/BilgeGatess">Khatai Huseynzade</a><br>
+<a href="https://github.com/BilgeGatess">Asabeneh Yetayeh</a><br>
 <small> Mayıs, 2023</small>
 </sub>
 
@@ -398,6 +398,17 @@ Bir zaman objesinden tam yılı çıkaralım veya alalım.
 ```js
 const now = new Date();
 console.log(now.getFullYear()); // 2020
+
+🇬🇧 [English](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/readMe.md)
+🇪🇸 [Spanish](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Spanish/readme.md)
+🇮🇹 [Italian](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Italian/readMe.md)
+🇷🇺 [Russian](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Russian/README.md)
+🇹🇷 [Turkish](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Turkish/readMe.md)
+🇦🇿 [Azerbaijan](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Azerbaijan/readMe.md)
+🇰🇷 [Korean](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Korean/README.md)
+🇻🇳 [Vietnamese](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Vietnamese/README.md)
+🇵🇱 [Polish](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Polish/readMe.md)
+🇧🇷 [Portuguese](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/Portuguese/readMe.md)
 ```
 
 ### Ayı Almak

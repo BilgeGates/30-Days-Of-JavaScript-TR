@@ -1,12 +1,12 @@
 <div align="center">
 <h1> 30 Günde JavaScript: Veri Tipleri</h1>
 
-<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+<a class="header-badge" target="_blank" href="https://x.com/Asabeneh">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Asabeneh?style=social">
 </a><br>
 
 <sub>Çevirmen:
-<a href="https://github.com/BilgeGatess">Khatai Huseynzade</a><br>
+<a href="https://github.com/BilgeGatess">Asabeneh Yetayeh</a><br>
 <small> Mayıs, 2023</small>
 </sub>
 
@@ -307,7 +307,7 @@ console.log(personInfoOne);
 ```
 
 ```sh
-Khatai Huseynzade.  I live in Azerbaijan
+Asabeneh Yetayeh.  I live in Azerbaijan
 ```
 
 #### Uzun Değişmez Stringler
@@ -398,8 +398,8 @@ console.log(personInfoThree);
 ```
 
 ```sh
-Ben Khatai Huseynzade. Ben Azerbaijanda yaşıyorum.
-Ben Khatai Huseynzade. Ben Baku, Azerbaijanda yaşıyorum.
+Ben Asabeneh Yetayeh. Ben Azerbaijanda yaşıyorum.
+Ben Asabeneh Yetayeh. Ben Baku, Azerbaijanda yaşıyorum.
 ```
 
 Bir string şablonu veya interpolasyon ( matematiksel bir terim ) yöntemi kullanarak, bir değer olabilecek ifadeler veya bazı işlemler ekleyebiliriz.(karşılaştırma, aritmetik işlemler, üçlü işlem)

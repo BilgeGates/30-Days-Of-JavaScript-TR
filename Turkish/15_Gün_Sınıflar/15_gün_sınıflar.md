@@ -1,12 +1,12 @@
 <div align="center">
 <h1> 30 Günde JavaScript: Sınıflar</h1>
 
-<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+<a class="header-badge" target="_blank" href="https://x.com/Asabeneh">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Asabeneh?style=social">
 </a><br>
 
 <sub>Çevirmen:
-<a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
+<a href="https://github.com/Asabeneh">Asabeneh Yetayeh</a><br>
 <small>Mayıs, 2023</small>
 </sub>
 
@@ -239,7 +239,7 @@ console.log(person2.getFullName());
 ```
 
 ```sh
-Khatai Huseynzade
+Asabeneh Yetayeh
 test.js:19 Lidiya Tekle
 ```
 
@@ -468,7 +468,7 @@ console.log(person3.getPersonInfo());
 ["HTML", "CSS", "JavaScript"]
 ["Planning", "Managing", "Organizing"]
 []
-Khatai Huseynzade is 250. He lives Azerbaijan, Baku. He knows HTML, CSS and JavaScript
+Asabeneh Yetayeh is 250. He lives Azerbaijan, Baku. He knows HTML, CSS and JavaScript
 Lidiya Tekle is 28. He lives Amerika, New-York. He knows Planning, Managing and Organizing
 John Doe is 50. He lives Mars city, Mars.
 ```
@@ -583,9 +583,9 @@ console.log(s1.getPersonInfo());
 ```sh
 Student {firstName: "Khatai", lastName: "Huseynzade", age: "250", country: Azerbaijan, city: "Baku", …}
 I am a child of the person class
-Khatai Huseynzade
+Asabeneh Yetayeh
 Student {firstName: "Khatai", lastName: "Huseynzade", age: "250", country: Azerbaijan, city: "Baku", …}
-Khatai Huseynzade is Azerbaijan. He lives Baku, 250.
+Asabeneh Yetayeh is Azerbaijan. He lives Baku, 250.
 ```
 
 ### Geçersiz Kılma Yöntemleri
@@ -651,13 +651,13 @@ console.log(s2.getPersonInfo());
 ```sh
 Student {firstName: "Khatai", lastName: "Huseynzade", age: "250", country: Azerbaijan, city: "Baku", …}
 I am a child of the person class
-Khatai Huseynzade
+Asabeneh Yetayeh
 Student {firstName: "Ughur", lastName: "Hasanli", age: 28, country: "Azerbaijan", city: "Guba", …}
 I am a child of the person class
 Ugur Hasanli
 Student {firstName: "Khatai", lastName: "Huseynzade", age: "250", country: Azerbaijan, city: "Baku", …}
 I am a child of the person class
-Khatai Huseynzade
+Asabeneh Yetayeh
 Student {firstName: "Ughur", lastName: "Hasanli", age: 28, country: "Azerbaijan", city: "Guba", …}
 Ugur Hasanli is 28. She lives in Baku, Azerbaijan. He knows Planning, Managing and Organizing
 ```

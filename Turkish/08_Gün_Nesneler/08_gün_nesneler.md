@@ -1,12 +1,12 @@
 <div align="center">
   <h1> 30 Günde Javascript: Nesneler</h1>
 
-<a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+<a class="header-badge" target="_blank" href="https://x.com/Asabeneh">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Asabeneh?style=social">
 </a><br>
 
 <sub>Çevirmen:
-<a href="https://github.com/BilgeGates">Khatai Huseynzade</a><br>
+<a href="https://github.com/Asabeneh">Asabeneh Yetayeh</a><br>
 <small> Mayıs, 2023</small>
 </sub>
 
@@ -304,7 +304,7 @@ console.log(person.getPersonInfo());
 ```
 
 ```sh
-Khatai Huseynzade is a student.
+Asabeneh Yetayeh is a student.
 He lives in Azerbaijan.
 He skills HTML, CSS, JavaScript.
 ```

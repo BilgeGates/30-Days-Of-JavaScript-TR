@@ -1,12 +1,12 @@
 <div align="center">
   <h1> 30 Günde JavaScript: Giriş</h1>
 
-  <a class="header-badge" target="_blank" href="https://twitter.com/developerkhatai">
-<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/developerkhatai?style=social">
+  <a class="header-badge" target="_blank" href="https://x.com/Asabeneh">
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Asabeneh?style=social">
 </a><br>
 
 <sub>Çevirmen
-<a href="github.com/bilgegates">Khatai Huseynzade</a><br>
+<a href="https://github.com/Asabeneh">Asabeneh Yetayeh</a><br>
 <small> Ocak, 2020</small>
 </sub>
 
@@ -18,39 +18,39 @@
 
 [<< ReadMe](../readMe.md) | [Gün 2 >>](../02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md)
 
-- [📔 Gün 1](#-Gün-1)
-  - [Giriş](#Giriş)
-  - [Gereksinimler](#Gereksinimler)
-  - [Kurulum](#Kurulum)
-    - [Node.js Kurulumu](#Nodejs-Kurulumu)
-    - [Tarayıcı](#Tarayıcı)
-      - [Google Chrome Kurulumu](#Google-Chrome-Kurulumu)
-      - [Google Chrome Konsolu Açmak](#Google-Chrome-Konsolu-Açmak)
-      - [Tarayıcı Konsolunda Kod Yazmak](#Tarayıcı-Konsolunda-Kod-Yazmak)
-        - [Console.log](#Consolelog)
-        - [Çoklu Değişkenler ile Console.log ](#Çoklu-Değişkenler-ile-Console-log)
-        - [Yorumlar](#Yorumlar)
-        - [Sözdizimi](#Sözdizimi)
-      - [Aritmetik İşlemler](#Aritmetik-İşlemler)
-    - [Kod Editörü](#Kod-Editörü)
-      - [Visual Studio Code Kurulumu](#Visual-Studio-Code-Kurulumu)
-      - [Visual Studio Code Kullanımı](#Visual-Studio-Code-Kullanımı)
-  - [Bir Web Sayfasında JavaScript Kodları Oluşturma](#Bir-Web-Sayfasında-JavaScript-Kodları-Oluşturma)
-    - [Satır İçi Oluşturma](#Satır-İçi-Oluşturma)
-    - [Dahili Oluşturma](#Dahili-Oluşturma)
-    - [Harici Oluşturma](#Harici-Oluşturma)
-    - [Fazla Harici Oluşturma](#Fazla-Harici-Oluşturma)
-  - [Veri Türlerine Giriş](#Veri-Türlerine-Giriş)
-    - [Sayılar](#Sayılar)
-    - [String](#String)
-    - [Boolean](#Boolean)
-    - [Tanımsız](#Tanımsız)
-    - [Boş](#Boş)
-  - [Veri Türlerini Konrol Etme](#Veri-Türlerini-Kontrol-Etme)
-  - [Tekrardan Yorumlar](#Tekrardan-Yorumlar)
-  - [Değişkenler](#Değişkenler)
-- [💻 Gün 1: Egzersizleri](#-Gün-1-Egzersizleri)
-  - [Egzersiz: Seviye 1](#Egzersiz-Seviye-1)
+- [📔 Gün 1](#-gün-1)
+  - [Giriş](#giriş)
+  - [Gereksinimler](#gereksinimler)
+  - [Kurulum](#kurulum)
+    - [Node.js Kurulumu](#nodejs-kurulumu)
+    - [Tarayıcı](#tarayıcı)
+      - [Google Chrome Kurulumu](#google-chrome-kurulumu)
+      - [Google Chrome Konsolu Açmak](#google-chrome-konsolu-açmak)
+      - [Tarayıcı Konsolunda Kod Yazmak](#tarayıcı-konsolunda-kod-yazmak)
+        - [Console.log](#consolelog)
+        - [Çoklu Değişkenler ile Console.log](#çoklu-değişkenler-ile-consolelog)
+        - [Yorumlar](#yorumlar)
+        - [Sözdizimi](#sözdizimi)
+      - [Aritmetik İşlemler](#aritmetik-i̇şlemler)
+    - [Kod Editörü](#kod-editörü)
+      - [Visual Studio Code Kurulumu](#visual-studio-code-kurulumu)
+      - [Visual Studio Code Kullanımı](#visual-studio-code-kullanımı)
+  - [Bir Web Sayfasında JavaScript Kodları Oluşturma](#bir-web-sayfasında-javascript-kodları-oluşturma)
+    - [Satır İçi Oluşturma](#satır-i̇çi-oluşturma)
+    - [Dahili Oluşturma](#dahili-oluşturma)
+    - [Harici Oluşturma](#harici-oluşturma)
+    - [Fazla Harici Oluşturma](#fazla-harici-oluşturma)
+  - [Veri Türlerine Giriş](#veri-türlerine-giriş)
+    - [Sayılar](#sayılar)
+    - [String](#string)
+    - [Boolean](#boolean)
+    - [Tanımsız](#tanımsız)
+    - [Boş](#boş)
+  - [Veri Türlerini Kontrol Etme](#veri-türlerini-kontrol-etme)
+  - [Tekrardan Yorumlar](#tekrardan-yorumlar)
+  - [Değişkenler](#değişkenler)
+  - [💻 Gün 1: Egzersizleri](#-gün-1-egzersizleri)
+    - [Egzersiz: Seviye 1](#egzersiz-seviye-1)
 
 # 📔 Gün 1
 
@@ -546,7 +546,7 @@ console.log(ad, soyAd, ulke, sehir, github);
 ```
 
 ```sh
-Khatai Huseynzade Azerbaijan Baku @bilgegates
+Asabeneh Yetayeh Azerbaijan Baku @bilgegates
 ```
 
 ```js
