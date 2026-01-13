@@ -14,7 +14,7 @@
 </div>
 </div>
 
-[<< ReadMe](../readMe.md) | [Gün 2 >>](../02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md)
+[<< README](../README.md) | [Gün 2 >>](../02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md)
 
 - [📔 Gün 1](#-gün-1)
   - [Giriş](#giriş)
@@ -599,4 +599,4 @@ Sen 30 Yaşındasın.
 
 🎉 TEBRİKLER ! 🎉
 
-[<< ReadMe](../readMe.md) | [Gün 2 >>](../02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md)
+[<< README](../README.md) | [Gün 2 >>](../02_Gün_Veri_Tipleri/02_gün_veri_tipleri.md)
